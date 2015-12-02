@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SWITCH&lt;5:2&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Kevin\Desktop\Lab07\Lab07_egw100.vhd</arg>&quot; line <arg fmt="%s" index="2">71</arg>: Output port &lt;<arg fmt="%s" index="3">DEBUG_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">FSM_LIGHT_SHOW</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">BUTTON&lt;4:4&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_STATUS_out&lt;1&gt;</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3226" delta="old" >The RAM &lt;<arg fmt="%s" index="1">Mram_ADDRESS[9]_GND_9_o_wide_mux_0_OUT</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_anode</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Segment</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">count_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Counter_nbit_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">count_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Counter_nbit_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">count_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Counter_nbit_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">count_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Counter_nbit_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">count_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Counter_nbit_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">count_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Counter_nbit_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">count_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Counter_nbit_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">count_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Counter_nbit_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">count_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Counter_nbit_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">count_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Counter_nbit_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">count_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Counter_nbit_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">count_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Counter_nbit_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">count_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Counter_nbit_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">count_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Counter_nbit_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">count_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Counter_nbit_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">count_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Counter_nbit_2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">count_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Counter_nbit_2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">count_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Counter_nbit_2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">count_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Counter_nbit_2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">count_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Counter_nbit_2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">count_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Counter_nbit_2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">count_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Counter_nbit_2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">count_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Counter_nbit_2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">count_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Counter_nbit_2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">count_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Counter_nbit_2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">count_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Counter_nbit_2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">count_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Counter_nbit_2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">count_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Counter_nbit_2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">count_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Counter_nbit_2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">count_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Counter_nbit_2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">count_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Counter_nbit_2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">W24D7S/cnt/count_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">W24D7S/cnt/count_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">W24D7S/cnt/count_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">W24D7S/cnt/count_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">W24D7S/cnt/count_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">W24D7S/cnt/count_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">W24D7S/cnt/count_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">W24D7S/cnt/count_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">W24D7S/cnt/count_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">W24D7S/cnt/count_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">W24D7S/cnt/count_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">W24D7S/cnt/count_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">W24D7S/cnt/count_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">W24D7S/cnt/count_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">W24D7S/cnt/count_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">W24D7S/cnt/count_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">W24D7S/cnt/count_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">W24D7S/cnt/count_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">W24D7S/cnt/count_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">W24D7S/cnt/count_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">W24D7S/cnt/count_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">W24D7S/cnt/count_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">W24D7S/cnt/count_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">W24D7S/cnt/count_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">W24D7S/cnt/count_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">W24D7S/cnt/count_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">W24D7S/cnt/count_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">W24D7S/cnt/count_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">W24D7S/cnt/count_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DP_LIGHT_SHOW/PULSE1ms/cnt/Q_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PULSE1ms/cnt/Q_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DP_LIGHT_SHOW/PULSE1ms/cnt/Q_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PULSE1ms/cnt/Q_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DP_LIGHT_SHOW/PULSE1ms/cnt/Q_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PULSE1ms/cnt/Q_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DP_LIGHT_SHOW/PULSE1ms/cnt/Q_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PULSE1ms/cnt/Q_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DP_LIGHT_SHOW/PULSE1ms/cnt/Q_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PULSE1ms/cnt/Q_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DP_LIGHT_SHOW/PULSE1ms/cnt/Q_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PULSE1ms/cnt/Q_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DP_LIGHT_SHOW/PULSE1ms/cnt/Q_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PULSE1ms/cnt/Q_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DP_LIGHT_SHOW/PULSE1ms/cnt/Q_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PULSE1ms/cnt/Q_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DP_LIGHT_SHOW/PULSE1ms/cnt/Q_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PULSE1ms/cnt/Q_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DP_LIGHT_SHOW/PULSE1ms/cnt/Q_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PULSE1ms/cnt/Q_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DP_LIGHT_SHOW/PULSE1ms/cnt/Q_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PULSE1ms/cnt/Q_10&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DP_LIGHT_SHOW/PULSE1ms/cnt/Q_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PULSE1ms/cnt/Q_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DP_LIGHT_SHOW/PULSE1ms/cnt/Q_12</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PULSE1ms/cnt/Q_12&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DP_LIGHT_SHOW/PULSE1ms/cnt/Q_13</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PULSE1ms/cnt/Q_13&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DP_LIGHT_SHOW/PULSE1ms/cnt/Q_14</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PULSE1ms/cnt/Q_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DP_LIGHT_SHOW/PULSE1ms/cnt/Q_15</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PULSE1ms/cnt/Q_15&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DP_LIGHT_SHOW/PULSE1ms/cnt/Q_16</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PULSE1ms/cnt/Q_16&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DP_LIGHT_SHOW/PULSE1ms/cnt/count_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PULSE1ms/cnt/count_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DP_LIGHT_SHOW/PULSE1ms/cnt/count_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PULSE1ms/cnt/count_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DP_LIGHT_SHOW/PULSE1ms/cnt/count_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PULSE1ms/cnt/count_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DP_LIGHT_SHOW/PULSE1ms/cnt/count_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PULSE1ms/cnt/count_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DP_LIGHT_SHOW/PULSE1ms/cnt/count_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PULSE1ms/cnt/count_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DP_LIGHT_SHOW/PULSE1ms/cnt/count_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PULSE1ms/cnt/count_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DP_LIGHT_SHOW/PULSE1ms/cnt/count_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PULSE1ms/cnt/count_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DP_LIGHT_SHOW/PULSE1ms/cnt/count_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PULSE1ms/cnt/count_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DP_LIGHT_SHOW/PULSE1ms/cnt/count_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PULSE1ms/cnt/count_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DP_LIGHT_SHOW/PULSE1ms/cnt/count_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PULSE1ms/cnt/count_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DP_LIGHT_SHOW/PULSE1ms/cnt/count_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PULSE1ms/cnt/count_10&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DP_LIGHT_SHOW/PULSE1ms/cnt/count_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PULSE1ms/cnt/count_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DP_LIGHT_SHOW/PULSE1ms/cnt/count_12</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PULSE1ms/cnt/count_12&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DP_LIGHT_SHOW/PULSE1ms/cnt/count_13</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PULSE1ms/cnt/count_13&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DP_LIGHT_SHOW/PULSE1ms/cnt/count_14</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PULSE1ms/cnt/count_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DP_LIGHT_SHOW/PULSE1ms/cnt/count_15</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PULSE1ms/cnt/count_15&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DP_LIGHT_SHOW/PULSE1ms/cnt/count_16</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Lab07_egw100</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PULSE1ms/cnt/count_16&gt; </arg>
+</msg>
+
+</messages>
+

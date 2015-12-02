@@ -1,0 +1,161 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+G:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 1
+-n 3 -fastpaths -xml lab02_kjb5568_rjl5336.twx lab02_kjb5568_rjl5336.ncd -o
+lab02_kjb5568_rjl5336.twr lab02_kjb5568_rjl5336.pcf
+
+Design file:              lab02_kjb5568_rjl5336.ncd
+Physical constraint file: lab02_kjb5568_rjl5336.pcf
+Device,package,speed:     xc7a100t,csg324,C,-1 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+BTNC           |SEGMENT<0>     |   13.617|
+BTNC           |SEGMENT<1>     |   13.260|
+BTNC           |SEGMENT<2>     |   13.645|
+BTNC           |SEGMENT<3>     |   13.327|
+BTNC           |SEGMENT<4>     |   13.895|
+BTNC           |SEGMENT<5>     |   13.597|
+BTNC           |SEGMENT<6>     |   13.299|
+BTND           |LED<1>         |   10.570|
+BTND           |LED<2>         |   11.345|
+BTND           |LED<3>         |   10.959|
+BTND           |LED<7>         |   10.923|
+BTND           |SEGMENT<0>     |   13.108|
+BTND           |SEGMENT<1>     |   12.464|
+BTND           |SEGMENT<2>     |   12.979|
+BTND           |SEGMENT<3>     |   12.816|
+BTND           |SEGMENT<4>     |   13.399|
+BTND           |SEGMENT<5>     |   12.931|
+BTND           |SEGMENT<6>     |   12.801|
+BTNU           |SEGMENT<0>     |   13.732|
+BTNU           |SEGMENT<1>     |   13.350|
+BTNU           |SEGMENT<2>     |   13.669|
+BTNU           |SEGMENT<3>     |   13.442|
+BTNU           |SEGMENT<4>     |   14.056|
+BTNU           |SEGMENT<5>     |   13.620|
+BTNU           |SEGMENT<6>     |   13.458|
+SWITCH<0>      |LED<0>         |    9.696|
+SWITCH<0>      |LED<1>         |    9.744|
+SWITCH<0>      |LED<2>         |   10.486|
+SWITCH<0>      |LED<3>         |   10.000|
+SWITCH<0>      |LED<7>         |   10.064|
+SWITCH<0>      |SEGMENT<0>     |   12.149|
+SWITCH<0>      |SEGMENT<1>     |   11.605|
+SWITCH<0>      |SEGMENT<2>     |   12.020|
+SWITCH<0>      |SEGMENT<3>     |   11.857|
+SWITCH<0>      |SEGMENT<4>     |   12.440|
+SWITCH<0>      |SEGMENT<5>     |   11.972|
+SWITCH<0>      |SEGMENT<6>     |   11.842|
+SWITCH<1>      |LED<1>         |   10.282|
+SWITCH<1>      |LED<2>         |   11.023|
+SWITCH<1>      |LED<3>         |   10.537|
+SWITCH<1>      |LED<7>         |   10.601|
+SWITCH<1>      |SEGMENT<0>     |   12.686|
+SWITCH<1>      |SEGMENT<1>     |   12.142|
+SWITCH<1>      |SEGMENT<2>     |   12.557|
+SWITCH<1>      |SEGMENT<3>     |   12.394|
+SWITCH<1>      |SEGMENT<4>     |   12.977|
+SWITCH<1>      |SEGMENT<5>     |   12.509|
+SWITCH<1>      |SEGMENT<6>     |   12.379|
+SWITCH<2>      |LED<2>         |    9.792|
+SWITCH<2>      |LED<3>         |    9.628|
+SWITCH<2>      |LED<7>         |    9.259|
+SWITCH<2>      |SEGMENT<0>     |   11.777|
+SWITCH<2>      |SEGMENT<1>     |   11.146|
+SWITCH<2>      |SEGMENT<2>     |   11.648|
+SWITCH<2>      |SEGMENT<3>     |   11.485|
+SWITCH<2>      |SEGMENT<4>     |   12.068|
+SWITCH<2>      |SEGMENT<5>     |   11.600|
+SWITCH<2>      |SEGMENT<6>     |   11.470|
+SWITCH<3>      |LED<3>         |    9.956|
+SWITCH<3>      |LED<7>         |    9.518|
+SWITCH<3>      |SEGMENT<0>     |   12.105|
+SWITCH<3>      |SEGMENT<1>     |   11.114|
+SWITCH<3>      |SEGMENT<2>     |   11.976|
+SWITCH<3>      |SEGMENT<3>     |   11.813|
+SWITCH<3>      |SEGMENT<4>     |   12.396|
+SWITCH<3>      |SEGMENT<5>     |   11.928|
+SWITCH<3>      |SEGMENT<6>     |   11.798|
+SWITCH<4>      |LED<0>         |    9.780|
+SWITCH<4>      |LED<1>         |    9.595|
+SWITCH<4>      |LED<2>         |   10.337|
+SWITCH<4>      |LED<3>         |    9.851|
+SWITCH<4>      |LED<7>         |    9.915|
+SWITCH<4>      |SEGMENT<0>     |   12.000|
+SWITCH<4>      |SEGMENT<1>     |   11.456|
+SWITCH<4>      |SEGMENT<2>     |   11.871|
+SWITCH<4>      |SEGMENT<3>     |   11.708|
+SWITCH<4>      |SEGMENT<4>     |   12.291|
+SWITCH<4>      |SEGMENT<5>     |   11.823|
+SWITCH<4>      |SEGMENT<6>     |   11.693|
+SWITCH<5>      |LED<1>         |    9.870|
+SWITCH<5>      |LED<2>         |   10.611|
+SWITCH<5>      |LED<3>         |   10.125|
+SWITCH<5>      |LED<7>         |   10.189|
+SWITCH<5>      |SEGMENT<0>     |   12.274|
+SWITCH<5>      |SEGMENT<1>     |   11.730|
+SWITCH<5>      |SEGMENT<2>     |   12.145|
+SWITCH<5>      |SEGMENT<3>     |   11.982|
+SWITCH<5>      |SEGMENT<4>     |   12.565|
+SWITCH<5>      |SEGMENT<5>     |   12.097|
+SWITCH<5>      |SEGMENT<6>     |   11.967|
+SWITCH<6>      |LED<2>         |    9.435|
+SWITCH<6>      |LED<3>         |    9.788|
+SWITCH<6>      |LED<7>         |    9.268|
+SWITCH<6>      |SEGMENT<0>     |   11.937|
+SWITCH<6>      |SEGMENT<1>     |   10.946|
+SWITCH<6>      |SEGMENT<2>     |   11.808|
+SWITCH<6>      |SEGMENT<3>     |   11.645|
+SWITCH<6>      |SEGMENT<4>     |   12.228|
+SWITCH<6>      |SEGMENT<5>     |   11.760|
+SWITCH<6>      |SEGMENT<6>     |   11.630|
+SWITCH<7>      |LED<3>         |   10.340|
+SWITCH<7>      |LED<7>         |   10.084|
+SWITCH<7>      |SEGMENT<0>     |   12.489|
+SWITCH<7>      |SEGMENT<1>     |   11.498|
+SWITCH<7>      |SEGMENT<2>     |   12.360|
+SWITCH<7>      |SEGMENT<3>     |   12.197|
+SWITCH<7>      |SEGMENT<4>     |   12.780|
+SWITCH<7>      |SEGMENT<5>     |   12.312|
+SWITCH<7>      |SEGMENT<6>     |   12.182|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Sep 03 13:58:16 2015 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 673 MB
+
+
+

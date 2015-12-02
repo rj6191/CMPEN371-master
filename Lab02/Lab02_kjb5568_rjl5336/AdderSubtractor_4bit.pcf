@@ -1,0 +1,21 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Sep 02 16:16:01 2015
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "A<0>" LOCATE = SITE "R5" LEVEL 1;
+COMP "A<1>" LOCATE = SITE "V7" LEVEL 1;
+COMP "A<2>" LOCATE = SITE "V6" LEVEL 1;
+COMP "A<3>" LOCATE = SITE "V5" LEVEL 1;
+COMP "B<0>" LOCATE = SITE "U9" LEVEL 1;
+COMP "B<1>" LOCATE = SITE "U8" LEVEL 1;
+COMP "B<2>" LOCATE = SITE "R7" LEVEL 1;
+COMP "B<3>" LOCATE = SITE "R6" LEVEL 1;
+COMP "OVERFLOW" LOCATE = SITE "U6" LEVEL 1;
+COMP "SUBTRACT" LOCATE = SITE "V10" LEVEL 1;
+COMP "SUM<0>" LOCATE = SITE "T8" LEVEL 1;
+COMP "SUM<1>" LOCATE = SITE "V9" LEVEL 1;
+COMP "SUM<2>" LOCATE = SITE "R8" LEVEL 1;
+COMP "SUM<3>" LOCATE = SITE "T6" LEVEL 1;
+SCHEMATIC END;
+

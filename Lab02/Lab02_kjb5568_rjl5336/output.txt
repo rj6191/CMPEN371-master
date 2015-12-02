@@ -1,0 +1,7 @@
+Storage Target: SPI Flash Single FPGA
+Auto Select Storage Device
+FF
+AdderSubtractor_4Bit
+P:/CMPEN 371/Lab02/Lab02_kjb5568_rjl5336
+
+MCS

@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o "P:\CMPEN 371\Lab02\Lab02_kjb5568_rjl5336//AdderSubtractor_4Bit" -s 32768 -u 0000 "P:/CMPEN 371/Lab02/Lab02_kjb5568_rjl5336/addersubtractor_4bit.bit" -spi 
+
+PROM \\psbdfilesrvr.psu-erie.bd.psu.edu\student\kjb5568\CMPEN 371\Lab02\Lab02_kjb5568_rjl5336\AdderSubtractor_4Bit.prm map: Wed Sep 02 16:23:45 2015
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          32768K
+PROM start    0000:0000
+PROM end      01ff:ffff
+PROM checksum c3dacc8e
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    003a:607b     Sep 02 16:17:36 2015 P:/CMPEN 371/Lab02/Lab02_kjb5568_rjl5336/addersubtractor_4bit.bit

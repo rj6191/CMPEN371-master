@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator P.20131013
+# Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.20131013
+DATE            09/02/2015 - 16:23
+SOURCE          \\psbdfilesrvr.psu-erie.bd.psu.edu\student\kjb5568\CMPEN 371\Lab02\Lab02_kjb5568_rjl5336\AdderSubtractor_4Bit.mcs
+DEVICE          32768K
+DATA_WIDTH      1
+FILL_DATA       0xFF
+SIGNATURE       0xC3DACC8E
+START_ADDRESS   0x00000000 END_ADDRESS 0x003A607B DIRECTION_UP   "P:/CMPEN 371/Lab02/Lab02_kjb5568_rjl5336/addersubtractor_4bit.bit" 7a100tcsg324

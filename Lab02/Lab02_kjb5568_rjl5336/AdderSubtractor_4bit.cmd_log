@@ -1,0 +1,18 @@
+xst -intstyle ise -ifn "P:/CMPEN 371/Lab02/Lab02_kjb5568_rjl5336/AdderSubtractor_4bit.xst" -ofn "P:/CMPEN 371/Lab02/Lab02_kjb5568_rjl5336/AdderSubtractor_4bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4_Master.ucf -p xc7a100t-csg324-1 "AdderSubtractor_4bit.ngc" AdderSubtractor_4bit.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4_Master.ucf -p xc7a100t-csg324-1 "AdderSubtractor_4bit.ngc" AdderSubtractor_4bit.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o AdderSubtractor_4bit_map.ncd AdderSubtractor_4bit.ngd AdderSubtractor_4bit.pcf 
+par -w -intstyle ise -ol high -mt off AdderSubtractor_4bit_map.ncd AdderSubtractor_4bit.ncd AdderSubtractor_4bit.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml AdderSubtractor_4bit.twx AdderSubtractor_4bit.ncd -o AdderSubtractor_4bit.twr AdderSubtractor_4bit.pcf -ucf Nexys4_Master.ucf 
+bitgen -intstyle ise -f AdderSubtractor_4bit.ut AdderSubtractor_4bit.ncd 
+xst -intstyle ise -ifn "P:/CMPEN 371/Lab02/Lab02_kjb5568_rjl5336/AdderSubtractor_4bit.xst" -ofn "P:/CMPEN 371/Lab02/Lab02_kjb5568_rjl5336/AdderSubtractor_4bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4_Master.ucf -p xc7a100t-csg324-1 "AdderSubtractor_4bit.ngc" AdderSubtractor_4bit.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o AdderSubtractor_4bit_map.ncd AdderSubtractor_4bit.ngd AdderSubtractor_4bit.pcf 
+par -w -intstyle ise -ol high -mt off AdderSubtractor_4bit_map.ncd AdderSubtractor_4bit.ncd AdderSubtractor_4bit.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml AdderSubtractor_4bit.twx AdderSubtractor_4bit.ncd -o AdderSubtractor_4bit.twr AdderSubtractor_4bit.pcf -ucf Nexys4_Master.ucf 
+bitgen -intstyle ise -f AdderSubtractor_4bit.ut AdderSubtractor_4bit.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4_Master.ucf -p xc7a100t-csg324-1 "AdderSubtractor_4bit.ngc" AdderSubtractor_4bit.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o AdderSubtractor_4bit_map.ncd AdderSubtractor_4bit.ngd AdderSubtractor_4bit.pcf 
+par -w -intstyle ise -ol high -mt off AdderSubtractor_4bit_map.ncd AdderSubtractor_4bit.ncd AdderSubtractor_4bit.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml AdderSubtractor_4bit.twx AdderSubtractor_4bit.ncd -o AdderSubtractor_4bit.twr AdderSubtractor_4bit.pcf -ucf Nexys4_Master.ucf 
+bitgen -intstyle ise -f AdderSubtractor_4bit.ut AdderSubtractor_4bit.ncd 

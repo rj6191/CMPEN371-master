@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="ripple_carry_adder_4_bit.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Rippl_Carry_Adde_TB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Rippl_Carry_Adde_TB_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Rippl_Carry_Adde_TB_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1440689830" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1440689830">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1441116376" xil_pn:in_ck="2400676379150383739" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1441116376">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../lab01_kjb5568_rjl5336/FullAdder.vhd"/>
+      <outfile xil_pn:name="Rippl_Carry_Adde_TB.vhd"/>
+      <outfile xil_pn:name="rippe_carry_adder.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1440690599" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="3451432648582938687" xil_pn:start_ts="1440690599">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1440690599" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-6571722442709982051" xil_pn:start_ts="1440690599">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1440689830" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="5617763281678556782" xil_pn:start_ts="1440689830">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1440690706" xil_pn:in_ck="2400676379150383739" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1440690706">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="../lab01_kjb5568_rjl5336/FullAdder.vhd"/>
+      <outfile xil_pn:name="Rippl_Carry_Adde_TB.vhd"/>
+      <outfile xil_pn:name="rippe_carry_adder.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1440690708" xil_pn:in_ck="2400676379150383739" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6686057720742861966" xil_pn:start_ts="1440690706">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+    <transform xil_pn:end_ts="1440690602" xil_pn:in_ck="-8119278023419483912" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="6012169043469765915" xil_pn:start_ts="1440690602">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutOfDateForced"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Rippl_Carry_Adde_TB_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+    </transform>
+  </transforms>
+
+</generated_project>

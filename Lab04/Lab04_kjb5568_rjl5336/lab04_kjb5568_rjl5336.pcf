@@ -1,0 +1,159 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Sep 30 02:09:33 2015
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "LED<12>" LOCATE = SITE "P5" LEVEL 1;
+COMP "LED<11>" LOCATE = SITE "R1" LEVEL 1;
+COMP "LED<14>" LOCATE = SITE "R2" LEVEL 1;
+COMP "LED<13>" LOCATE = SITE "U1" LEVEL 1;
+COMP "LED<10>" LOCATE = SITE "V1" LEVEL 1;
+COMP "LED<15>" LOCATE = SITE "P2" LEVEL 1;
+COMP "BTNC" LOCATE = SITE "E16" LEVEL 1;
+COMP "BTND" LOCATE = SITE "V10" LEVEL 1;
+COMP "BTNL" LOCATE = SITE "T16" LEVEL 1;
+COMP "BTNR" LOCATE = SITE "R10" LEVEL 1;
+COMP "BTNU" LOCATE = SITE "F15" LEVEL 1;
+COMP "SWITCH<0>" LOCATE = SITE "U9" LEVEL 1;
+COMP "SWITCH<15>" LOCATE = SITE "P4" LEVEL 1;
+COMP "SWITCH<13>" LOCATE = SITE "R3" LEVEL 1;
+COMP "SWITCH<14>" LOCATE = SITE "P3" LEVEL 1;
+COMP "CLK" LOCATE = SITE "E3" LEVEL 1;
+COMP "SEGMENT<5>" LOCATE = SITE "M2" LEVEL 1;
+COMP "SEGMENT<6>" LOCATE = SITE "L6" LEVEL 1;
+COMP "SEGMENT<1>" LOCATE = SITE "N1" LEVEL 1;
+COMP "SEGMENT<2>" LOCATE = SITE "L5" LEVEL 1;
+COMP "SEGMENT<3>" LOCATE = SITE "L4" LEVEL 1;
+COMP "SEGMENT<4>" LOCATE = SITE "K3" LEVEL 1;
+COMP "SEGMENT<0>" LOCATE = SITE "L3" LEVEL 1;
+COMP "LED<0>" LOCATE = SITE "T8" LEVEL 1;
+COMP "LED<1>" LOCATE = SITE "V9" LEVEL 1;
+COMP "LED<2>" LOCATE = SITE "R8" LEVEL 1;
+COMP "LED<3>" LOCATE = SITE "T6" LEVEL 1;
+COMP "LED<4>" LOCATE = SITE "T5" LEVEL 1;
+COMP "LED<5>" LOCATE = SITE "T4" LEVEL 1;
+COMP "LED<6>" LOCATE = SITE "U7" LEVEL 1;
+COMP "ANODE<3>" LOCATE = SITE "N5" LEVEL 1;
+COMP "LED<7>" LOCATE = SITE "U6" LEVEL 1;
+COMP "ANODE<4>" LOCATE = SITE "N2" LEVEL 1;
+COMP "LED<8>" LOCATE = SITE "V4" LEVEL 1;
+COMP "ANODE<1>" LOCATE = SITE "M6" LEVEL 1;
+COMP "LED<9>" LOCATE = SITE "U3" LEVEL 1;
+COMP "ANODE<2>" LOCATE = SITE "M3" LEVEL 1;
+COMP "ANODE<0>" LOCATE = SITE "N6" LEVEL 1;
+COMP "ANODE<7>" LOCATE = SITE "M1" LEVEL 1;
+COMP "ANODE<5>" LOCATE = SITE "N4" LEVEL 1;
+COMP "ANODE<6>" LOCATE = SITE "L1" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "pulse50/PULSE" BEL "UP_Oneshot/Flip/Q" BEL
+        "Center_steady/Flip/Q" BEL "UP_steady/Flip/Q" BEL "Down_steady/Flip/Q"
+        BEL "UP_debounce/Flip3/Q" BEL "Down_debounce/Flip3/Q" BEL
+        "Center_debounce/Flip3/Q" BEL "display/cnt/Q_2" BEL "display/cnt/Q_1"
+        BEL "display/cnt/Q_0" BEL "display/cnt/count_0" BEL
+        "display/cnt/count_1" BEL "display/cnt/count_2" BEL
+        "Register7/count_0" BEL "Register7/count_1" BEL "Register7/count_2"
+        BEL "Register7/count_3" BEL "Register7/count_4" BEL
+        "Register7/count_5" BEL "Register7/count_6" BEL "Register7/count_7"
+        BEL "Register7/count_8" BEL "Register7/count_9" BEL
+        "Register7/count_10" BEL "Register7/count_11" BEL "Register7/count_12"
+        BEL "Register7/count_13" BEL "Register7/count_14" BEL
+        "Register7/count_15" BEL "pulse50/counter_0" BEL "pulse50/counter_1"
+        BEL "Register3/Q_15" BEL "Register3/Q_14" BEL "Register3/Q_13" BEL
+        "Register3/Q_12" BEL "Register3/Q_11" BEL "Register3/Q_10" BEL
+        "Register3/Q_9" BEL "Register3/Q_8" BEL "Register3/Q_7" BEL
+        "Register3/Q_6" BEL "Register3/Q_5" BEL "Register3/Q_4" BEL
+        "Register3/Q_3" BEL "Register3/Q_2" BEL "Register3/Q_1" BEL
+        "Register3/Q_0" BEL "Register6/count_15" BEL "Register6/count_14" BEL
+        "Register6/count_13" BEL "Register6/count_12" BEL "Register6/count_11"
+        BEL "Register6/count_10" BEL "Register6/count_9" BEL
+        "Register6/count_8" BEL "Register6/count_7" BEL "Register6/count_6"
+        BEL "Register6/count_5" BEL "Register6/count_4" BEL
+        "Register6/count_3" BEL "Register6/count_2" BEL "Register6/count_1"
+        BEL "Register6/count_0" BEL "Register6/Q_15" BEL "Register6/Q_14" BEL
+        "Register6/Q_13" BEL "Register6/Q_12" BEL "Register6/Q_11" BEL
+        "Register6/Q_10" BEL "Register6/Q_9" BEL "Register6/Q_8" BEL
+        "Register6/Q_7" BEL "Register6/Q_6" BEL "Register6/Q_5" BEL
+        "Register6/Q_4" BEL "Register6/Q_3" BEL "Register6/Q_2" BEL
+        "Register6/Q_1" BEL "Register6/Q_0" BEL "Register5/count_15" BEL
+        "Register5/count_14" BEL "Register5/count_13" BEL "Register5/count_12"
+        BEL "Register5/count_11" BEL "Register5/count_10" BEL
+        "Register5/count_9" BEL "Register5/count_8" BEL "Register5/count_7"
+        BEL "Register5/count_6" BEL "Register5/count_5" BEL
+        "Register5/count_4" BEL "Register5/count_3" BEL "Register5/count_2"
+        BEL "Register5/count_1" BEL "Register5/count_0" BEL "Register5/Q_15"
+        BEL "Register5/Q_14" BEL "Register5/Q_13" BEL "Register5/Q_12" BEL
+        "Register5/Q_11" BEL "Register5/Q_10" BEL "Register5/Q_9" BEL
+        "Register5/Q_8" BEL "Register5/Q_7" BEL "Register5/Q_6" BEL
+        "Register5/Q_5" BEL "Register5/Q_4" BEL "Register5/Q_3" BEL
+        "Register5/Q_2" BEL "Register5/Q_1" BEL "Register5/Q_0" BEL
+        "Register4/count_15" BEL "Register4/count_14" BEL "Register4/count_13"
+        BEL "Register4/count_12" BEL "Register4/count_11" BEL
+        "Register4/count_10" BEL "Register4/count_9" BEL "Register4/count_8"
+        BEL "Register4/count_7" BEL "Register4/count_6" BEL
+        "Register4/count_5" BEL "Register4/count_4" BEL "Register4/count_3"
+        BEL "Register4/count_2" BEL "Register4/count_1" BEL
+        "Register4/count_0" BEL "Register4/Q_15" BEL "Register4/Q_14" BEL
+        "Register4/Q_13" BEL "Register4/Q_12" BEL "Register4/Q_11" BEL
+        "Register4/Q_10" BEL "Register4/Q_9" BEL "Register4/Q_8" BEL
+        "Register4/Q_7" BEL "Register4/Q_6" BEL "Register4/Q_5" BEL
+        "Register4/Q_4" BEL "Register4/Q_3" BEL "Register4/Q_2" BEL
+        "Register4/Q_1" BEL "Register4/Q_0" BEL "Register2/count_15" BEL
+        "Register2/count_14" BEL "Register2/count_13" BEL "Register2/count_12"
+        BEL "Register2/count_11" BEL "Register2/count_10" BEL
+        "Register2/count_9" BEL "Register2/count_8" BEL "Register2/count_7"
+        BEL "Register2/count_6" BEL "Register2/count_5" BEL
+        "Register2/count_4" BEL "Register2/count_3" BEL "Register2/count_2"
+        BEL "Register2/count_1" BEL "Register2/count_0" BEL "Register2/Q_15"
+        BEL "Register2/Q_14" BEL "Register2/Q_13" BEL "Register2/Q_12" BEL
+        "Register2/Q_11" BEL "Register2/Q_10" BEL "Register2/Q_9" BEL
+        "Register2/Q_8" BEL "Register2/Q_7" BEL "Register2/Q_6" BEL
+        "Register2/Q_5" BEL "Register2/Q_4" BEL "Register2/Q_3" BEL
+        "Register2/Q_2" BEL "Register2/Q_1" BEL "Register2/Q_0" BEL
+        "Register1/count_15" BEL "Register1/count_14" BEL "Register1/count_13"
+        BEL "Register1/count_12" BEL "Register1/count_11" BEL
+        "Register1/count_10" BEL "Register1/count_9" BEL "Register1/count_8"
+        BEL "Register1/count_7" BEL "Register1/count_6" BEL
+        "Register1/count_5" BEL "Register1/count_4" BEL "Register1/count_3"
+        BEL "Register1/count_2" BEL "Register1/count_1" BEL
+        "Register1/count_0" BEL "Register1/Q_15" BEL "Register1/Q_14" BEL
+        "Register1/Q_13" BEL "Register1/Q_12" BEL "Register1/Q_11" BEL
+        "Register1/Q_10" BEL "Register1/Q_9" BEL "Register1/Q_8" BEL
+        "Register1/Q_7" BEL "Register1/Q_6" BEL "Register1/Q_5" BEL
+        "Register1/Q_4" BEL "Register1/Q_3" BEL "Register1/Q_2" BEL
+        "Register1/Q_1" BEL "Register1/Q_0" BEL "Register0/Flip1/Q" BEL
+        "Register0/Flip2/Q" BEL "Register0/Flip3/Q" BEL "Register0/Flip4/Q"
+        BEL "Register0/Flip5/Q" BEL "Register0/Flip6/Q" BEL
+        "Register0/Flip7/Q" BEL "Register0/Flip8/Q" BEL "Register0/Flip9/Q"
+        BEL "Register0/Flip10/Q" BEL "Register0/Flip11/Q" BEL
+        "Register0/Flip12/Q" BEL "Register0/Flip13/Q" BEL "Register0/Flip14/Q"
+        BEL "Register0/Flip15/Q" BEL "Register0/Flip16/Q" BEL "pulse16/PULSE"
+        BEL "pulse500/PULSE" BEL "pulse1000/PULSE" BEL "pulse16/counter_0" BEL
+        "pulse16/counter_1" BEL "pulse16/counter_2" BEL "pulse16/counter_3"
+        BEL "pulse16/counter_4" BEL "pulse16/counter_5" BEL
+        "pulse16/counter_6" BEL "pulse16/counter_7" BEL "pulse16/counter_8"
+        BEL "pulse16/counter_9" BEL "pulse16/counter_10" BEL
+        "pulse16/counter_11" BEL "pulse16/counter_12" BEL "pulse16/counter_13"
+        BEL "pulse16/counter_14" BEL "pulse16/counter_15" BEL
+        "pulse16/counter_16" BEL "pulse16/counter_17" BEL "pulse16/counter_18"
+        BEL "pulse16/counter_19" BEL "pulse500/counter_0" BEL
+        "pulse500/counter_1" BEL "pulse500/counter_2" BEL "pulse500/counter_3"
+        BEL "pulse500/counter_4" BEL "pulse500/counter_5" BEL
+        "pulse500/counter_6" BEL "pulse500/counter_7" BEL "pulse500/counter_8"
+        BEL "pulse500/counter_9" BEL "pulse500/counter_10" BEL
+        "pulse500/counter_11" BEL "pulse500/counter_12" BEL
+        "pulse500/counter_13" BEL "pulse500/counter_14" BEL
+        "pulse500/counter_15" BEL "pulse500/counter_16" BEL
+        "pulse1000/counter_0" BEL "pulse1000/counter_1" BEL
+        "pulse1000/counter_2" BEL "pulse1000/counter_3" BEL
+        "pulse1000/counter_4" BEL "pulse1000/counter_5" BEL
+        "pulse1000/counter_6" BEL "pulse1000/counter_7" BEL
+        "pulse1000/counter_8" BEL "pulse1000/counter_9" BEL
+        "pulse1000/counter_10" BEL "pulse1000/counter_11" BEL
+        "pulse1000/counter_12" BEL "pulse1000/counter_13" BEL
+        "pulse16/counter_20" BEL "pulse16/counter_21" BEL "pulse16/counter_22"
+        BEL "CLK_BUFGP/BUFG" BEL "Center_debounce/Flip2/Mshreg_Q" BEL
+        "Center_debounce/Flip2/Q" BEL "UP_debounce/Flip2/Mshreg_Q" BEL
+        "UP_debounce/Flip2/Q" BEL "Down_debounce/Flip2/Mshreg_Q" BEL
+        "Down_debounce/Flip2/Q";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

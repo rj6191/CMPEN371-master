@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Kevin\Desktop\Lab06\Lab06\kjb5568_rjl5336_lab06.ncd
+OUTFILE=C:\Users\Kevin\Desktop\Lab06\Lab06\kjb5568_rjl5336_lab06.bit
+FAMILY=Artix7
+PART=xc7a100t-1csg324
+WORKINGDIR=C:\Users\Kevin\Desktop\Lab06\Lab06
+LICENSE=WebPack
+USER_INFO=211080222_0_0_051

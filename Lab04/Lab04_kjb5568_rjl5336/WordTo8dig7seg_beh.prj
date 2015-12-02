@@ -1,0 +1,4 @@
+vhdl kjb5568_rjl5336_library "../kjb5568_rjl5336_library/kjb5568_rjl5336_components.vhd"
+vhdl kjb5568_rjl5336_library "../kjb5568_rjl5336_library/hextosevenseg.vhd"
+vhdl kjb5568_rjl5336_library "../kjb5568_rjl5336_library/Counter_nbit.vhd"
+vhdl work "numeric_display.vhd"

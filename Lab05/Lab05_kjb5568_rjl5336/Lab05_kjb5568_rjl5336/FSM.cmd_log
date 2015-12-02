@@ -1,0 +1,3 @@
+vhdtdtfi -lib kjb5568_rjl5336_library ../../kjb5568_rjl5336_library/FSM.vhd -prj Lab05_kjb5568_rjl5336 -o FSM.spl -module FSM -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -prj Lab05_kjb5568_rjl5336 -o C:/Users/Kevin/Desktop/Lab05/Lab05_kjb5568_rjl5336/Lab05_kjb5568_rjl5336/FSM.vhi -module FSM -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib kjb5568_rjl5336_library ../../kjb5568_rjl5336_library/FSM.vhd 
+vhdtdtfi -prj Lab05_kjb5568_rjl5336 -o C:/Users/Kevin/Desktop/Lab05/Lab05_kjb5568_rjl5336/Lab05_kjb5568_rjl5336/FSM.vhi -module FSM -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib kjb5568_rjl5336_library ../../kjb5568_rjl5336_library/FSM.vhd 

@@ -1,0 +1,5 @@
+vhdl kjb5568_rjl5336_library "../kjb5568_rjl5336_library/FullAdder.vhd"
+vhdl kjb5568_rjl5336_library "../kjb5568_rjl5336_library/rippe_carry_adder.vhd"
+vhdl kjb5568_rjl5336_library "../kjb5568_rjl5336_library/kjb5568_rjl5336_components.vhd"
+vhdl kjb5568_rjl5336_library "../kjb5568_rjl5336_library/CompareGRT.vhd"
+vhdl work "BCD_Adder_slice.vhd"

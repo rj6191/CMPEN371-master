@@ -1,0 +1,40 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/VGA_Control_isim_beh.exe -prj C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/VGA_Control_beh.prj work.VGA_Control 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/kjb5568_rjl5336_components.vhd" into library kjb5568_rjl5336_library
+Parsing VHDL file "C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/Counter_nbit.vhd" into library kjb5568_rjl5336_library
+Parsing VHDL file "C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/pulse_gen.vhd" into library kjb5568_rjl5336_library
+Parsing VHDL file "C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/LST.vhd" into library kjb5568_rjl5336_library
+Parsing VHDL file "C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/DFF_enable.vhd" into library kjb5568_rjl5336_library
+Parsing VHDL file "C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/CompareGRT.vhd" into library kjb5568_rjl5336_library
+Parsing VHDL file "C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/CompareEQU.vhd" into library kjb5568_rjl5336_library
+Parsing VHDL file "C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/VGA_Control.vhd" into library work
+WARNING:HDLCompiler:946 - "C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/VGA_Control.vhd" Line 80: Actual for formal port clr is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/VGA_Control.vhd" Line 84: Actual for formal port en is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/VGA_Control.vhd" Line 86: Actual for formal port clr is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/VGA_Control.vhd" Line 130: Actual for formal port d is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/VGA_Control.vhd" Line 136: Actual for formal port d is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/VGA_Control.vhd" Line 142: Actual for formal port d is neither a static name nor a globally static expression
+Starting static elaboration
+WARNING:HDLCompiler:794 - "C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/VGA_Control.vhd" Line 149: Statement might not cover all choices ; 'others' clause recommended
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package kjb5568_rjl5336_components
+Compiling package numeric_std
+Compiling architecture behavioral of entity Counter_nbit [\Counter_nbit(4)\]
+Compiling architecture behavioral of entity pulse_gen [\pulse_gen(4,16)\]
+Compiling architecture behavioral of entity Counter_nbit [\Counter_nbit(10)\]
+Compiling architecture structural of entity CompareEQU [\CompareEQU(10)\]
+Compiling architecture structural of entity LST [\LST(10)\]
+Compiling architecture structural of entity CompareGRT [\CompareGRT(10)\]
+Compiling architecture behavioral of entity DFF_CE [dff_ce_default]
+Compiling architecture behavioral of entity vga_control
+Time Resolution for simulation is 1ps.
+Waiting for 3 sub-compilation(s) to finish...
+Compiled 19 VHDL Units
+Built simulation executable C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/VGA_Control_isim_beh.exe
+Fuse Memory Usage: 34988 KB
+Fuse CPU Usage: 593 ms

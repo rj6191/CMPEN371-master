@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "H:/Github/CMPEN371/Lab04/Lab04_kjb5568_rjl5336/lab04_kjb5568_rjl5336_isim_beh.exe" -prj "H:/Github/CMPEN371/Lab04/Lab04_kjb5568_rjl5336/lab04_kjb5568_rjl5336_beh.prj" "work.lab04_kjb5568_rjl5336" 

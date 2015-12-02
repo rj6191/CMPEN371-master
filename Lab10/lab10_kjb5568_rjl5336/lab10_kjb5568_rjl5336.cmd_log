@@ -1,0 +1,147 @@
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4_Master.ucf -p xc7a100t-csg324-1 lab10_kjb5568_rjl5336.ngc lab10_kjb5568_rjl5336.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ngd lab10_kjb5568_rjl5336.pcf 
+par -w -intstyle ise -ol high -mt off lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ncd lab10_kjb5568_rjl5336.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml lab10_kjb5568_rjl5336.twx lab10_kjb5568_rjl5336.ncd -o lab10_kjb5568_rjl5336.twr lab10_kjb5568_rjl5336.pcf -ucf Nexys4_Master.ucf 
+bitgen -intstyle ise -f lab10_kjb5568_rjl5336.ut lab10_kjb5568_rjl5336.ncd 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4_Master.ucf -p xc7a100t-csg324-1 lab10_kjb5568_rjl5336.ngc lab10_kjb5568_rjl5336.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ngd lab10_kjb5568_rjl5336.pcf 
+par -w -intstyle ise -ol high -mt off lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ncd lab10_kjb5568_rjl5336.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml lab10_kjb5568_rjl5336.twx lab10_kjb5568_rjl5336.ncd -o lab10_kjb5568_rjl5336.twr lab10_kjb5568_rjl5336.pcf -ucf Nexys4_Master.ucf 
+bitgen -intstyle ise -f lab10_kjb5568_rjl5336.ut lab10_kjb5568_rjl5336.ncd 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4_Master.ucf -p xc7a100t-csg324-1 lab10_kjb5568_rjl5336.ngc lab10_kjb5568_rjl5336.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ngd lab10_kjb5568_rjl5336.pcf 
+par -w -intstyle ise -ol high -mt off lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ncd lab10_kjb5568_rjl5336.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml lab10_kjb5568_rjl5336.twx lab10_kjb5568_rjl5336.ncd -o lab10_kjb5568_rjl5336.twr lab10_kjb5568_rjl5336.pcf -ucf Nexys4_Master.ucf 
+bitgen -intstyle ise -f lab10_kjb5568_rjl5336.ut lab10_kjb5568_rjl5336.ncd 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4_Master.ucf -p xc7a100t-csg324-1 lab10_kjb5568_rjl5336.ngc lab10_kjb5568_rjl5336.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ngd lab10_kjb5568_rjl5336.pcf 
+par -w -intstyle ise -ol high -mt off lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ncd lab10_kjb5568_rjl5336.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml lab10_kjb5568_rjl5336.twx lab10_kjb5568_rjl5336.ncd -o lab10_kjb5568_rjl5336.twr lab10_kjb5568_rjl5336.pcf -ucf Nexys4_Master.ucf 
+bitgen -intstyle ise -f lab10_kjb5568_rjl5336.ut lab10_kjb5568_rjl5336.ncd 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4_Master.ucf -p xc7a100t-csg324-1 lab10_kjb5568_rjl5336.ngc lab10_kjb5568_rjl5336.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ngd lab10_kjb5568_rjl5336.pcf 
+par -w -intstyle ise -ol high -mt off lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ncd lab10_kjb5568_rjl5336.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml lab10_kjb5568_rjl5336.twx lab10_kjb5568_rjl5336.ncd -o lab10_kjb5568_rjl5336.twr lab10_kjb5568_rjl5336.pcf -ucf Nexys4_Master.ucf 
+bitgen -intstyle ise -f lab10_kjb5568_rjl5336.ut lab10_kjb5568_rjl5336.ncd 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4_Master.ucf -p xc7a100t-csg324-1 lab10_kjb5568_rjl5336.ngc lab10_kjb5568_rjl5336.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ngd lab10_kjb5568_rjl5336.pcf 
+par -w -intstyle ise -ol high -mt off lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ncd lab10_kjb5568_rjl5336.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml lab10_kjb5568_rjl5336.twx lab10_kjb5568_rjl5336.ncd -o lab10_kjb5568_rjl5336.twr lab10_kjb5568_rjl5336.pcf -ucf Nexys4_Master.ucf 
+bitgen -intstyle ise -f lab10_kjb5568_rjl5336.ut lab10_kjb5568_rjl5336.ncd 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4_Master.ucf -p xc7a100t-csg324-1 lab10_kjb5568_rjl5336.ngc lab10_kjb5568_rjl5336.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ngd lab10_kjb5568_rjl5336.pcf 
+par -w -intstyle ise -ol high -mt off lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ncd lab10_kjb5568_rjl5336.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml lab10_kjb5568_rjl5336.twx lab10_kjb5568_rjl5336.ncd -o lab10_kjb5568_rjl5336.twr lab10_kjb5568_rjl5336.pcf -ucf Nexys4_Master.ucf 
+bitgen -intstyle ise -f lab10_kjb5568_rjl5336.ut lab10_kjb5568_rjl5336.ncd 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4_Master.ucf -p xc7a100t-csg324-1 lab10_kjb5568_rjl5336.ngc lab10_kjb5568_rjl5336.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ngd lab10_kjb5568_rjl5336.pcf 
+par -w -intstyle ise -ol high -mt off lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ncd lab10_kjb5568_rjl5336.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml lab10_kjb5568_rjl5336.twx lab10_kjb5568_rjl5336.ncd -o lab10_kjb5568_rjl5336.twr lab10_kjb5568_rjl5336.pcf -ucf Nexys4_Master.ucf 
+bitgen -intstyle ise -f lab10_kjb5568_rjl5336.ut lab10_kjb5568_rjl5336.ncd 
+xst -intstyle ise -ifn "C:/Users/kalvi_000/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/kalvi_000/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4_Master.ucf -p xc7a100t-csg324-1 lab10_kjb5568_rjl5336.ngc lab10_kjb5568_rjl5336.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ngd lab10_kjb5568_rjl5336.pcf 
+par -w -intstyle ise -ol high -mt off lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ncd lab10_kjb5568_rjl5336.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml lab10_kjb5568_rjl5336.twx lab10_kjb5568_rjl5336.ncd -o lab10_kjb5568_rjl5336.twr lab10_kjb5568_rjl5336.pcf -ucf Nexys4_Master.ucf 
+bitgen -intstyle ise -f lab10_kjb5568_rjl5336.ut lab10_kjb5568_rjl5336.ncd 
+xst -intstyle ise -ifn "C:/Users/kalvi_000/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/kalvi_000/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4_Master.ucf -p xc7a100t-csg324-1 lab10_kjb5568_rjl5336.ngc lab10_kjb5568_rjl5336.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ngd lab10_kjb5568_rjl5336.pcf 
+par -w -intstyle ise -ol high -mt off lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ncd lab10_kjb5568_rjl5336.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml lab10_kjb5568_rjl5336.twx lab10_kjb5568_rjl5336.ncd -o lab10_kjb5568_rjl5336.twr lab10_kjb5568_rjl5336.pcf -ucf Nexys4_Master.ucf 
+bitgen -intstyle ise -f lab10_kjb5568_rjl5336.ut lab10_kjb5568_rjl5336.ncd 
+xst -intstyle ise -ifn "C:/Users/kalvi_000/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/kalvi_000/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+xst -intstyle ise -ifn "C:/Users/kalvi_000/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/kalvi_000/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4_Master.ucf -p xc7a100t-csg324-1 lab10_kjb5568_rjl5336.ngc lab10_kjb5568_rjl5336.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ngd lab10_kjb5568_rjl5336.pcf 
+par -w -intstyle ise -ol high -mt off lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ncd lab10_kjb5568_rjl5336.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml lab10_kjb5568_rjl5336.twx lab10_kjb5568_rjl5336.ncd -o lab10_kjb5568_rjl5336.twr lab10_kjb5568_rjl5336.pcf -ucf Nexys4_Master.ucf 
+bitgen -intstyle ise -f lab10_kjb5568_rjl5336.ut lab10_kjb5568_rjl5336.ncd 
+xst -intstyle ise -ifn "C:/Users/kalvi_000/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/kalvi_000/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+xst -intstyle ise -ifn "C:/Users/kalvi_000/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/kalvi_000/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+xst -intstyle ise -ifn "C:/Users/kalvi_000/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/kalvi_000/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+xst -intstyle ise -ifn "C:/Users/kalvi_000/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/kalvi_000/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+xst -intstyle ise -ifn "C:/Users/kalvi_000/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/kalvi_000/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4_Master.ucf -p xc7a100t-csg324-1 lab10_kjb5568_rjl5336.ngc lab10_kjb5568_rjl5336.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ngd lab10_kjb5568_rjl5336.pcf 
+par -w -intstyle ise -ol high -mt off lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ncd lab10_kjb5568_rjl5336.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml lab10_kjb5568_rjl5336.twx lab10_kjb5568_rjl5336.ncd -o lab10_kjb5568_rjl5336.twr lab10_kjb5568_rjl5336.pcf -ucf Nexys4_Master.ucf 
+bitgen -intstyle ise -f lab10_kjb5568_rjl5336.ut lab10_kjb5568_rjl5336.ncd 
+xst -intstyle ise -ifn "C:/Users/kalvi_000/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/kalvi_000/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4_Master.ucf -p xc7a100t-csg324-1 lab10_kjb5568_rjl5336.ngc lab10_kjb5568_rjl5336.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ngd lab10_kjb5568_rjl5336.pcf 
+par -w -intstyle ise -ol high -mt off lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ncd lab10_kjb5568_rjl5336.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml lab10_kjb5568_rjl5336.twx lab10_kjb5568_rjl5336.ncd -o lab10_kjb5568_rjl5336.twr lab10_kjb5568_rjl5336.pcf -ucf Nexys4_Master.ucf 
+bitgen -intstyle ise -f lab10_kjb5568_rjl5336.ut lab10_kjb5568_rjl5336.ncd 
+xst -intstyle ise -ifn "C:/Users/kalvi_000/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/kalvi_000/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4_Master.ucf -p xc7a100t-csg324-1 lab10_kjb5568_rjl5336.ngc lab10_kjb5568_rjl5336.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ngd lab10_kjb5568_rjl5336.pcf 
+par -w -intstyle ise -ol high -mt off lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ncd lab10_kjb5568_rjl5336.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml lab10_kjb5568_rjl5336.twx lab10_kjb5568_rjl5336.ncd -o lab10_kjb5568_rjl5336.twr lab10_kjb5568_rjl5336.pcf -ucf Nexys4_Master.ucf 
+bitgen -intstyle ise -f lab10_kjb5568_rjl5336.ut lab10_kjb5568_rjl5336.ncd 
+xst -intstyle ise -ifn "C:/Users/kalvi_000/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/kalvi_000/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4_Master.ucf -p xc7a100t-csg324-1 lab10_kjb5568_rjl5336.ngc lab10_kjb5568_rjl5336.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ngd lab10_kjb5568_rjl5336.pcf 
+par -w -intstyle ise -ol high -mt off lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ncd lab10_kjb5568_rjl5336.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml lab10_kjb5568_rjl5336.twx lab10_kjb5568_rjl5336.ncd -o lab10_kjb5568_rjl5336.twr lab10_kjb5568_rjl5336.pcf -ucf Nexys4_Master.ucf 
+bitgen -intstyle ise -f lab10_kjb5568_rjl5336.ut lab10_kjb5568_rjl5336.ncd 
+xst -intstyle ise -ifn "C:/Users/kalvi_000/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/kalvi_000/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4_Master.ucf -p xc7a100t-csg324-1 lab10_kjb5568_rjl5336.ngc lab10_kjb5568_rjl5336.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ngd lab10_kjb5568_rjl5336.pcf 
+par -w -intstyle ise -ol high -mt off lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ncd lab10_kjb5568_rjl5336.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml lab10_kjb5568_rjl5336.twx lab10_kjb5568_rjl5336.ncd -o lab10_kjb5568_rjl5336.twr lab10_kjb5568_rjl5336.pcf -ucf Nexys4_Master.ucf 
+bitgen -intstyle ise -f lab10_kjb5568_rjl5336.ut lab10_kjb5568_rjl5336.ncd 
+xst -intstyle ise -ifn "C:/Users/kalvi_000/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/kalvi_000/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4_Master.ucf -p xc7a100t-csg324-1 lab10_kjb5568_rjl5336.ngc lab10_kjb5568_rjl5336.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ngd lab10_kjb5568_rjl5336.pcf 
+par -w -intstyle ise -ol high -mt off lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ncd lab10_kjb5568_rjl5336.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml lab10_kjb5568_rjl5336.twx lab10_kjb5568_rjl5336.ncd -o lab10_kjb5568_rjl5336.twr lab10_kjb5568_rjl5336.pcf -ucf Nexys4_Master.ucf 
+bitgen -intstyle ise -f lab10_kjb5568_rjl5336.ut lab10_kjb5568_rjl5336.ncd 
+xst -intstyle ise -ifn "C:/Users/kalvi_000/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/kalvi_000/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4_Master.ucf -p xc7a100t-csg324-1 lab10_kjb5568_rjl5336.ngc lab10_kjb5568_rjl5336.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ngd lab10_kjb5568_rjl5336.pcf 
+par -w -intstyle ise -ol high -mt off lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ncd lab10_kjb5568_rjl5336.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml lab10_kjb5568_rjl5336.twx lab10_kjb5568_rjl5336.ncd -o lab10_kjb5568_rjl5336.twr lab10_kjb5568_rjl5336.pcf -ucf Nexys4_Master.ucf 
+bitgen -intstyle ise -f lab10_kjb5568_rjl5336.ut lab10_kjb5568_rjl5336.ncd 
+xst -intstyle ise -ifn "C:/Users/kalvi_000/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/kalvi_000/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4_Master.ucf -p xc7a100t-csg324-1 lab10_kjb5568_rjl5336.ngc lab10_kjb5568_rjl5336.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ngd lab10_kjb5568_rjl5336.pcf 
+par -w -intstyle ise -ol high -mt off lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ncd lab10_kjb5568_rjl5336.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml lab10_kjb5568_rjl5336.twx lab10_kjb5568_rjl5336.ncd -o lab10_kjb5568_rjl5336.twr lab10_kjb5568_rjl5336.pcf -ucf Nexys4_Master.ucf 
+bitgen -intstyle ise -f lab10_kjb5568_rjl5336.ut lab10_kjb5568_rjl5336.ncd 
+xst -intstyle ise -ifn "C:/Users/kalvi_000/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/kalvi_000/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+xst -intstyle ise -ifn "C:/Users/kalvi_000/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.xst" -ofn "C:/Users/kalvi_000/Desktop/Lab10/lab10_kjb5568_rjl5336/lab10_kjb5568_rjl5336.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4_Master.ucf -p xc7a100t-csg324-1 lab10_kjb5568_rjl5336.ngc lab10_kjb5568_rjl5336.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ngd lab10_kjb5568_rjl5336.pcf 
+par -w -intstyle ise -ol high -mt off lab10_kjb5568_rjl5336_map.ncd lab10_kjb5568_rjl5336.ncd lab10_kjb5568_rjl5336.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml lab10_kjb5568_rjl5336.twx lab10_kjb5568_rjl5336.ncd -o lab10_kjb5568_rjl5336.twr lab10_kjb5568_rjl5336.pcf -ucf Nexys4_Master.ucf 
+bitgen -intstyle ise -f lab10_kjb5568_rjl5336.ut lab10_kjb5568_rjl5336.ncd 

@@ -1,0 +1,14 @@
+AR counter_nbit behavioral C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/../kjb5568_rjl5336_library/Counter_nbit.vhd sub00/vhpl09 1447100193
+PB kjb5568_rjl5336_components kjb5568_rjl5336_components C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/../kjb5568_rjl5336_library/kjb5568_rjl5336_components.vhd sub00/vhpl07 1447100201
+EN fulladder NULL C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/../kjb5568_rjl5336_library/FullAdder.vhd sub00/vhpl00 1447100188
+EN ripple_carry_adder NULL C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/../kjb5568_rjl5336_library/rippe_carry_adder.vhd sub00/vhpl04 1447100198
+EN lsteq NULL C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/../kjb5568_rjl5336_library/LSTEQ.vhd sub00/vhpl10 1447100194
+AR lsteq structural C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/../kjb5568_rjl5336_library/LSTEQ.vhd sub00/vhpl11 1447100195
+AR ripple_carry_adder structural C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/../kjb5568_rjl5336_library/rippe_carry_adder.vhd sub00/vhpl05 1447100199
+PH kjb5568_rjl5336_components NULL C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/../kjb5568_rjl5336_library/kjb5568_rjl5336_components.vhd sub00/vhpl06 1447100200
+AR fulladder dataflow C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/../kjb5568_rjl5336_library/FullAdder.vhd sub00/vhpl01 1447100189
+AR reg_nbit behavioral C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/../kjb5568_rjl5336_library/Reg_nbit.vhd sub00/vhpl13 1447100197
+AR comparegrt structural C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/../kjb5568_rjl5336_library/CompareGRT.vhd sub00/vhpl03 1447100191
+EN reg_nbit NULL C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/../kjb5568_rjl5336_library/Reg_nbit.vhd sub00/vhpl12 1447100196
+EN counter_nbit NULL C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/../kjb5568_rjl5336_library/Counter_nbit.vhd sub00/vhpl08 1447100192
+EN comparegrt NULL C:/Users/Kevin/Desktop/Lab10/lab10_kjb5568_rjl5336/../kjb5568_rjl5336_library/CompareGRT.vhd sub00/vhpl02 1447100190

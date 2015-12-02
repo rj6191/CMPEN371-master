@@ -1,0 +1,168 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Oct 07 14:59:42 2015
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "LED<12>" LOCATE = SITE "P5" LEVEL 1;
+COMP "LED<11>" LOCATE = SITE "R1" LEVEL 1;
+COMP "LED<14>" LOCATE = SITE "R2" LEVEL 1;
+COMP "LED<13>" LOCATE = SITE "U1" LEVEL 1;
+COMP "LED<10>" LOCATE = SITE "V1" LEVEL 1;
+COMP "LED<15>" LOCATE = SITE "P2" LEVEL 1;
+COMP "BUTTON<0>" LOCATE = SITE "T16" LEVEL 1;
+COMP "BUTTON<3>" LOCATE = SITE "E16" LEVEL 1;
+COMP "BUTTON<4>" LOCATE = SITE "F15" LEVEL 1;
+COMP "BUTTON<1>" LOCATE = SITE "V10" LEVEL 1;
+COMP "BUTTON<2>" LOCATE = SITE "R10" LEVEL 1;
+COMP "SWITCH<8>" LOCATE = SITE "U4" LEVEL 1;
+COMP "SWITCH<7>" LOCATE = SITE "V5" LEVEL 1;
+COMP "SWITCH<6>" LOCATE = SITE "V6" LEVEL 1;
+COMP "SWITCH<5>" LOCATE = SITE "V7" LEVEL 1;
+COMP "SWITCH<9>" LOCATE = SITE "V2" LEVEL 1;
+COMP "SWITCH<0>" LOCATE = SITE "U9" LEVEL 1;
+COMP "SWITCH<4>" LOCATE = SITE "R5" LEVEL 1;
+COMP "SWITCH<3>" LOCATE = SITE "R6" LEVEL 1;
+COMP "SWITCH<2>" LOCATE = SITE "R7" LEVEL 1;
+COMP "SWITCH<1>" LOCATE = SITE "U8" LEVEL 1;
+COMP "SWITCH<15>" LOCATE = SITE "P4" LEVEL 1;
+COMP "SWITCH<13>" LOCATE = SITE "R3" LEVEL 1;
+COMP "SWITCH<14>" LOCATE = SITE "P3" LEVEL 1;
+COMP "SWITCH<11>" LOCATE = SITE "T3" LEVEL 1;
+COMP "SWITCH<12>" LOCATE = SITE "T1" LEVEL 1;
+COMP "SWITCH<10>" LOCATE = SITE "U2" LEVEL 1;
+COMP "CLK" LOCATE = SITE "E3" LEVEL 1;
+COMP "SEGMENT<5>" LOCATE = SITE "M2" LEVEL 1;
+COMP "SEGMENT<6>" LOCATE = SITE "L6" LEVEL 1;
+COMP "SEGMENT<1>" LOCATE = SITE "N1" LEVEL 1;
+COMP "SEGMENT<2>" LOCATE = SITE "L5" LEVEL 1;
+COMP "SEGMENT<3>" LOCATE = SITE "L4" LEVEL 1;
+COMP "SEGMENT<4>" LOCATE = SITE "K3" LEVEL 1;
+COMP "SEGMENT<0>" LOCATE = SITE "L3" LEVEL 1;
+COMP "LED<0>" LOCATE = SITE "T8" LEVEL 1;
+COMP "LED<1>" LOCATE = SITE "V9" LEVEL 1;
+COMP "LED<2>" LOCATE = SITE "R8" LEVEL 1;
+COMP "LED<3>" LOCATE = SITE "T6" LEVEL 1;
+COMP "LED<4>" LOCATE = SITE "T5" LEVEL 1;
+COMP "LED<5>" LOCATE = SITE "T4" LEVEL 1;
+COMP "LED<6>" LOCATE = SITE "U7" LEVEL 1;
+COMP "ANODE<3>" LOCATE = SITE "N5" LEVEL 1;
+COMP "LED<7>" LOCATE = SITE "U6" LEVEL 1;
+COMP "ANODE<4>" LOCATE = SITE "N2" LEVEL 1;
+COMP "LED<8>" LOCATE = SITE "V4" LEVEL 1;
+COMP "ANODE<1>" LOCATE = SITE "M6" LEVEL 1;
+COMP "LED<9>" LOCATE = SITE "U3" LEVEL 1;
+COMP "ANODE<2>" LOCATE = SITE "M3" LEVEL 1;
+COMP "ANODE<0>" LOCATE = SITE "N6" LEVEL 1;
+COMP "ANODE<7>" LOCATE = SITE "M1" LEVEL 1;
+COMP "ANODE<5>" LOCATE = SITE "N4" LEVEL 1;
+COMP "ANODE<6>" LOCATE = SITE "L1" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "Up_debounce/Flip3/Q" BEL "Up_debounce/Flip2/Q" BEL
+        "Up_debounce/Flip1/Q" BEL "Center_debounce/Flip3/Q" BEL
+        "Center_debounce/Flip2/Q" BEL "Center_debounce/Flip1/Q" BEL
+        "Right_debounce/Flip3/Q" BEL "Right_debounce/Flip2/Q" BEL
+        "Right_debounce/Flip1/Q" BEL "down_debounce/Flip3/Q" BEL
+        "down_debounce/Flip2/Q" BEL "down_debounce/Flip1/Q" BEL
+        "Left_debounce/Flip3/Q" BEL "Left_debounce/Flip2/Q" BEL
+        "Left_debounce/Flip1/Q" BEL "Up_steady/Flip/Q" BEL
+        "Center_steady/Flip/Q" BEL "Right_steady/Flip/Q" BEL
+        "down_steady/Flip/Q" BEL "Left_steady/Flip/Q" BEL "register1/Q_3" BEL
+        "register1/Q_2" BEL "register1/Q_1" BEL "register1/Q_0" BEL
+        "display/cnt/Q_2" BEL "display/cnt/Q_1" BEL "display/cnt/Q_0" BEL
+        "Top_FSM/presentstate_FSM_FFd14" BEL "Top_FSM/presentstate_FSM_FFd13"
+        BEL "Top_FSM/presentstate_FSM_FFd10" BEL
+        "Top_FSM/presentstate_FSM_FFd12" BEL "Top_FSM/presentstate_FSM_FFd11"
+        BEL "Top_FSM/presentstate_FSM_FFd9" BEL
+        "Top_FSM/presentstate_FSM_FFd8" BEL "Top_FSM/presentstate_FSM_FFd5"
+        BEL "Top_FSM/presentstate_FSM_FFd7" BEL
+        "Top_FSM/presentstate_FSM_FFd6" BEL "Top_FSM/presentstate_FSM_FFd4"
+        BEL "Top_FSM/presentstate_FSM_FFd3" BEL
+        "physics/presentstate_FSM_FFd5" BEL "Top_FSM/presentstate_FSM_FFd2"
+        BEL "Top_FSM/presentstate_FSM_FFd1" BEL
+        "physics/presentstate_FSM_FFd4" BEL "physics/presentstate_FSM_FFd3"
+        BEL "train/presentstate_FSM_FFd5" BEL "physics/presentstate_FSM_FFd2"
+        BEL "physics/presentstate_FSM_FFd1" BEL "train/presentstate_FSM_FFd4"
+        BEL "train/presentstate_FSM_FFd3" BEL "train/presentstate_FSM_FFd2"
+        BEL "train/presentstate_FSM_FFd1" BEL "display/cnt/count_0" BEL
+        "display/cnt/count_1" BEL "display/cnt/count_2" BEL
+        "wall/presentstate_FSM_FFd1" BEL "wall/presentstate_FSM_FFd2" BEL
+        "wall/presentstate_FSM_FFd4" BEL "wall/presentstate_FSM_FFd5" BEL
+        "wall/presentstate_FSM_FFd3" BEL "pulse500/cnt/count_16" BEL
+        "pulse500/cnt/count_15" BEL "pulse500/cnt/count_14" BEL
+        "pulse500/cnt/count_13" BEL "pulse500/cnt/count_12" BEL
+        "pulse500/cnt/count_11" BEL "pulse500/cnt/count_10" BEL
+        "pulse500/cnt/count_9" BEL "pulse500/cnt/count_8" BEL
+        "pulse500/cnt/count_7" BEL "pulseping/cnt/count_22" BEL
+        "pulseping/cnt/count_21" BEL "pulseping/cnt/count_20" BEL
+        "pulseping/cnt/count_19" BEL "pulseping/cnt/count_18" BEL
+        "pulseping/cnt/count_17" BEL "pulseping/cnt/count_16" BEL
+        "pulseping/cnt/count_15" BEL "pulseping/cnt/count_14" BEL
+        "pulseping/cnt/count_13" BEL "pulseping/cnt/count_12" BEL
+        "pulsetrain/cnt/count_24" BEL "pulsetrain/cnt/count_23" BEL
+        "pulsetrain/cnt/count_22" BEL "pulsetrain/cnt/count_21" BEL
+        "pulsetrain/cnt/count_20" BEL "pulsetrain/cnt/count_19" BEL
+        "pulsetrain/cnt/count_18" BEL "pulsetrain/cnt/count_17" BEL
+        "pulsetrain/cnt/count_16" BEL "pulsetrain/cnt/count_15" BEL
+        "pulsetrain/cnt/count_14" BEL "pulsetrain/cnt/count_13" BEL
+        "pulsetrain/cnt/count_12" BEL "pulsetrain/cnt/count_11" BEL
+        "pulsetrain/cnt/count_10" BEL "pingpong/presentstate_FSM_FFd2" BEL
+        "pingpong/presentstate_FSM_FFd3" BEL "pingpong/presentstate_FSM_FFd1"
+        BEL "pingpong/presentstate_FSM_FFd4" BEL
+        "pingpong/presentstate_FSM_FFd5" BEL "pulse1000/cnt/count_15" BEL
+        "pulse1000/cnt/count_14" BEL "pulse1000/cnt/count_13" BEL
+        "pulse1000/cnt/count_12" BEL "pulse1000/cnt/count_11" BEL
+        "pulse1000/cnt/count_10" BEL "pulse1000/cnt/count_9" BEL
+        "pulse1000/cnt/count_8" BEL "pulse1000/cnt/count_7" BEL
+        "pulse1000/cnt/count_6" BEL "pulse1000/cnt/count_5" BEL
+        "pulse1000/cnt/count_4" BEL "pulse1000/cnt/count_3" BEL
+        "pulse1000/cnt/count_2" BEL "pulse1000/cnt/count_1" BEL
+        "pulse1000/cnt/count_0" BEL "pulse1000/cnt/Q_15" BEL
+        "pulse1000/cnt/Q_14" BEL "pulse1000/cnt/Q_13" BEL "pulse1000/cnt/Q_12"
+        BEL "pulse1000/cnt/Q_11" BEL "pulse1000/cnt/Q_10" BEL
+        "pulse1000/cnt/Q_9" BEL "pulse1000/cnt/Q_8" BEL "pulse1000/cnt/Q_7"
+        BEL "pulse1000/cnt/Q_6" BEL "pulse1000/cnt/Q_5" BEL
+        "pulse1000/cnt/Q_4" BEL "pulse1000/cnt/Q_3" BEL "pulse1000/cnt/Q_2"
+        BEL "pulse1000/cnt/Q_1" BEL "pulse1000/cnt/Q_0" BEL
+        "pulsetrain/cnt/Q_24" BEL "pulsetrain/cnt/Q_23" BEL
+        "pulsetrain/cnt/Q_22" BEL "pulsetrain/cnt/Q_21" BEL
+        "pulsetrain/cnt/Q_20" BEL "pulsetrain/cnt/Q_19" BEL
+        "pulsetrain/cnt/Q_18" BEL "pulsetrain/cnt/Q_17" BEL
+        "pulsetrain/cnt/Q_16" BEL "pulsetrain/cnt/Q_15" BEL
+        "pulsetrain/cnt/Q_14" BEL "pulsetrain/cnt/Q_13" BEL
+        "pulsetrain/cnt/Q_12" BEL "pulsetrain/cnt/Q_11" BEL
+        "pulsetrain/cnt/Q_10" BEL "pulsetrain/cnt/Q_9" BEL
+        "pulsetrain/cnt/Q_8" BEL "pulsetrain/cnt/Q_7" BEL "pulsetrain/cnt/Q_6"
+        BEL "pulsetrain/cnt/Q_5" BEL "pulsetrain/cnt/Q_4" BEL
+        "pulsetrain/cnt/Q_3" BEL "pulsetrain/cnt/Q_2" BEL "pulsetrain/cnt/Q_1"
+        BEL "pulsetrain/cnt/Q_0" BEL "pulseping/cnt/Q_22" BEL
+        "pulseping/cnt/Q_21" BEL "pulseping/cnt/Q_20" BEL "pulseping/cnt/Q_19"
+        BEL "pulseping/cnt/Q_18" BEL "pulseping/cnt/Q_17" BEL
+        "pulseping/cnt/Q_16" BEL "pulseping/cnt/Q_15" BEL "pulseping/cnt/Q_14"
+        BEL "pulseping/cnt/Q_13" BEL "pulseping/cnt/Q_12" BEL
+        "pulseping/cnt/Q_11" BEL "pulseping/cnt/Q_10" BEL "pulseping/cnt/Q_9"
+        BEL "pulseping/cnt/Q_8" BEL "pulseping/cnt/Q_7" BEL
+        "pulseping/cnt/Q_6" BEL "pulseping/cnt/Q_5" BEL "pulseping/cnt/Q_4"
+        BEL "pulseping/cnt/Q_3" BEL "pulseping/cnt/Q_2" BEL
+        "pulseping/cnt/Q_1" BEL "pulseping/cnt/Q_0" BEL
+        "pulsetrain/cnt/count_1" BEL "pulse500/cnt/Q_16" BEL
+        "pulse500/cnt/Q_15" BEL "pulse500/cnt/Q_14" BEL "pulse500/cnt/Q_13"
+        BEL "pulse500/cnt/Q_12" BEL "pulse500/cnt/Q_11" BEL
+        "pulse500/cnt/Q_10" BEL "pulse500/cnt/Q_9" BEL "pulse500/cnt/Q_8" BEL
+        "pulse500/cnt/Q_7" BEL "pulse500/cnt/Q_6" BEL "pulse500/cnt/Q_5" BEL
+        "pulse500/cnt/Q_4" BEL "pulse500/cnt/Q_3" BEL "pulse500/cnt/Q_2" BEL
+        "pulse500/cnt/Q_1" BEL "pulse500/cnt/Q_0" BEL "pulseping/cnt/count_1"
+        BEL "pulsetrain/cnt/count_2" BEL "pulseping/cnt/count_2" BEL
+        "pulsetrain/cnt/count_3" BEL "pulseping/cnt/count_3" BEL
+        "pulse500/cnt/count_1" BEL "pulsetrain/cnt/count_4" BEL
+        "pulseping/cnt/count_4" BEL "pulse500/cnt/count_2" BEL
+        "pulsetrain/cnt/count_5" BEL "pulseping/cnt/count_5" BEL
+        "pulse500/cnt/count_3" BEL "pulsetrain/cnt/count_6" BEL
+        "pulseping/cnt/count_6" BEL "pulse500/cnt/count_4" BEL
+        "pulsetrain/cnt/count_7" BEL "pulseping/cnt/count_7" BEL
+        "pulse500/cnt/count_5" BEL "pulsetrain/cnt/count_8" BEL
+        "pulseping/cnt/count_8" BEL "pulse500/cnt/count_6" BEL
+        "pulsetrain/cnt/count_9" BEL "pulseping/cnt/count_9" BEL
+        "pulseping/cnt/count_10" BEL "pulseping/cnt/count_11" BEL
+        "CLK_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

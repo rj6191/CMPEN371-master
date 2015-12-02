@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Wed Sep 02 16:17:11 2015
+
+drc -z AdderSubtractor_4bit.ncd AdderSubtractor_4bit.pcf
+
+DRC detected 0 errors and 0 warnings.

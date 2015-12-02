@@ -1,0 +1,2 @@
+vhdl work "../hextosevenseg/hextosevenseg.vhd"
+vhdl work "hextosevseg_tb.vhd"

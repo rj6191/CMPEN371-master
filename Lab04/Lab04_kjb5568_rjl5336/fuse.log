@@ -1,0 +1,45 @@
+Running: G:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o H:/Github/CMPEN371/Lab04/Lab04_kjb5568_rjl5336/lab04_kjb5568_rjl5336_isim_beh.exe -prj H:/Github/CMPEN371/Lab04/Lab04_kjb5568_rjl5336/lab04_kjb5568_rjl5336_beh.prj work.lab04_kjb5568_rjl5336 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "H:/Github/CMPEN371/Lab04/Lab04_kjb5568_rjl5336/../kjb5568_rjl5336_library/kjb5568_rjl5336_components.vhd" into library kjb5568_rjl5336_library
+Parsing VHDL file "H:/Github/CMPEN371/Lab04/Lab04_kjb5568_rjl5336/../kjb5568_rjl5336_library/hextosevenseg.vhd" into library kjb5568_rjl5336_library
+Parsing VHDL file "H:/Github/CMPEN371/Lab04/Lab04_kjb5568_rjl5336/../kjb5568_rjl5336_library/DFF_enable.vhd" into library kjb5568_rjl5336_library
+Parsing VHDL file "H:/Github/CMPEN371/Lab04/Lab04_kjb5568_rjl5336/../kjb5568_rjl5336_library/DFF.vhd" into library kjb5568_rjl5336_library
+Parsing VHDL file "H:/Github/CMPEN371/Lab04/Lab04_kjb5568_rjl5336/../kjb5568_rjl5336_library/Counter_nbit.vhd" into library kjb5568_rjl5336_library
+Parsing VHDL file "H:/Github/CMPEN371/Lab04/Lab04_kjb5568_rjl5336/pulse_gen.vhd" into library kjb5568_rjl5336_library
+Parsing VHDL file "H:/Github/CMPEN371/Lab04/Lab04_kjb5568_rjl5336/../kjb5568_rjl5336_library/Shift_Register.vhd" into library kjb5568_rjl5336_library
+Parsing VHDL file "H:/Github/CMPEN371/Lab04/Lab04_kjb5568_rjl5336/../kjb5568_rjl5336_library/Reg_nbit.vhd" into library kjb5568_rjl5336_library
+Parsing VHDL file "H:/Github/CMPEN371/Lab04/Lab04_kjb5568_rjl5336/../kjb5568_rjl5336_library/OneShot.vhd" into library kjb5568_rjl5336_library
+Parsing VHDL file "H:/Github/CMPEN371/Lab04/Lab04_kjb5568_rjl5336/../kjb5568_rjl5336_library/numeric_display.vhd" into library kjb5568_rjl5336_library
+Parsing VHDL file "H:/Github/CMPEN371/Lab04/Lab04_kjb5568_rjl5336/../kjb5568_rjl5336_library/Debouncer.vhd" into library kjb5568_rjl5336_library
+Parsing VHDL file "H:/Github/CMPEN371/Lab04/Lab04_kjb5568_rjl5336/../kjb5568_rjl5336_library/counterupdown_nbit.vhd" into library kjb5568_rjl5336_library
+Parsing VHDL file "H:/Github/CMPEN371/Lab04/Lab04_kjb5568_rjl5336/lab04_kjb5568_rjl5336.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package kjb5568_rjl5336_components
+Compiling architecture behavioral of entity DFF_CE [dff_ce_default]
+Compiling architecture behavioral of entity Debouncer [debouncer_default]
+Compiling architecture behavioral of entity DFF [dff_default]
+Compiling architecture behavioral of entity OneShot [oneshot_default]
+Compiling architecture behavioral of entity Shift_Register [shift_register_default]
+Compiling architecture behavioral of entity Counter_nbit [\Counter_nbit(16)\]
+Compiling architecture behavioral of entity Reg_nbit [\Reg_nbit(16)\]
+Compiling architecture behavioral of entity CounterUpDown_nbit [\CounterUpDown_nbit(16)\]
+Compiling architecture behavioral of entity pulse_gen [\pulse_gen(16,625000)\]
+Compiling architecture behavioral of entity pulse_gen [\pulse_gen(16,2)\]
+Compiling architecture behavioral of entity pulse_gen [\pulse_gen(16,15000)\]
+Compiling architecture behavioral of entity Counter_nbit [\Counter_nbit(3)\]
+Compiling architecture structural of entity hextosevenseg [hextosevenseg_default]
+Compiling architecture behavioral of entity WordTo8dig7seg [wordto8dig7seg_default]
+Compiling architecture structural of entity lab04_kjb5568_rjl5336
+Time Resolution for simulation is 1ps.
+Waiting for 4 sub-compilation(s) to finish...
+Compiled 33 VHDL Units
+Built simulation executable H:/Github/CMPEN371/Lab04/Lab04_kjb5568_rjl5336/lab04_kjb5568_rjl5336_isim_beh.exe
+Fuse Memory Usage: 35140 KB
+Fuse CPU Usage: 452 ms

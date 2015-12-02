@@ -1,0 +1,29 @@
+Command line:
+   Multiplier_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52480
+
+Mon Nov 09 19:00:51 2015
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 853.864 Meg
+
+ Total Signals          : 2429
+ Total Nets             : 1925
+ Total Signal Drivers   : 1330
+ Total Blocks           : 499
+ Total Primitive Blocks : 225
+ Total Processes        : 1330
+ Total Traceable Variables  : 283
+ Total Scalar Nets and Variables : 2678
+Total Line Count : 1342
+
+ Total Simulation Time: 6.39063 sec
+
+ Current Memory Usage: 696.57 Meg
+
+Mon Nov 09 19:16:08 2015
+

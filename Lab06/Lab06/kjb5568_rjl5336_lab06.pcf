@@ -1,0 +1,115 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Oct 13 21:29:06 2015
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "SWITCH<15>" LOCATE = SITE "P4" LEVEL 1;
+COMP "ANODE<0>" LOCATE = SITE "N6" LEVEL 1;
+COMP "ANODE<1>" LOCATE = SITE "M6" LEVEL 1;
+COMP "LED<10>" LOCATE = SITE "V1" LEVEL 1;
+COMP "ANODE<2>" LOCATE = SITE "M3" LEVEL 1;
+COMP "LED<11>" LOCATE = SITE "R1" LEVEL 1;
+COMP "ANODE<3>" LOCATE = SITE "N5" LEVEL 1;
+COMP "LED<12>" LOCATE = SITE "P5" LEVEL 1;
+COMP "ANODE<4>" LOCATE = SITE "N2" LEVEL 1;
+COMP "LED<13>" LOCATE = SITE "U1" LEVEL 1;
+COMP "ANODE<5>" LOCATE = SITE "N4" LEVEL 1;
+COMP "clk" LOCATE = SITE "E3" LEVEL 1;
+COMP "LED<14>" LOCATE = SITE "R2" LEVEL 1;
+COMP "ANODE<6>" LOCATE = SITE "L1" LEVEL 1;
+COMP "LED<15>" LOCATE = SITE "P2" LEVEL 1;
+COMP "ANODE<7>" LOCATE = SITE "M1" LEVEL 1;
+COMP "SEGMENT<0>" LOCATE = SITE "L3" LEVEL 1;
+COMP "SEGMENT<1>" LOCATE = SITE "N1" LEVEL 1;
+COMP "SEGMENT<2>" LOCATE = SITE "L5" LEVEL 1;
+COMP "SEGMENT<3>" LOCATE = SITE "L4" LEVEL 1;
+COMP "PS2KBD_CLK_in" LOCATE = SITE "F4" LEVEL 1;
+COMP "SEGMENT<4>" LOCATE = SITE "K3" LEVEL 1;
+COMP "SEGMENT<5>" LOCATE = SITE "M2" LEVEL 1;
+COMP "LED<0>" LOCATE = SITE "T8" LEVEL 1;
+COMP "SEGMENT<6>" LOCATE = SITE "L6" LEVEL 1;
+COMP "LED<1>" LOCATE = SITE "V9" LEVEL 1;
+COMP "LED<2>" LOCATE = SITE "R8" LEVEL 1;
+COMP "PS2KBD_DATA_in" LOCATE = SITE "B2" LEVEL 1;
+COMP "LED<3>" LOCATE = SITE "T6" LEVEL 1;
+COMP "LED<4>" LOCATE = SITE "T5" LEVEL 1;
+COMP "LED<5>" LOCATE = SITE "T4" LEVEL 1;
+COMP "LED<6>" LOCATE = SITE "U7" LEVEL 1;
+COMP "LED<7>" LOCATE = SITE "U6" LEVEL 1;
+COMP "BUTTON<0>" LOCATE = SITE "T16" LEVEL 1;
+COMP "LED<8>" LOCATE = SITE "V4" LEVEL 1;
+COMP "BUTTON<1>" LOCATE = SITE "V10" LEVEL 1;
+COMP "LED<9>" LOCATE = SITE "U3" LEVEL 1;
+COMP "BUTTON<2>" LOCATE = SITE "R10" LEVEL 1;
+COMP "BUTTON<3>" LOCATE = SITE "E16" LEVEL 1;
+COMP "BUTTON<4>" LOCATE = SITE "F15" LEVEL 1;
+COMP "SWITCH<0>" LOCATE = SITE "U9" LEVEL 1;
+COMP "SWITCH<1>" LOCATE = SITE "U8" LEVEL 1;
+COMP "SWITCH<2>" LOCATE = SITE "R7" LEVEL 1;
+COMP "SWITCH<3>" LOCATE = SITE "R6" LEVEL 1;
+COMP "SWITCH<4>" LOCATE = SITE "R5" LEVEL 1;
+COMP "SWITCH<5>" LOCATE = SITE "V7" LEVEL 1;
+COMP "SWITCH<6>" LOCATE = SITE "V6" LEVEL 1;
+COMP "SWITCH<7>" LOCATE = SITE "V5" LEVEL 1;
+COMP "SWITCH<10>" LOCATE = SITE "U2" LEVEL 1;
+COMP "SWITCH<8>" LOCATE = SITE "U4" LEVEL 1;
+COMP "SWITCH<11>" LOCATE = SITE "T3" LEVEL 1;
+COMP "SWITCH<9>" LOCATE = SITE "V2" LEVEL 1;
+COMP "SWITCH<12>" LOCATE = SITE "T1" LEVEL 1;
+COMP "SWITCH<13>" LOCATE = SITE "R3" LEVEL 1;
+COMP "SWITCH<14>" LOCATE = SITE "P3" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "Debounce_DATA/Flip3/Q" BEL "Debounce_CLK/Flip3/Q"
+        BEL "pulse1000/cnt/Q_1" BEL "pulse1000/cnt/Q_0" BEL
+        "KB_Data/CR_Oneshot/Flip/Q" BEL "display/cnt/Q_2" BEL
+        "display/cnt/Q_1" BEL "display/cnt/Q_0" BEL "pulse1000/cnt/count_0"
+        BEL "pulse1000/cnt/count_1" BEL "display/cnt/count_0" BEL
+        "display/cnt/count_1" BEL "display/cnt/count_2" BEL
+        "KB_FSM/presentstate_FSM_FFd1" BEL "KB_FSM/presentstate_FSM_FFd2" BEL
+        "KB_FSM/presentstate_FSM_FFd3" BEL "KB_FSM/presentstate_FSM_FFd4" BEL
+        "KB_Data/shift10right/Flip7/Q" BEL "KB_Data/shift10right/Flip8/Q" BEL
+        "KB_Data/shift10right/Flip9/Q" BEL "KB_Data/shift10right/Flip10/Q" BEL
+        "KB_Data/shift10right/Flip11/Q" BEL "KB_Data/shift10right/Flip12/Q"
+        BEL "KB_Data/shift10right/Flip13/Q" BEL
+        "KB_Data/shift10right/Flip14/Q" BEL "KB_Data/shift10right/Flip15/Q"
+        BEL "KB_Data/shift_right/out_int_31" BEL
+        "KB_Data/shift_right/out_int_30" BEL "KB_Data/shift_right/out_int_29"
+        BEL "KB_Data/shift_right/out_int_28" BEL
+        "KB_Data/shift_right/out_int_27" BEL "KB_Data/shift_right/out_int_26"
+        BEL "KB_Data/shift_right/out_int_25" BEL
+        "KB_Data/shift_right/out_int_24" BEL "KB_Data/shift_right/out_int_23"
+        BEL "KB_Data/shift_right/out_int_22" BEL
+        "KB_Data/shift_right/out_int_21" BEL "KB_Data/shift_right/out_int_20"
+        BEL "KB_Data/shift_right/out_int_19" BEL
+        "KB_Data/shift_right/out_int_18" BEL "KB_Data/shift_right/out_int_17"
+        BEL "KB_Data/shift_right/out_int_16" BEL
+        "KB_Data/shift_right/out_int_15" BEL "KB_Data/shift_right/out_int_14"
+        BEL "KB_Data/shift_right/out_int_13" BEL
+        "KB_Data/shift_right/out_int_12" BEL "KB_Data/shift_right/out_int_11"
+        BEL "KB_Data/shift_right/out_int_10" BEL
+        "KB_Data/shift_right/out_int_9" BEL "KB_Data/shift_right/out_int_8"
+        BEL "KB_Data/shift_right/out_int_7" BEL
+        "KB_Data/shift_right/out_int_6" BEL "KB_Data/shift_right/out_int_5"
+        BEL "KB_Data/shift_right/out_int_4" BEL
+        "KB_Data/shift_right/out_int_3" BEL "KB_Data/shift_right/out_int_2"
+        BEL "KB_Data/shift_right/out_int_1" BEL
+        "KB_Data/shift_right/out_int_0" BEL "pulse500/cnt/count_16" BEL
+        "pulse500/cnt/count_15" BEL "pulse500/cnt/count_14" BEL
+        "pulse500/cnt/count_13" BEL "pulse500/cnt/count_12" BEL
+        "pulse500/cnt/count_11" BEL "pulse500/cnt/count_10" BEL
+        "pulse500/cnt/count_9" BEL "pulse500/cnt/count_8" BEL
+        "pulse500/cnt/count_7" BEL "pulse500/cnt/count_6" BEL
+        "pulse500/cnt/count_5" BEL "pulse500/cnt/count_4" BEL
+        "pulse500/cnt/count_3" BEL "pulse500/cnt/count_2" BEL
+        "pulse500/cnt/count_1" BEL "pulse500/cnt/count_0" BEL
+        "pulse500/cnt/Q_16" BEL "pulse500/cnt/Q_15" BEL "pulse500/cnt/Q_14"
+        BEL "pulse500/cnt/Q_13" BEL "pulse500/cnt/Q_12" BEL
+        "pulse500/cnt/Q_11" BEL "pulse500/cnt/Q_10" BEL "pulse500/cnt/Q_9" BEL
+        "pulse500/cnt/Q_8" BEL "pulse500/cnt/Q_7" BEL "pulse500/cnt/Q_6" BEL
+        "pulse500/cnt/Q_5" BEL "pulse500/cnt/Q_4" BEL "pulse500/cnt/Q_3" BEL
+        "pulse500/cnt/Q_2" BEL "pulse500/cnt/Q_1" BEL "pulse500/cnt/Q_0" BEL
+        "clk_BUFGP/BUFG" BEL "Debounce_DATA/Flip2/Mshreg_Q" BEL
+        "Debounce_DATA/Flip2/Q" BEL "Debounce_CLK/Flip2/Mshreg_Q" BEL
+        "Debounce_CLK/Flip2/Q";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

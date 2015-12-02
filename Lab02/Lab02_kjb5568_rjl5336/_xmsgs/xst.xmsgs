@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">\\psbdfilesrvr.psu-erie.bd.psu.edu\student\kjb5568\CMPEN 371\Lab02\Lab02_kjb5568_rjl5336\AdderSubtractor_4bit.vhd</arg>&quot; line <arg fmt="%s" index="2">48</arg>: Output port &lt;<arg fmt="%s" index="3">C_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">RCA</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+</messages>
+

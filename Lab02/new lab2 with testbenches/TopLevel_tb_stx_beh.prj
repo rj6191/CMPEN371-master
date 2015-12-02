@@ -1,0 +1,7 @@
+vhdl isim_temp "K:/Lab02/Lab02_kjb5568_rjl5336/FullAdder.vhd"
+vhdl isim_temp "K:/Lab02/Lab02_kjb5568_rjl5336/rippe_carry_adder.vhd"
+vhdl isim_temp "K:/Lab02/Lab02_kjb5568_rjl5336/AdderSubtractor_4bit.vhd"
+vhdl isim_temp "K:/Lab02/hextosevenseg/hextosevenseg.vhd"
+vhdl isim_temp "mux.vhd"
+vhdl isim_temp "lab02_kjb5568_rjl5336.vhd"
+vhdl isim_temp "TopLevel_tb.vhd"

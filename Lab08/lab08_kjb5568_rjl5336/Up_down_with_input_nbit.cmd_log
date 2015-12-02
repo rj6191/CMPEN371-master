@@ -1,0 +1,1 @@
+vhdtdtfi -prj lab08_kjb5568_rjl5336 -o C:/Users/Kevin/Desktop/Lab08/lab08_kjb5568_rjl5336/Up_down_with_input_nbit.vhi -module Up_down_with_input_nbit -template G:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib kjb5568_rjl5336_library ../kjb5568_rjl5336_library/Up_down_with_input_nbit.vhd 

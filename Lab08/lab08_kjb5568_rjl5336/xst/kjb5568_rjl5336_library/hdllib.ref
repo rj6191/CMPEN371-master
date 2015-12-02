@@ -1,0 +1,16 @@
+AR counter_nbit behavioral C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/Counter_nbit.vhd sub00/vhpl03 1445459118
+PB kjb5568_rjl5336_components kjb5568_rjl5336_components C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/kjb5568_rjl5336_components.vhd sub00/vhpl01 1445735710
+AR lst structural C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/LST.vhd sub00/vhpl09 1445735708
+EN up_down_with_input_nbit NULL C:/Users/Kevin/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/Up_down_with_input_nbit.vhd sub00/vhpl14 1445821606
+EN pulse_gen NULL C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/pulse_gen.vhd sub00/vhpl10 1445459125
+AR up_down_with_input_nbit behavioral C:/Users/Kevin/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/Up_down_with_input_nbit.vhd sub00/vhpl15 1445821607
+PH kjb5568_rjl5336_components NULL C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/kjb5568_rjl5336_components.vhd sub00/vhpl00 1445735709
+AR pulse_gen behavioral C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/pulse_gen.vhd sub00/vhpl11 1445459126
+EN lst NULL C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/LST.vhd sub00/vhpl08 1445735707
+EN compareequ NULL C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/CompareEQU.vhd sub00/vhpl04 1445459119
+AR compareequ structural C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/CompareEQU.vhd sub00/vhpl05 1445459120
+AR comparegrt structural C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/CompareGRT.vhd sub00/vhpl13 1445735706
+EN counter_nbit NULL C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/Counter_nbit.vhd sub00/vhpl02 1445459117
+EN comparegrt NULL C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/CompareGRT.vhd sub00/vhpl12 1445735705
+EN dff_ce NULL C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/DFF_enable.vhd sub00/vhpl06 1445459121
+AR dff_ce behavioral C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/DFF_enable.vhd sub00/vhpl07 1445459122

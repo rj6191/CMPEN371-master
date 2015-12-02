@@ -1,0 +1,3 @@
+work	"../lab01_kjb5568_rjl5336/FullAdder.vhd"
+work	"../ripple_carry_adder_4_bit/rippe_carry_adder.vhd"
+work	"AdderSubtractor_4bit.vhd"

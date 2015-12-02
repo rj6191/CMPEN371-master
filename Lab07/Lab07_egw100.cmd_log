@@ -1,0 +1,91 @@
+xst -intstyle ise -ifn "P:/FALL2015/CMPEN371/CMPEN371-master/Lab07/Lab07_egw100.xst" -ofn "P:/FALL2015/CMPEN371/CMPEN371-master/Lab07/Lab07_egw100.syr" 
+xst -intstyle ise -ifn "P:/FALL2015/CMPEN371/CMPEN371-master/Lab07/Lab07_egw100.xst" -ofn "P:/FALL2015/CMPEN371/CMPEN371-master/Lab07/Lab07_egw100.syr" 
+xst -intstyle ise -ifn "P:/FALL2015/CMPEN371/CMPEN371-master/Lab07/Lab07_egw100.xst" -ofn "P:/FALL2015/CMPEN371/CMPEN371-master/Lab07/Lab07_egw100.syr" 
+xst -intstyle ise -ifn "P:/FALL2015/CMPEN371/CMPEN371-master/Lab07/Lab07_egw100.xst" -ofn "P:/FALL2015/CMPEN371/CMPEN371-master/Lab07/Lab07_egw100.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/rjl5336.PSU-ERIE.001/Downloads/Nexys4_Master.ucf -p xc7a100t-csg324-1 Lab07_egw100.ngc Lab07_egw100.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/rjl5336.PSU-ERIE.001/Downloads/Nexys4_Master.ucf -p xc7a100t-csg324-1 Lab07_egw100.ngc Lab07_egw100.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab07_egw100_map.ncd Lab07_egw100.ngd Lab07_egw100.pcf 
+par -w -intstyle ise -ol high -mt off Lab07_egw100_map.ncd Lab07_egw100.ncd Lab07_egw100.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab07_egw100.twx Lab07_egw100.ncd -o Lab07_egw100.twr Lab07_egw100.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/rjl5336.PSU-ERIE.001/Downloads/Nexys4_Master.ucf -p xc7a100t-csg324-1 Lab07_egw100.ngc Lab07_egw100.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab07_egw100_map.ncd Lab07_egw100.ngd Lab07_egw100.pcf 
+par -w -intstyle ise -ol high -mt off Lab07_egw100_map.ncd Lab07_egw100.ncd Lab07_egw100.pcf 
+xst -intstyle ise -ifn "E:/Lab07/Lab07_egw100.xst" -ofn "E:/Lab07/Lab07_egw100.syr" 
+xst -intstyle ise -ifn "E:/Lab07/Lab07_egw100.xst" -ofn "E:/Lab07/Lab07_egw100.syr" 
+xst -intstyle ise -ifn "E:/Lab07/Lab07_egw100.xst" -ofn "E:/Lab07/Lab07_egw100.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/LAB06_clean/Nexys4_Master.ucf -p xc7a100t-csg324-1 Lab07_egw100.ngc Lab07_egw100.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/LAB06_clean/Nexys4_Master.ucf -p xc7a100t-csg324-1 Lab07_egw100.ngc Lab07_egw100.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab07_egw100_map.ncd Lab07_egw100.ngd Lab07_egw100.pcf 
+par -w -intstyle ise -ol high -mt off Lab07_egw100_map.ncd Lab07_egw100.ncd Lab07_egw100.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab07_egw100.twx Lab07_egw100.ncd -o Lab07_egw100.twr Lab07_egw100.pcf 
+bitgen -intstyle ise -f Lab07_egw100.ut Lab07_egw100.ncd 
+bitgen -intstyle ise -f Lab07_egw100.ut Lab07_egw100.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/LAB06_clean/Nexys4_Master.ucf -p xc7a100t-csg324-1 Lab07_egw100.ngc Lab07_egw100.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab07_egw100_map.ncd Lab07_egw100.ngd Lab07_egw100.pcf 
+par -w -intstyle ise -ol high -mt off Lab07_egw100_map.ncd Lab07_egw100.ncd Lab07_egw100.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab07_egw100.twx Lab07_egw100.ncd -o Lab07_egw100.twr Lab07_egw100.pcf 
+bitgen -intstyle ise -f Lab07_egw100.ut Lab07_egw100.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/LAB06_clean/Nexys4_Master.ucf -p xc7a100t-csg324-1 Lab07_egw100.ngc Lab07_egw100.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab07_egw100_map.ncd Lab07_egw100.ngd Lab07_egw100.pcf 
+par -w -intstyle ise -ol high -mt off Lab07_egw100_map.ncd Lab07_egw100.ncd Lab07_egw100.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab07_egw100.twx Lab07_egw100.ncd -o Lab07_egw100.twr Lab07_egw100.pcf 
+bitgen -intstyle ise -f Lab07_egw100.ut Lab07_egw100.ncd 
+xst -intstyle ise -ifn "E:/Lab07/Lab07_egw100.xst" -ofn "E:/Lab07/Lab07_egw100.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/LAB06_clean/Nexys4_Master.ucf -p xc7a100t-csg324-1 Lab07_egw100.ngc Lab07_egw100.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab07_egw100_map.ncd Lab07_egw100.ngd Lab07_egw100.pcf 
+par -w -intstyle ise -ol high -mt off Lab07_egw100_map.ncd Lab07_egw100.ncd Lab07_egw100.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab07_egw100.twx Lab07_egw100.ncd -o Lab07_egw100.twr Lab07_egw100.pcf 
+bitgen -intstyle ise -f Lab07_egw100.ut Lab07_egw100.ncd 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab07/Lab07_egw100.xst" -ofn "C:/Users/Kevin/Desktop/Lab07/Lab07_egw100.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab07/Lab07_egw100.xst" -ofn "C:/Users/Kevin/Desktop/Lab07/Lab07_egw100.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab07/Lab07_egw100.xst" -ofn "C:/Users/Kevin/Desktop/Lab07/Lab07_egw100.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab07/Lab07_egw100.xst" -ofn "C:/Users/Kevin/Desktop/Lab07/Lab07_egw100.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab07/Lab07_egw100.xst" -ofn "C:/Users/Kevin/Desktop/Lab07/Lab07_egw100.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab07/Lab07_egw100.xst" -ofn "C:/Users/Kevin/Desktop/Lab07/Lab07_egw100.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab07/Lab07_egw100.xst" -ofn "C:/Users/Kevin/Desktop/Lab07/Lab07_egw100.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab07/Lab07_egw100.xst" -ofn "C:/Users/Kevin/Desktop/Lab07/Lab07_egw100.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab07/Lab07_egw100.xst" -ofn "C:/Users/Kevin/Desktop/Lab07/Lab07_egw100.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab07/Lab07_egw100.xst" -ofn "C:/Users/Kevin/Desktop/Lab07/Lab07_egw100.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab07/Lab07_egw100.xst" -ofn "C:/Users/Kevin/Desktop/Lab07/Lab07_egw100.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab07/Lab07_egw100.xst" -ofn "C:/Users/Kevin/Desktop/Lab07/Lab07_egw100.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K:/LAB06_clean/Nexys4_Master.ucf -p xc7a100t-csg324-1 Lab07_egw100.ngc Lab07_egw100.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab07_egw100_map.ncd Lab07_egw100.ngd Lab07_egw100.pcf 
+par -w -intstyle ise -ol high -mt off Lab07_egw100_map.ncd Lab07_egw100.ncd Lab07_egw100.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab07_egw100.twx Lab07_egw100.ncd -o Lab07_egw100.twr Lab07_egw100.pcf 
+bitgen -intstyle ise -f Lab07_egw100.ut Lab07_egw100.ncd 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab07/Lab07_egw100.xst" -ofn "C:/Users/Kevin/Desktop/Lab07/Lab07_egw100.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K:/LAB06_clean/Nexys4_Master.ucf -p xc7a100t-csg324-1 Lab07_egw100.ngc Lab07_egw100.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab07_egw100_map.ncd Lab07_egw100.ngd Lab07_egw100.pcf 
+par -w -intstyle ise -ol high -mt off Lab07_egw100_map.ncd Lab07_egw100.ncd Lab07_egw100.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab07_egw100.twx Lab07_egw100.ncd -o Lab07_egw100.twr Lab07_egw100.pcf 
+bitgen -intstyle ise -f Lab07_egw100.ut Lab07_egw100.ncd 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab07/Lab07_egw100.xst" -ofn "C:/Users/Kevin/Desktop/Lab07/Lab07_egw100.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K:/LAB06_clean/Nexys4_Master.ucf -p xc7a100t-csg324-1 Lab07_egw100.ngc Lab07_egw100.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab07_egw100_map.ncd Lab07_egw100.ngd Lab07_egw100.pcf 
+par -w -intstyle ise -ol high -mt off Lab07_egw100_map.ncd Lab07_egw100.ncd Lab07_egw100.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab07_egw100.twx Lab07_egw100.ncd -o Lab07_egw100.twr Lab07_egw100.pcf 
+bitgen -intstyle ise -f Lab07_egw100.ut Lab07_egw100.ncd 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab07/Lab07_egw100.xst" -ofn "C:/Users/Kevin/Desktop/Lab07/Lab07_egw100.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K:/LAB06_clean/Nexys4_Master.ucf -p xc7a100t-csg324-1 Lab07_egw100.ngc Lab07_egw100.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab07_egw100_map.ncd Lab07_egw100.ngd Lab07_egw100.pcf 
+par -w -intstyle ise -ol high -mt off Lab07_egw100_map.ncd Lab07_egw100.ncd Lab07_egw100.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab07_egw100.twx Lab07_egw100.ncd -o Lab07_egw100.twr Lab07_egw100.pcf 
+bitgen -intstyle ise -f Lab07_egw100.ut Lab07_egw100.ncd 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab07/Lab07_egw100.xst" -ofn "C:/Users/Kevin/Desktop/Lab07/Lab07_egw100.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K:/LAB06_clean/Nexys4_Master.ucf -p xc7a100t-csg324-1 Lab07_egw100.ngc Lab07_egw100.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab07_egw100_map.ncd Lab07_egw100.ngd Lab07_egw100.pcf 
+par -w -intstyle ise -ol high -mt off Lab07_egw100_map.ncd Lab07_egw100.ncd Lab07_egw100.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab07_egw100.twx Lab07_egw100.ncd -o Lab07_egw100.twr Lab07_egw100.pcf 
+bitgen -intstyle ise -f Lab07_egw100.ut Lab07_egw100.ncd 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab07/Lab07_egw100.xst" -ofn "C:/Users/Kevin/Desktop/Lab07/Lab07_egw100.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K:/LAB06_clean/Nexys4_Master.ucf -p xc7a100t-csg324-1 Lab07_egw100.ngc Lab07_egw100.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab07_egw100_map.ncd Lab07_egw100.ngd Lab07_egw100.pcf 
+par -w -intstyle ise -ol high -mt off Lab07_egw100_map.ncd Lab07_egw100.ncd Lab07_egw100.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab07_egw100.twx Lab07_egw100.ncd -o Lab07_egw100.twr Lab07_egw100.pcf 
+bitgen -intstyle ise -f Lab07_egw100.ut Lab07_egw100.ncd 
+xst -intstyle ise -ifn "C:/Users/Kevin/Desktop/Lab07/Lab07_egw100.xst" -ofn "C:/Users/Kevin/Desktop/Lab07/Lab07_egw100.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K:/LAB06_clean/Nexys4_Master.ucf -p xc7a100t-csg324-1 Lab07_egw100.ngc Lab07_egw100.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab07_egw100_map.ncd Lab07_egw100.ngd Lab07_egw100.pcf 
+par -w -intstyle ise -ol high -mt off Lab07_egw100_map.ncd Lab07_egw100.ncd Lab07_egw100.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab07_egw100.twx Lab07_egw100.ncd -o Lab07_egw100.twr Lab07_egw100.pcf 
+bitgen -intstyle ise -f Lab07_egw100.ut Lab07_egw100.ncd 

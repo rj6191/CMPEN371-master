@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "K:/Lab03/Lab03_kjb5568_rjl5336/Lab03_kjb5568_rjl5336/Average_isim_beh.exe" -prj "K:/Lab03/Lab03_kjb5568_rjl5336/Lab03_kjb5568_rjl5336/Average_beh.prj" "work.Average" 

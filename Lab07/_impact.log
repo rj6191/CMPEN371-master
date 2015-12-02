@@ -1,0 +1,137 @@
+iMPACT Version: 14.7
+
+iMPACT log file Started on Mon Oct 19 21:00:30 2015
+
+Welcome to iMPACT
+iMPACT Version: 14.7
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : addDevice -p 1 -file "E:/Lab07/lab07_egw100_Nexys4.bit"
+'1': Loading file 'E:/Lab07/lab07_egw100_Nexys4.bit' ...
+done.
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/14.7/ISE_DS/ISE/artix7/data/xc7a100t.bsd...
+INFO:iMPACT - Using CseAdapterBSDevice
+INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+UserID read from the bitstream file = 0xFFFFFFFF.
+Data width read from the bitstream file = 1.
+INFO:iMPACT:501 - '1': Added Device xc7a100t successfully.
+----------------------------------------------------------------------
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+INFO:iMPACT - Digilent Plugin: Plugin Version: 2.4.4
+INFO:iMPACT - Digilent Plugin: found 1 device(s).
+INFO:iMPACT - Digilent Plugin: opening device: "Nexys4", SN:210274592200
+INFO:iMPACT - Digilent Plugin: User Name: Nexys4
+INFO:iMPACT - Digilent Plugin: Product Name: Digilent Nexys4
+INFO:iMPACT - Digilent Plugin: Serial Number: 210274592200
+INFO:iMPACT - Digilent Plugin: Product ID: 01200151
+INFO:iMPACT - Digilent Plugin: Firmware Version: 0109
+INFO:iMPACT - Digilent Plugin: JTAG Port Number: 0
+INFO:iMPACT - Digilent Plugin: JTAG Clock Frequency: 10000000 Hz
+INFO:iMPACT - Current time: 10/19/2015 9:00:54 PM
+// *** BATCH CMD : Program -p 1 
+Maximum TCK operating frequency for this device chain: 66000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+1: Device Temperature: Current Reading:   38.56 C, Min. Reading:   34.63 C, Max.Reading:   39.05 C
+1: VCCINT Supply: Current Reading:   1.002 V, Min. Reading:   1.002 V, Max.Reading:   1.005 V
+1: VCCAUX Supply: Current Reading:   1.802 V, Min. Reading:   1.799 V, Max.Reading:   1.805 V
+INFO:iMPACT - Creating XC7A100T device.
+PROGRESS_START - Starting Operation.
+'1': Programming device...
+ Match_cycle = NoWait.
+Match cycle: NoWait
+ LCK_cycle = NoWait.
+LCK cycle: NoWait
+done.
+INFO:Cse - Status register values:
+INFO:Cse - 0011 1111 1001 1110 0000 1000 0000 0010 
+INFO:Cse - '1': Completed downloading bit file to device.
+INFO:Cse - '1': Programming completed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      4 sec.
+ Match_cycle = NoWait.
+Match cycle: NoWait
+ LCK_cycle = NoWait.
+LCK cycle: NoWait
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+Welcome to iMPACT
+iMPACT Version: 14.7
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : addDevice -p 1 -file "E:/Lab07/lab07_egw100.bit"
+'1': Loading file 'E:/Lab07/lab07_egw100.bit' ...
+done.
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/14.7/ISE_DS/ISE/artix7/data/xc7a100t.bsd...
+INFO:iMPACT - Using CseAdapterBSDevice
+INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+UserID read from the bitstream file = 0xFFFFFFFF.
+Data width read from the bitstream file = 1.
+INFO:iMPACT:501 - '1': Added Device xc7a100t successfully.
+----------------------------------------------------------------------
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+INFO:iMPACT - Digilent Plugin: Plugin Version: 2.4.4
+INFO:iMPACT - Digilent Plugin: found 1 device(s).
+INFO:iMPACT - Digilent Plugin: opening device: "Nexys4", SN:210274592200
+INFO:iMPACT - Digilent Plugin: User Name: Nexys4
+INFO:iMPACT - Digilent Plugin: Product Name: Digilent Nexys4
+INFO:iMPACT - Digilent Plugin: Serial Number: 210274592200
+INFO:iMPACT - Digilent Plugin: Product ID: 01200151
+INFO:iMPACT - Digilent Plugin: Firmware Version: 0109
+INFO:iMPACT - Digilent Plugin: JTAG Port Number: 0
+INFO:iMPACT - Digilent Plugin: JTAG Clock Frequency: 10000000 Hz
+INFO:iMPACT - Current time: 10/19/2015 9:04:34 PM
+// *** BATCH CMD : Program -p 1 
+Maximum TCK operating frequency for this device chain: 66000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+1: Device Temperature: Current Reading:   39.55 C, Min. Reading:   37.58 C, Max.Reading:   40.53 C
+1: VCCINT Supply: Current Reading:   1.002 V, Min. Reading:   0.999 V, Max.Reading:   1.005 V
+1: VCCAUX Supply: Current Reading:   1.802 V, Min. Reading:   1.799 V, Max.Reading:   1.805 V
+INFO:iMPACT - Creating XC7A100T device.
+PROGRESS_START - Starting Operation.
+'1': Programming device...
+ Match_cycle = NoWait.
+Match cycle: NoWait
+ LCK_cycle = NoWait.
+LCK cycle: NoWait
+done.
+INFO:Cse - Status register values:
+INFO:Cse - 0011 1111 1001 1110 0000 1000 0000 0010 
+INFO:Cse - '1': Completed downloading bit file to device.
+INFO:Cse - '1': Programming completed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      4 sec.
+ Match_cycle = NoWait.
+Match cycle: NoWait
+ LCK_cycle = NoWait.
+LCK cycle: NoWait
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+// *** BATCH CMD : setMode -bs
+INFO:iMPACT - Launching WebTalk, please refer to the webtalk log at   C:\Users\Kevin\Documents\GitHub\CMPEN371\Lab04\Lab04_kjb5568_rjl5336\webtalk.   log for details.
+INFO:iMPACT - Running wbtc successfully.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff

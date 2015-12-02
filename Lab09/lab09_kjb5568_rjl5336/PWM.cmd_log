@@ -1,0 +1,2 @@
+vhdtdtfi -prj lab09_kjb5568_rjl5336 -o C:/Users/kalvi_000/Desktop/Lab09/lab09_kjb5568_rjl5336/PWM.vhi -module PWM -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work PWM.vhd 
+vhdtdtfi -prj lab09_kjb5568_rjl5336 -o C:/Users/kalvi_000/Desktop/Lab09/lab09_kjb5568_rjl5336/PWM.vhi -module PWM -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work PWM.vhd 

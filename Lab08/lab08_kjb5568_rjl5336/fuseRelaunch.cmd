@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/VGA_Control_isim_beh.exe" -prj "C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/VGA_Control_beh.prj" "work.VGA_Control" 

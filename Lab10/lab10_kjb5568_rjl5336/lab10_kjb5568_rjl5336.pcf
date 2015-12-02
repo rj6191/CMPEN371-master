@@ -1,0 +1,227 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Nov 09 21:28:25 2015
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "LED<12>" LOCATE = SITE "P5" LEVEL 1;
+COMP "LED<11>" LOCATE = SITE "R1" LEVEL 1;
+COMP "LED<14>" LOCATE = SITE "R2" LEVEL 1;
+COMP "LED<13>" LOCATE = SITE "U1" LEVEL 1;
+COMP "LED<10>" LOCATE = SITE "V1" LEVEL 1;
+COMP "LED<15>" LOCATE = SITE "P2" LEVEL 1;
+COMP "BUTTON<0>" LOCATE = SITE "T16" LEVEL 1;
+COMP "BUTTON<3>" LOCATE = SITE "E16" LEVEL 1;
+COMP "BUTTON<4>" LOCATE = SITE "F15" LEVEL 1;
+COMP "BUTTON<1>" LOCATE = SITE "V10" LEVEL 1;
+COMP "BUTTON<2>" LOCATE = SITE "R10" LEVEL 1;
+COMP "SWITCH<8>" LOCATE = SITE "U4" LEVEL 1;
+COMP "SWITCH<7>" LOCATE = SITE "V5" LEVEL 1;
+COMP "SWITCH<6>" LOCATE = SITE "V6" LEVEL 1;
+COMP "SWITCH<5>" LOCATE = SITE "V7" LEVEL 1;
+COMP "SWITCH<9>" LOCATE = SITE "V2" LEVEL 1;
+COMP "SWITCH<0>" LOCATE = SITE "U9" LEVEL 1;
+COMP "SWITCH<4>" LOCATE = SITE "R5" LEVEL 1;
+COMP "SWITCH<3>" LOCATE = SITE "R6" LEVEL 1;
+COMP "SWITCH<2>" LOCATE = SITE "R7" LEVEL 1;
+COMP "SWITCH<1>" LOCATE = SITE "U8" LEVEL 1;
+COMP "SWITCH<15>" LOCATE = SITE "P4" LEVEL 1;
+COMP "SWITCH<13>" LOCATE = SITE "R3" LEVEL 1;
+COMP "SWITCH<14>" LOCATE = SITE "P3" LEVEL 1;
+COMP "SWITCH<11>" LOCATE = SITE "T3" LEVEL 1;
+COMP "SWITCH<12>" LOCATE = SITE "T1" LEVEL 1;
+COMP "SWITCH<10>" LOCATE = SITE "U2" LEVEL 1;
+COMP "CLK" LOCATE = SITE "E3" LEVEL 1;
+COMP "SEGMENT<5>" LOCATE = SITE "M2" LEVEL 1;
+COMP "SEGMENT<6>" LOCATE = SITE "L6" LEVEL 1;
+COMP "SEGMENT<1>" LOCATE = SITE "N1" LEVEL 1;
+COMP "SEGMENT<2>" LOCATE = SITE "L5" LEVEL 1;
+COMP "SEGMENT<3>" LOCATE = SITE "L4" LEVEL 1;
+COMP "SEGMENT<4>" LOCATE = SITE "K3" LEVEL 1;
+COMP "SEGMENT<0>" LOCATE = SITE "L3" LEVEL 1;
+COMP "LED<0>" LOCATE = SITE "T8" LEVEL 1;
+COMP "LED<1>" LOCATE = SITE "V9" LEVEL 1;
+COMP "LED<2>" LOCATE = SITE "R8" LEVEL 1;
+COMP "LED<3>" LOCATE = SITE "T6" LEVEL 1;
+COMP "LED<4>" LOCATE = SITE "T5" LEVEL 1;
+COMP "LED<5>" LOCATE = SITE "T4" LEVEL 1;
+COMP "LED<6>" LOCATE = SITE "U7" LEVEL 1;
+COMP "ANODE<3>" LOCATE = SITE "N5" LEVEL 1;
+COMP "LED<7>" LOCATE = SITE "U6" LEVEL 1;
+COMP "ANODE<4>" LOCATE = SITE "N2" LEVEL 1;
+COMP "LED<8>" LOCATE = SITE "V4" LEVEL 1;
+COMP "ANODE<1>" LOCATE = SITE "M6" LEVEL 1;
+COMP "LED<9>" LOCATE = SITE "U3" LEVEL 1;
+COMP "ANODE<2>" LOCATE = SITE "M3" LEVEL 1;
+COMP "ANODE<0>" LOCATE = SITE "N6" LEVEL 1;
+COMP "ANODE<7>" LOCATE = SITE "M1" LEVEL 1;
+COMP "ANODE<5>" LOCATE = SITE "N4" LEVEL 1;
+COMP "ANODE<6>" LOCATE = SITE "L1" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "store_B/Q_15" BEL "store_B/Q_14" BEL "store_B/Q_13"
+        BEL "store_B/Q_12" BEL "store_B/Q_11" BEL "store_B/Q_10" BEL
+        "store_B/Q_9" BEL "store_B/Q_8" BEL "store_B/Q_7" BEL "store_B/Q_6"
+        BEL "store_B/Q_5" BEL "store_B/Q_4" BEL "store_B/Q_3" BEL
+        "store_B/Q_2" BEL "store_B/Q_1" BEL "store_B/Q_0" BEL "store_A/Q_15"
+        BEL "store_A/Q_14" BEL "store_A/Q_13" BEL "store_A/Q_12" BEL
+        "store_A/Q_11" BEL "store_A/Q_10" BEL "store_A/Q_9" BEL "store_A/Q_8"
+        BEL "store_A/Q_7" BEL "store_A/Q_6" BEL "store_A/Q_5" BEL
+        "store_A/Q_4" BEL "store_A/Q_3" BEL "store_A/Q_2" BEL "store_A/Q_1"
+        BEL "store_A/Q_0" BEL "pulse_strobe/count_0" BEL
+        "pulse_strobe/count_1" BEL "pulse_strobe/count_2" BEL
+        "pulse_strobe/count_3" BEL "pulse_strobe/count_4" BEL
+        "pulse_strobe/count_5" BEL "pulse_strobe/count_6" BEL
+        "pulse_strobe/count_7" BEL "pulse_strobe/count_8" BEL
+        "pulse_strobe/count_9" BEL "pulse_strobe/count_10" BEL
+        "pulse_strobe/count_11" BEL "pulse_strobe/count_12" BEL
+        "pulse_strobe/count_13" BEL "pulse_strobe/count_14" BEL
+        "pulse_strobe/count_15" BEL "Inst_Multiplier/b1_cnt/count_3" BEL
+        "Inst_Multiplier/b1_cnt/count_2" BEL "Inst_Multiplier/b1_cnt/count_1"
+        BEL "Inst_Multiplier/b1_cnt/count_0" BEL
+        "Inst_Multiplier/b2_cnt/count_3" BEL "Inst_Multiplier/b2_cnt/count_2"
+        BEL "Inst_Multiplier/b2_cnt/count_1" BEL
+        "Inst_Multiplier/b2_cnt/count_0" BEL "Inst_Multiplier/b3_cnt/count_3"
+        BEL "Inst_Multiplier/b3_cnt/count_2" BEL
+        "Inst_Multiplier/b3_cnt/count_1" BEL "Inst_Multiplier/b3_cnt/count_0"
+        BEL "Inst_Multiplier/b4_cnt/count_3" BEL
+        "Inst_Multiplier/b4_cnt/count_2" BEL "Inst_Multiplier/b4_cnt/count_1"
+        BEL "Inst_Multiplier/b4_cnt/count_0" BEL
+        "Inst_Multiplier/product_register/Q_31" BEL
+        "Inst_Multiplier/product_register/Q_30" BEL
+        "Inst_Multiplier/product_register/Q_29" BEL
+        "Inst_Multiplier/product_register/Q_28" BEL
+        "Inst_Multiplier/product_register/Q_27" BEL
+        "Inst_Multiplier/product_register/Q_26" BEL
+        "Inst_Multiplier/product_register/Q_25" BEL
+        "Inst_Multiplier/product_register/Q_24" BEL
+        "Inst_Multiplier/product_register/Q_23" BEL
+        "Inst_Multiplier/product_register/Q_22" BEL
+        "Inst_Multiplier/product_register/Q_21" BEL
+        "Inst_Multiplier/product_register/Q_20" BEL
+        "Inst_Multiplier/product_register/Q_19" BEL
+        "Inst_Multiplier/product_register/Q_18" BEL
+        "Inst_Multiplier/product_register/Q_17" BEL
+        "Inst_Multiplier/product_register/Q_16" BEL
+        "Inst_Multiplier/product_register/Q_15" BEL
+        "Inst_Multiplier/product_register/Q_14" BEL
+        "Inst_Multiplier/product_register/Q_13" BEL
+        "Inst_Multiplier/product_register/Q_12" BEL
+        "Inst_Multiplier/product_register/Q_11" BEL
+        "Inst_Multiplier/product_register/Q_10" BEL
+        "Inst_Multiplier/product_register/Q_9" BEL
+        "Inst_Multiplier/product_register/Q_8" BEL
+        "Inst_Multiplier/product_register/Q_7" BEL
+        "Inst_Multiplier/product_register/Q_6" BEL
+        "Inst_Multiplier/product_register/Q_5" BEL
+        "Inst_Multiplier/product_register/Q_4" BEL
+        "Inst_Multiplier/product_register/Q_3" BEL
+        "Inst_Multiplier/product_register/Q_2" BEL
+        "Inst_Multiplier/product_register/Q_1" BEL
+        "Inst_Multiplier/product_register/Q_0" BEL
+        "Inst_Multiplier/thous_register/Q_19" BEL
+        "Inst_Multiplier/thous_register/Q_18" BEL
+        "Inst_Multiplier/thous_register/Q_17" BEL
+        "Inst_Multiplier/thous_register/Q_16" BEL
+        "Inst_Multiplier/thous_register/Q_15" BEL
+        "Inst_Multiplier/thous_register/Q_14" BEL
+        "Inst_Multiplier/thous_register/Q_13" BEL
+        "Inst_Multiplier/thous_register/Q_12" BEL
+        "Inst_Multiplier/thous_register/Q_11" BEL
+        "Inst_Multiplier/thous_register/Q_10" BEL
+        "Inst_Multiplier/thous_register/Q_9" BEL
+        "Inst_Multiplier/thous_register/Q_8" BEL
+        "Inst_Multiplier/thous_register/Q_7" BEL
+        "Inst_Multiplier/thous_register/Q_6" BEL
+        "Inst_Multiplier/thous_register/Q_5" BEL
+        "Inst_Multiplier/thous_register/Q_4" BEL
+        "Inst_Multiplier/thous_register/Q_3" BEL
+        "Inst_Multiplier/thous_register/Q_2" BEL
+        "Inst_Multiplier/thous_register/Q_1" BEL
+        "Inst_Multiplier/thous_register/Q_0" BEL
+        "Inst_Multiplier/hund_register/Q_23" BEL
+        "Inst_Multiplier/hund_register/Q_22" BEL
+        "Inst_Multiplier/hund_register/Q_21" BEL
+        "Inst_Multiplier/hund_register/Q_20" BEL
+        "Inst_Multiplier/hund_register/Q_19" BEL
+        "Inst_Multiplier/hund_register/Q_18" BEL
+        "Inst_Multiplier/hund_register/Q_17" BEL
+        "Inst_Multiplier/hund_register/Q_16" BEL
+        "Inst_Multiplier/hund_register/Q_15" BEL
+        "Inst_Multiplier/hund_register/Q_14" BEL
+        "Inst_Multiplier/hund_register/Q_13" BEL
+        "Inst_Multiplier/hund_register/Q_12" BEL
+        "Inst_Multiplier/hund_register/Q_11" BEL
+        "Inst_Multiplier/hund_register/Q_10" BEL
+        "Inst_Multiplier/hund_register/Q_9" BEL
+        "Inst_Multiplier/hund_register/Q_8" BEL
+        "Inst_Multiplier/hund_register/Q_7" BEL
+        "Inst_Multiplier/hund_register/Q_6" BEL
+        "Inst_Multiplier/hund_register/Q_5" BEL
+        "Inst_Multiplier/hund_register/Q_4" BEL
+        "Inst_Multiplier/hund_register/Q_3" BEL
+        "Inst_Multiplier/hund_register/Q_2" BEL
+        "Inst_Multiplier/hund_register/Q_1" BEL
+        "Inst_Multiplier/hund_register/Q_0" BEL
+        "Inst_Multiplier/tens_register/Q_27" BEL
+        "Inst_Multiplier/tens_register/Q_26" BEL
+        "Inst_Multiplier/tens_register/Q_25" BEL
+        "Inst_Multiplier/tens_register/Q_24" BEL
+        "Inst_Multiplier/tens_register/Q_23" BEL
+        "Inst_Multiplier/tens_register/Q_22" BEL
+        "Inst_Multiplier/tens_register/Q_21" BEL
+        "Inst_Multiplier/tens_register/Q_20" BEL
+        "Inst_Multiplier/tens_register/Q_19" BEL
+        "Inst_Multiplier/tens_register/Q_18" BEL
+        "Inst_Multiplier/tens_register/Q_17" BEL
+        "Inst_Multiplier/tens_register/Q_16" BEL
+        "Inst_Multiplier/tens_register/Q_15" BEL
+        "Inst_Multiplier/tens_register/Q_14" BEL
+        "Inst_Multiplier/tens_register/Q_13" BEL
+        "Inst_Multiplier/tens_register/Q_12" BEL
+        "Inst_Multiplier/tens_register/Q_11" BEL
+        "Inst_Multiplier/tens_register/Q_10" BEL
+        "Inst_Multiplier/tens_register/Q_9" BEL
+        "Inst_Multiplier/tens_register/Q_8" BEL
+        "Inst_Multiplier/tens_register/Q_7" BEL
+        "Inst_Multiplier/tens_register/Q_6" BEL
+        "Inst_Multiplier/tens_register/Q_5" BEL
+        "Inst_Multiplier/tens_register/Q_4" BEL
+        "Inst_Multiplier/tens_register/Q_3" BEL
+        "Inst_Multiplier/tens_register/Q_2" BEL
+        "Inst_Multiplier/tens_register/Q_1" BEL
+        "Inst_Multiplier/tens_register/Q_0" BEL
+        "Inst_Multiplier/ones_register/Q_31" BEL
+        "Inst_Multiplier/ones_register/Q_30" BEL
+        "Inst_Multiplier/ones_register/Q_29" BEL
+        "Inst_Multiplier/ones_register/Q_28" BEL
+        "Inst_Multiplier/ones_register/Q_27" BEL
+        "Inst_Multiplier/ones_register/Q_26" BEL
+        "Inst_Multiplier/ones_register/Q_25" BEL
+        "Inst_Multiplier/ones_register/Q_24" BEL
+        "Inst_Multiplier/ones_register/Q_23" BEL
+        "Inst_Multiplier/ones_register/Q_22" BEL
+        "Inst_Multiplier/ones_register/Q_21" BEL
+        "Inst_Multiplier/ones_register/Q_20" BEL
+        "Inst_Multiplier/ones_register/Q_19" BEL
+        "Inst_Multiplier/ones_register/Q_18" BEL
+        "Inst_Multiplier/ones_register/Q_17" BEL
+        "Inst_Multiplier/ones_register/Q_16" BEL
+        "Inst_Multiplier/ones_register/Q_15" BEL
+        "Inst_Multiplier/ones_register/Q_14" BEL
+        "Inst_Multiplier/ones_register/Q_13" BEL
+        "Inst_Multiplier/ones_register/Q_12" BEL
+        "Inst_Multiplier/ones_register/Q_11" BEL
+        "Inst_Multiplier/ones_register/Q_10" BEL
+        "Inst_Multiplier/ones_register/Q_9" BEL
+        "Inst_Multiplier/ones_register/Q_8" BEL
+        "Inst_Multiplier/ones_register/Q_7" BEL
+        "Inst_Multiplier/ones_register/Q_6" BEL
+        "Inst_Multiplier/ones_register/Q_5" BEL
+        "Inst_Multiplier/ones_register/Q_4" BEL
+        "Inst_Multiplier/ones_register/Q_3" BEL
+        "Inst_Multiplier/ones_register/Q_2" BEL
+        "Inst_Multiplier/ones_register/Q_1" BEL
+        "Inst_Multiplier/ones_register/Q_0" BEL "sevenseg/cnt/count_2" BEL
+        "sevenseg/cnt/count_1" BEL "sevenseg/cnt/count_0" BEL
+        "Inst_Multiplier/tens_register/Q_4_1" BEL "CLK_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

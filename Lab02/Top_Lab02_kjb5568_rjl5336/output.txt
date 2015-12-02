@@ -1,0 +1,10 @@
+Storage Target: SPI Flash Single FPGA
+Auto Select Storage Device
+FF
+Lab03
+K:/Lab03
+
+MCS
+p_Lab02_kjb5568_rjl5336/
+
+MCS

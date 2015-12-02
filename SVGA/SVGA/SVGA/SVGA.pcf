@@ -1,0 +1,118 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Nov 26 12:05:55 2015
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "RGB_out<10>" LOCATE = SITE "B6" LEVEL 1;
+COMP "RGB_out<11>" LOCATE = SITE "A6" LEVEL 1;
+COMP "Switch<10>" LOCATE = SITE "U2" LEVEL 1;
+COMP "Switch<11>" LOCATE = SITE "T3" LEVEL 1;
+COMP "RGB_out<0>" LOCATE = SITE "A3" LEVEL 1;
+COMP "RGB_out<1>" LOCATE = SITE "B4" LEVEL 1;
+COMP "Switch<0>" LOCATE = SITE "U9" LEVEL 1;
+COMP "RGB_out<2>" LOCATE = SITE "C5" LEVEL 1;
+COMP "Switch<1>" LOCATE = SITE "U8" LEVEL 1;
+COMP "RGB_out<3>" LOCATE = SITE "A4" LEVEL 1;
+COMP "Switch<2>" LOCATE = SITE "R7" LEVEL 1;
+COMP "RGB_out<4>" LOCATE = SITE "B7" LEVEL 1;
+COMP "Switch<3>" LOCATE = SITE "R6" LEVEL 1;
+COMP "RGB_out<5>" LOCATE = SITE "C7" LEVEL 1;
+COMP "Switch<4>" LOCATE = SITE "R5" LEVEL 1;
+COMP "RGB_out<6>" LOCATE = SITE "D7" LEVEL 1;
+COMP "Switch<5>" LOCATE = SITE "V7" LEVEL 1;
+COMP "RGB_out<7>" LOCATE = SITE "D8" LEVEL 1;
+COMP "Switch<6>" LOCATE = SITE "V6" LEVEL 1;
+COMP "RGB_out<8>" LOCATE = SITE "C6" LEVEL 1;
+COMP "Switch<7>" LOCATE = SITE "V5" LEVEL 1;
+COMP "BUTTON<0>" LOCATE = SITE "T16" LEVEL 1;
+COMP "RGB_out<9>" LOCATE = SITE "A5" LEVEL 1;
+COMP "Switch<8>" LOCATE = SITE "U4" LEVEL 1;
+COMP "BUTTON<1>" LOCATE = SITE "V10" LEVEL 1;
+COMP "Switch<9>" LOCATE = SITE "V2" LEVEL 1;
+COMP "BUTTON<2>" LOCATE = SITE "R10" LEVEL 1;
+COMP "BUTTON<3>" LOCATE = SITE "E16" LEVEL 1;
+COMP "BUTTON<4>" LOCATE = SITE "F15" LEVEL 1;
+COMP "HSYNC" LOCATE = SITE "B11" LEVEL 1;
+COMP "Clk" LOCATE = SITE "E3" LEVEL 1;
+COMP "VSYNC" LOCATE = SITE "B12" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "Inst_Image_Generator/horizontalCounter/count_10"
+        BEL "Inst_Image_Generator/horizontalCounter/count_8" BEL
+        "Inst_Image_Generator/horizontalCounter/count_7" BEL
+        "Inst_Image_Generator/horizontalCounter/count_6" BEL
+        "Inst_Image_Generator/horizontalCounter/count_5" BEL
+        "Inst_Image_Generator/horizontalCounter/count_4" BEL
+        "Inst_Image_Generator/horizontalCounter/count_3" BEL
+        "Inst_Image_Generator/horizontalCounter/count_2" BEL
+        "Inst_Image_Generator/horizontalCounter/count_1" BEL
+        "Inst_Image_Generator/horizontalCounter/count_0" BEL
+        "Inst_Image_Generator/verticalCounter/count_10" BEL
+        "Inst_Image_Generator/verticalCounter/count_8" BEL
+        "Inst_Image_Generator/verticalCounter/count_7" BEL
+        "Inst_Image_Generator/verticalCounter/count_6" BEL
+        "Inst_Image_Generator/verticalCounter/count_5" BEL
+        "Inst_Image_Generator/verticalCounter/count_4" BEL
+        "Inst_Image_Generator/verticalCounter/count_3" BEL
+        "Inst_Image_Generator/verticalCounter/count_2" BEL
+        "Inst_Image_Generator/verticalCounter/count_1" BEL
+        "Inst_Image_Generator/verticalCounter/count_0" BEL
+        "Inst_Image_Generator/Pulse_d/count_19" BEL
+        "Inst_Image_Generator/Pulse_d/count_18" BEL
+        "Inst_Image_Generator/Pulse_d/count_17" BEL
+        "Inst_Image_Generator/Pulse_d/count_16" BEL
+        "Inst_Image_Generator/Pulse_d/count_15" BEL
+        "Inst_Image_Generator/Pulse_d/count_14" BEL
+        "Inst_Image_Generator/Pulse_d/count_13" BEL
+        "Inst_Image_Generator/Pulse_d/count_12" BEL
+        "Inst_Image_Generator/Pulse_d/count_11" BEL
+        "Inst_Image_Generator/Pulse_d/count_10" BEL
+        "Inst_Image_Generator/Pulse_d/count_9" BEL
+        "Inst_Image_Generator/Pulse_d/count_8" BEL
+        "Inst_Image_Generator/Pulse_d/count_7" BEL
+        "Inst_Image_Generator/Pulse_d/count_6" BEL
+        "Inst_Image_Generator/Pulse_d/count_5" BEL
+        "Inst_Image_Generator/Pulse_d/count_4" BEL
+        "Inst_Image_Generator/Pulse_d/count_3" BEL
+        "Inst_Image_Generator/Pulse_d/count_2" BEL
+        "Inst_Image_Generator/Pulse_d/count_1" BEL
+        "Inst_Image_Generator/Pulse_d/count_0" BEL
+        "Inst_Image_Generator/DB4/Flip3/Q" BEL
+        "Inst_Image_Generator/DB2/Flip3/Q" BEL
+        "Inst_Image_Generator/DB1/Flip3/Q" BEL
+        "Inst_Image_Generator/DB0/Flip3/Q" BEL
+        "Inst_SVGA_Control/Hcount/count_10" BEL
+        "Inst_SVGA_Control/Hcount/count_9" BEL
+        "Inst_SVGA_Control/Hcount/count_8" BEL
+        "Inst_SVGA_Control/Hcount/count_7" BEL
+        "Inst_SVGA_Control/Hcount/count_6" BEL
+        "Inst_SVGA_Control/Hcount/count_5" BEL
+        "Inst_SVGA_Control/Hcount/count_4" BEL
+        "Inst_SVGA_Control/Hcount/count_3" BEL
+        "Inst_SVGA_Control/Hcount/count_2" BEL
+        "Inst_SVGA_Control/Hcount/count_1" BEL
+        "Inst_SVGA_Control/Hcount/count_0" BEL
+        "Inst_SVGA_Control/Vcount/count_10" BEL
+        "Inst_SVGA_Control/Vcount/count_9" BEL
+        "Inst_SVGA_Control/Vcount/count_8" BEL
+        "Inst_SVGA_Control/Vcount/count_7" BEL
+        "Inst_SVGA_Control/Vcount/count_6" BEL
+        "Inst_SVGA_Control/Vcount/count_5" BEL
+        "Inst_SVGA_Control/Vcount/count_4" BEL
+        "Inst_SVGA_Control/Vcount/count_3" BEL
+        "Inst_SVGA_Control/Vcount/count_2" BEL
+        "Inst_SVGA_Control/Vcount/count_1" BEL
+        "Inst_SVGA_Control/Vcount/count_0" BEL
+        "Inst_SVGA_Control/Pulse25/count_1" BEL
+        "Inst_SVGA_Control/Pulse25/count_0" BEL
+        "Inst_SVGA_Control/hold_Hsync/Q" BEL "Inst_SVGA_Control/hold_Vsync/Q"
+        BEL "Inst_SVGA_Control/hold_rgb_enable/Q" BEL "Clk_BUFGP/BUFG" BEL
+        "Inst_Image_Generator/DB4/Flip2/Mshreg_Q" BEL
+        "Inst_Image_Generator/DB4/Flip2/Q" BEL
+        "Inst_Image_Generator/DB2/Flip2/Mshreg_Q" BEL
+        "Inst_Image_Generator/DB2/Flip2/Q" BEL
+        "Inst_Image_Generator/DB1/Flip2/Mshreg_Q" BEL
+        "Inst_Image_Generator/DB1/Flip2/Q" BEL
+        "Inst_Image_Generator/DB0/Flip2/Mshreg_Q" BEL
+        "Inst_Image_Generator/DB0/Flip2/Q";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

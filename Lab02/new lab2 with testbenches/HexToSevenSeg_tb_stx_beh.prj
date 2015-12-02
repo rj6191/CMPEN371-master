@@ -1,0 +1,2 @@
+vhdl isim_temp "../hextosevenseg/hextosevenseg.vhd"
+vhdl isim_temp "hextosevseg_tb.vhd"

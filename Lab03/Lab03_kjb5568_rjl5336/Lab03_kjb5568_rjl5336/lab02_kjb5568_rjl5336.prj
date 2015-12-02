@@ -1,0 +1,6 @@
+vhdl kjb5568_rjl5336_library "../../kjb5568_rjl5336_library/FullAdder.vhd"
+vhdl kjb5568_rjl5336_library "../../kjb5568_rjl5336_library/rippe_carry_adder.vhd"
+vhdl kjb5568_rjl5336_library "../../kjb5568_rjl5336_library/mux.vhd"
+vhdl kjb5568_rjl5336_library "../../kjb5568_rjl5336_library/hextosevenseg.vhd"
+vhdl kjb5568_rjl5336_library "../../kjb5568_rjl5336_library/AdderSubtractor_4bit.vhd"
+vhdl work "E:/Lab02/Lab02 Upload Files/lab02_kjb5568_rjl5336.vhd"

@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator P.20131013
+# Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.20131013
+DATE            10/20/2015 - 15:42
+SOURCE          C:\Users\Kevin\Desktop\Lab07\Lab07.mcs
+DEVICE          32768K
+DATA_WIDTH      1
+FILL_DATA       0xFF
+SIGNATURE       0xC3DFC9A6
+START_ADDRESS   0x00000000 END_ADDRESS 0x003A607B DIRECTION_UP   "C:/Users/Kevin/Desktop/Lab07/lab07_egw100.bit" 7a100tcsg324

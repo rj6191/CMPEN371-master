@@ -1,0 +1,84 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 1
+-n 3 -fastpaths -xml AdderSubtractor_4bit.twx AdderSubtractor_4bit.ncd -o
+AdderSubtractor_4bit.twr AdderSubtractor_4bit.pcf -ucf Nexys4_Master.ucf
+
+Design file:              AdderSubtractor_4bit.ncd
+Physical constraint file: AdderSubtractor_4bit.pcf
+Device,package,speed:     xc7a100t,csg324,C,-1 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A<0>           |OVERFLOW       |    9.406|
+A<0>           |SUM<0>         |    8.559|
+A<0>           |SUM<1>         |    8.525|
+A<0>           |SUM<2>         |    8.906|
+A<0>           |SUM<3>         |    9.453|
+A<1>           |OVERFLOW       |    9.388|
+A<1>           |SUM<1>         |    8.508|
+A<1>           |SUM<2>         |    8.888|
+A<1>           |SUM<3>         |    9.435|
+A<2>           |OVERFLOW       |    8.078|
+A<2>           |SUM<2>         |    8.257|
+A<2>           |SUM<3>         |    8.121|
+A<3>           |OVERFLOW       |    8.867|
+A<3>           |SUM<3>         |    9.127|
+B<0>           |OVERFLOW       |    9.038|
+B<0>           |SUM<0>         |    8.059|
+B<0>           |SUM<1>         |    8.120|
+B<0>           |SUM<2>         |    8.538|
+B<0>           |SUM<3>         |    9.085|
+B<1>           |OVERFLOW       |    9.625|
+B<1>           |SUM<1>         |    8.738|
+B<1>           |SUM<2>         |    9.125|
+B<1>           |SUM<3>         |    9.672|
+B<2>           |OVERFLOW       |    8.231|
+B<2>           |SUM<2>         |    8.700|
+B<2>           |SUM<3>         |    8.523|
+B<3>           |OVERFLOW       |    8.270|
+B<3>           |SUM<3>         |    8.084|
+SUBTRACT       |OVERFLOW       |   11.473|
+SUBTRACT       |SUM<1>         |   10.585|
+SUBTRACT       |SUM<2>         |   10.973|
+SUBTRACT       |SUM<3>         |   11.520|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Sep 02 16:16:56 2015 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 614 MB
+
+
+

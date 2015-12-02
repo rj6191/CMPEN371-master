@@ -1,0 +1,804 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: Lab07_egw100.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Lab07_egw100.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Lab07_egw100"
+Output Format                      : NGC
+Target Device                      : xc7a100t-1-csg324
+
+---- Source Options
+Top Module Name                    : Lab07_egw100
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "K:/Lab04/kjb5568_rjl5336_library/kjb5568_rjl5336_components.vhd" into library kjb5568_rjl5336_library
+Parsing package <kjb5568_rjl5336_Components>.
+Parsing package body <kjb5568_rjl5336_Components>.
+Parsing VHDL file "K:/Lab04/kjb5568_rjl5336_library/Counter_nbit.vhd" into library kjb5568_rjl5336_library
+Parsing entity <Counter_nbit>.
+Parsing architecture <Behavioral> of entity <counter_nbit>.
+Parsing VHDL file "K:/Lab04/kjb5568_rjl5336_library/Reg_nbit.vhd" into library kjb5568_rjl5336_library
+Parsing entity <Reg_nbit>.
+Parsing architecture <Behavioral> of entity <reg_nbit>.
+Parsing VHDL file "K:/Lab04/kjb5568_rjl5336_library/pulse_gen.vhd" into library kjb5568_rjl5336_library
+Parsing entity <pulse_gen>.
+Parsing architecture <Behavioral> of entity <pulse_gen>.
+Parsing VHDL file "K:/Lab04/kjb5568_rjl5336_library/hextosevenseg.vhd" into library kjb5568_rjl5336_library
+Parsing entity <hextosevenseg>.
+Parsing architecture <structural> of entity <hextosevenseg>.
+Parsing VHDL file "C:\Users\Kevin\Desktop\Lab07\LightShowROM.vhd" into library work
+Parsing entity <LightShowROM>.
+Parsing architecture <Behavioral> of entity <lightshowrom>.
+Parsing VHDL file "C:\Users\Kevin\Desktop\Lab07\CompareEQU.vhd" into library kjb5568_rjl5336_library
+Parsing entity <CompareEQU>.
+Parsing architecture <structural> of entity <compareequ>.
+Parsing VHDL file "K:/Lab04/kjb5568_rjl5336_library/numeric_display.vhd" into library kjb5568_rjl5336_library
+Parsing entity <WordTo8dig7seg>.
+Parsing architecture <Behavioral> of entity <wordto8dig7seg>.
+Parsing VHDL file "C:\Users\Kevin\Desktop\Lab07\LightShowDatapath.vhd" into library work
+Parsing entity <LightShowDatapath>.
+Parsing architecture <Structural> of entity <lightshowdatapath>.
+Parsing VHDL file "C:\Users\Kevin\Desktop\Lab07\LightShowControl.vhd" into library work
+Parsing entity <LightShowControl>.
+Parsing architecture <FSM> of entity <lightshowcontrol>.
+Parsing VHDL file "C:\Users\Kevin\Desktop\Lab07\Lab07_egw100.vhd" into library work
+Parsing entity <Lab07_egw100>.
+Parsing architecture <Structural> of entity <lab07_egw100>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <Lab07_egw100> (architecture <Structural>) from library <work>.
+
+Elaborating entity <LightShowControl> (architecture <FSM>) from library <work>.
+INFO:HDLCompiler:679 - "C:\Users\Kevin\Desktop\Lab07\LightShowControl.vhd" Line 157. Case statement is complete. others clause is never selected
+
+Elaborating entity <LightShowDatapath> (architecture <Structural>) from library <work>.
+
+Elaborating entity <Reg_nbit> (architecture <Behavioral>) with generics from library <kjb5568_rjl5336_library>.
+
+Elaborating entity <LightShowROM> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Reg_nbit> (architecture <Behavioral>) with generics from library <kjb5568_rjl5336_library>.
+
+Elaborating entity <pulse_gen> (architecture <Behavioral>) with generics from library <kjb5568_rjl5336_library>.
+
+Elaborating entity <Counter_nbit> (architecture <Behavioral>) with generics from library <kjb5568_rjl5336_library>.
+
+Elaborating entity <Counter_nbit> (architecture <Behavioral>) with generics from library <kjb5568_rjl5336_library>.
+
+Elaborating entity <CompareEQU> (architecture <structural>) with generics from library <kjb5568_rjl5336_library>.
+
+Elaborating entity <WordTo8dig7seg> (architecture <Behavioral>) from library <kjb5568_rjl5336_library>.
+
+Elaborating entity <Counter_nbit> (architecture <Behavioral>) with generics from library <kjb5568_rjl5336_library>.
+
+Elaborating entity <hextosevenseg> (architecture <structural>) from library <kjb5568_rjl5336_library>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Lab07_egw100>.
+    Related source file is "C:\Users\Kevin\Desktop\Lab07\Lab07_egw100.vhd".
+WARNING:Xst:647 - Input <SWITCH<5:2>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+INFO:Xst:3210 - "C:\Users\Kevin\Desktop\Lab07\Lab07_egw100.vhd" line 71: Output port <DEBUG_out> of the instance <FSM_LIGHT_SHOW> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <Lab07_egw100> synthesized.
+
+Synthesizing Unit <LightShowControl>.
+    Related source file is "C:\Users\Kevin\Desktop\Lab07\LightShowControl.vhd".
+WARNING:Xst:647 - Input <BUTTON<4:4>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 4-bit register for signal <presentState>.
+    Found finite state machine <FSM_0> for signal <presentState>.
+    -----------------------------------------------------------------------
+    | States             | 10                                             |
+    | Transitions        | 30                                             |
+    | Inputs             | 15                                             |
+    | Outputs            | 13                                             |
+    | Clock              | CLK (rising_edge)                              |
+    | Reset              | RESET (positive)                               |
+    | Reset type         | synchronous                                    |
+    | Reset State        | reset_state                                    |
+    | Power Up State     | reset_state                                    |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <LightShowControl> synthesized.
+
+Synthesizing Unit <LightShowDatapath>.
+    Related source file is "C:\Users\Kevin\Desktop\Lab07\LightShowDatapath.vhd".
+    Found 10-bit adder for signal <PC[9]_GND_7_o_add_0_OUT> created at line 1241.
+    Found 16x1-bit Read Only RAM for signal <STATUS_out<1>>
+    Summary:
+	inferred   1 RAM(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   2 Multiplexer(s).
+Unit <LightShowDatapath> synthesized.
+
+Synthesizing Unit <Reg_nbit_1>.
+    Related source file is "K:/Lab04/kjb5568_rjl5336_library/Reg_nbit.vhd".
+        n = 10
+    Found 10-bit register for signal <Q>.
+    Summary:
+	inferred  10 D-type flip-flop(s).
+Unit <Reg_nbit_1> synthesized.
+
+Synthesizing Unit <LightShowROM>.
+    Related source file is "C:\Users\Kevin\Desktop\Lab07\LightShowROM.vhd".
+    Found 20-bit register for signal <DATA_out>.
+    Found 1024x20-bit Read Only RAM for signal <ADDRESS[9]_GND_9_o_wide_mux_0_OUT>
+    Summary:
+	inferred   1 RAM(s).
+	inferred  20 D-type flip-flop(s).
+Unit <LightShowROM> synthesized.
+
+Synthesizing Unit <Reg_nbit_2>.
+    Related source file is "K:/Lab04/kjb5568_rjl5336_library/Reg_nbit.vhd".
+        n = 16
+    Found 16-bit register for signal <Q>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <Reg_nbit_2> synthesized.
+
+Synthesizing Unit <pulse_gen>.
+    Related source file is "K:/Lab04/kjb5568_rjl5336_library/pulse_gen.vhd".
+        n = 17
+        maxCount = 100000
+    Summary:
+	no macro.
+Unit <pulse_gen> synthesized.
+
+Synthesizing Unit <Counter_nbit_1>.
+    Related source file is "K:/Lab04/kjb5568_rjl5336_library/Counter_nbit.vhd".
+        n = 17
+    Found 17-bit register for signal <Q>.
+    Found 32-bit register for signal <count>.
+    Found 32-bit adder for signal <count[31]_GND_12_o_add_0_OUT> created at line 44.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  49 D-type flip-flop(s).
+Unit <Counter_nbit_1> synthesized.
+
+Synthesizing Unit <Counter_nbit_2>.
+    Related source file is "K:/Lab04/kjb5568_rjl5336_library/Counter_nbit.vhd".
+        n = 16
+    Found 16-bit register for signal <Q>.
+    Found 32-bit register for signal <count>.
+    Found 32-bit adder for signal <count[31]_GND_14_o_add_0_OUT> created at line 44.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  48 D-type flip-flop(s).
+Unit <Counter_nbit_2> synthesized.
+
+Synthesizing Unit <CompareEQU>.
+    Related source file is "C:\Users\Kevin\Desktop\Lab07\CompareEQU.vhd".
+        n = 16
+    Found 16-bit comparator equal for signal <EQU> created at line 36
+    Summary:
+	inferred   1 Comparator(s).
+Unit <CompareEQU> synthesized.
+
+Synthesizing Unit <WordTo8dig7seg>.
+    Related source file is "K:/Lab04/kjb5568_rjl5336_library/numeric_display.vhd".
+    Found 8x8-bit Read Only RAM for signal <anode>
+    Found 4-bit 8-to-1 multiplexer for signal <w2h> created at line 39.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   1 Multiplexer(s).
+Unit <WordTo8dig7seg> synthesized.
+
+Synthesizing Unit <Counter_nbit_3>.
+    Related source file is "K:/Lab04/kjb5568_rjl5336_library/Counter_nbit.vhd".
+        n = 3
+    Found 3-bit register for signal <Q>.
+    Found 32-bit register for signal <count>.
+    Found 32-bit adder for signal <count[31]_GND_18_o_add_0_OUT> created at line 44.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  35 D-type flip-flop(s).
+Unit <Counter_nbit_3> synthesized.
+
+Synthesizing Unit <hextosevenseg>.
+    Related source file is "K:/Lab04/kjb5568_rjl5336_library/hextosevenseg.vhd".
+    Found 16x7-bit Read Only RAM for signal <Segment>
+    Summary:
+	inferred   1 RAM(s).
+Unit <hextosevenseg> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 4
+ 1024x20-bit single-port Read Only RAM                 : 1
+ 16x1-bit single-port Read Only RAM                    : 1
+ 16x7-bit single-port Read Only RAM                    : 1
+ 8x8-bit single-port Read Only RAM                     : 1
+# Adders/Subtractors                                   : 5
+ 10-bit adder                                          : 1
+ 32-bit adder                                          : 4
+# Registers                                            : 12
+ 10-bit register                                       : 1
+ 16-bit register                                       : 3
+ 17-bit register                                       : 2
+ 20-bit register                                       : 1
+ 3-bit register                                        : 1
+ 32-bit register                                       : 4
+# Comparators                                          : 1
+ 16-bit comparator equal                               : 1
+# Multiplexers                                         : 3
+ 10-bit 2-to-1 multiplexer                             : 2
+ 4-bit 8-to-1 multiplexer                              : 1
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <Counter_nbit_1>.
+The following registers are absorbed into counter <count>: 1 register on signal <count>.
+Unit <Counter_nbit_1> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Counter_nbit_2>.
+The following registers are absorbed into counter <count>: 1 register on signal <count>.
+Unit <Counter_nbit_2> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Counter_nbit_3>.
+The following registers are absorbed into counter <count>: 1 register on signal <count>.
+Unit <Counter_nbit_3> synthesized (advanced).
+
+Synthesizing (advanced) Unit <LightShowDatapath>.
+The following registers are absorbed into counter <REG_PC/Q>: 1 register on signal <REG_PC/Q>.
+INFO:Xst:3231 - The small RAM <Mram_STATUS_out<1>> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 1-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <instruction<19:16>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <STATUS_out>    |          |
+    -----------------------------------------------------------------------
+Unit <LightShowDatapath> synthesized (advanced).
+
+Synthesizing (advanced) Unit <LightShowROM>.
+INFO:Xst:3226 - The RAM <Mram_ADDRESS[9]_GND_9_o_wide_mux_0_OUT> will be implemented as a BLOCK RAM, absorbing the following register(s): <DATA_out>
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 1024-word x 20-bit                  |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <CLK>           | rise     |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ADDRESS>       |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <DATA_out>      |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <LightShowROM> synthesized (advanced).
+
+Synthesizing (advanced) Unit <WordTo8dig7seg>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_anode> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 8-word x 8-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <sel>           |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <anode>         |          |
+    -----------------------------------------------------------------------
+Unit <WordTo8dig7seg> synthesized (advanced).
+
+Synthesizing (advanced) Unit <hextosevenseg>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_Segment> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 7-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <Hex>           |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <Segment>       |          |
+    -----------------------------------------------------------------------
+Unit <hextosevenseg> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 4
+ 1024x20-bit single-port block Read Only RAM           : 1
+ 16x1-bit single-port distributed Read Only RAM        : 1
+ 16x7-bit single-port distributed Read Only RAM        : 1
+ 8x8-bit single-port distributed Read Only RAM         : 1
+# Counters                                             : 5
+ 10-bit up counter                                     : 1
+ 32-bit up counter                                     : 4
+# Registers                                            : 85
+ Flip-Flops                                            : 85
+# Comparators                                          : 1
+ 16-bit comparator equal                               : 1
+# Multiplexers                                         : 2
+ 10-bit 2-to-1 multiplexer                             : 1
+ 4-bit 8-to-1 multiplexer                              : 1
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <FSM_0> on signal <presentState[1:4]> with user encoding.
+----------------------------------
+ State                | Encoding
+----------------------------------
+ reset_state          | 0000
+ check_mode           | 0001
+ read_memory          | 0010
+ wait_for_btnu        | 0011
+ decode_instruction   | 0100
+ load_led_reg         | 0101
+ load_delay_reg       | 0110
+ wait_for_delay       | 0111
+ load_pc_plus_1       | 1000
+ load_pc_with_address | 1001
+----------------------------------
+WARNING:Xst:2677 - Node <count_17> of sequential type is unconnected in block <Counter_nbit_1>.
+WARNING:Xst:2677 - Node <count_18> of sequential type is unconnected in block <Counter_nbit_1>.
+WARNING:Xst:2677 - Node <count_19> of sequential type is unconnected in block <Counter_nbit_1>.
+WARNING:Xst:2677 - Node <count_20> of sequential type is unconnected in block <Counter_nbit_1>.
+WARNING:Xst:2677 - Node <count_21> of sequential type is unconnected in block <Counter_nbit_1>.
+WARNING:Xst:2677 - Node <count_22> of sequential type is unconnected in block <Counter_nbit_1>.
+WARNING:Xst:2677 - Node <count_23> of sequential type is unconnected in block <Counter_nbit_1>.
+WARNING:Xst:2677 - Node <count_24> of sequential type is unconnected in block <Counter_nbit_1>.
+WARNING:Xst:2677 - Node <count_25> of sequential type is unconnected in block <Counter_nbit_1>.
+WARNING:Xst:2677 - Node <count_26> of sequential type is unconnected in block <Counter_nbit_1>.
+WARNING:Xst:2677 - Node <count_27> of sequential type is unconnected in block <Counter_nbit_1>.
+WARNING:Xst:2677 - Node <count_28> of sequential type is unconnected in block <Counter_nbit_1>.
+WARNING:Xst:2677 - Node <count_29> of sequential type is unconnected in block <Counter_nbit_1>.
+WARNING:Xst:2677 - Node <count_30> of sequential type is unconnected in block <Counter_nbit_1>.
+WARNING:Xst:2677 - Node <count_31> of sequential type is unconnected in block <Counter_nbit_1>.
+WARNING:Xst:2677 - Node <count_16> of sequential type is unconnected in block <Counter_nbit_2>.
+WARNING:Xst:2677 - Node <count_17> of sequential type is unconnected in block <Counter_nbit_2>.
+WARNING:Xst:2677 - Node <count_18> of sequential type is unconnected in block <Counter_nbit_2>.
+WARNING:Xst:2677 - Node <count_19> of sequential type is unconnected in block <Counter_nbit_2>.
+WARNING:Xst:2677 - Node <count_20> of sequential type is unconnected in block <Counter_nbit_2>.
+WARNING:Xst:2677 - Node <count_21> of sequential type is unconnected in block <Counter_nbit_2>.
+WARNING:Xst:2677 - Node <count_22> of sequential type is unconnected in block <Counter_nbit_2>.
+WARNING:Xst:2677 - Node <count_23> of sequential type is unconnected in block <Counter_nbit_2>.
+WARNING:Xst:2677 - Node <count_24> of sequential type is unconnected in block <Counter_nbit_2>.
+WARNING:Xst:2677 - Node <count_25> of sequential type is unconnected in block <Counter_nbit_2>.
+WARNING:Xst:2677 - Node <count_26> of sequential type is unconnected in block <Counter_nbit_2>.
+WARNING:Xst:2677 - Node <count_27> of sequential type is unconnected in block <Counter_nbit_2>.
+WARNING:Xst:2677 - Node <count_28> of sequential type is unconnected in block <Counter_nbit_2>.
+WARNING:Xst:2677 - Node <count_29> of sequential type is unconnected in block <Counter_nbit_2>.
+WARNING:Xst:2677 - Node <count_30> of sequential type is unconnected in block <Counter_nbit_2>.
+WARNING:Xst:2677 - Node <count_31> of sequential type is unconnected in block <Counter_nbit_2>.
+WARNING:Xst:2677 - Node <W24D7S/cnt/count_3> of sequential type is unconnected in block <Lab07_egw100>.
+WARNING:Xst:2677 - Node <W24D7S/cnt/count_4> of sequential type is unconnected in block <Lab07_egw100>.
+WARNING:Xst:2677 - Node <W24D7S/cnt/count_5> of sequential type is unconnected in block <Lab07_egw100>.
+WARNING:Xst:2677 - Node <W24D7S/cnt/count_6> of sequential type is unconnected in block <Lab07_egw100>.
+WARNING:Xst:2677 - Node <W24D7S/cnt/count_7> of sequential type is unconnected in block <Lab07_egw100>.
+WARNING:Xst:2677 - Node <W24D7S/cnt/count_8> of sequential type is unconnected in block <Lab07_egw100>.
+WARNING:Xst:2677 - Node <W24D7S/cnt/count_9> of sequential type is unconnected in block <Lab07_egw100>.
+WARNING:Xst:2677 - Node <W24D7S/cnt/count_10> of sequential type is unconnected in block <Lab07_egw100>.
+WARNING:Xst:2677 - Node <W24D7S/cnt/count_11> of sequential type is unconnected in block <Lab07_egw100>.
+WARNING:Xst:2677 - Node <W24D7S/cnt/count_12> of sequential type is unconnected in block <Lab07_egw100>.
+WARNING:Xst:2677 - Node <W24D7S/cnt/count_13> of sequential type is unconnected in block <Lab07_egw100>.
+WARNING:Xst:2677 - Node <W24D7S/cnt/count_14> of sequential type is unconnected in block <Lab07_egw100>.
+WARNING:Xst:2677 - Node <W24D7S/cnt/count_15> of sequential type is unconnected in block <Lab07_egw100>.
+WARNING:Xst:2677 - Node <W24D7S/cnt/count_16> of sequential type is unconnected in block <Lab07_egw100>.
+WARNING:Xst:2677 - Node <W24D7S/cnt/count_17> of sequential type is unconnected in block <Lab07_egw100>.
+WARNING:Xst:2677 - Node <W24D7S/cnt/count_18> of sequential type is unconnected in block <Lab07_egw100>.
+WARNING:Xst:2677 - Node <W24D7S/cnt/count_19> of sequential type is unconnected in block <Lab07_egw100>.
+WARNING:Xst:2677 - Node <W24D7S/cnt/count_20> of sequential type is unconnected in block <Lab07_egw100>.
+WARNING:Xst:2677 - Node <W24D7S/cnt/count_21> of sequential type is unconnected in block <Lab07_egw100>.
+WARNING:Xst:2677 - Node <W24D7S/cnt/count_22> of sequential type is unconnected in block <Lab07_egw100>.
+WARNING:Xst:2677 - Node <W24D7S/cnt/count_23> of sequential type is unconnected in block <Lab07_egw100>.
+WARNING:Xst:2677 - Node <W24D7S/cnt/count_24> of sequential type is unconnected in block <Lab07_egw100>.
+WARNING:Xst:2677 - Node <W24D7S/cnt/count_25> of sequential type is unconnected in block <Lab07_egw100>.
+WARNING:Xst:2677 - Node <W24D7S/cnt/count_26> of sequential type is unconnected in block <Lab07_egw100>.
+WARNING:Xst:2677 - Node <W24D7S/cnt/count_27> of sequential type is unconnected in block <Lab07_egw100>.
+WARNING:Xst:2677 - Node <W24D7S/cnt/count_28> of sequential type is unconnected in block <Lab07_egw100>.
+WARNING:Xst:2677 - Node <W24D7S/cnt/count_29> of sequential type is unconnected in block <Lab07_egw100>.
+WARNING:Xst:2677 - Node <W24D7S/cnt/count_30> of sequential type is unconnected in block <Lab07_egw100>.
+WARNING:Xst:2677 - Node <W24D7S/cnt/count_31> of sequential type is unconnected in block <Lab07_egw100>.
+
+Optimizing unit <Counter_nbit_1> ...
+
+Optimizing unit <Counter_nbit_2> ...
+
+Optimizing unit <Lab07_egw100> ...
+
+Optimizing unit <LightShowDatapath> ...
+INFO:Xst:2261 - The FF/Latch <DP_LIGHT_SHOW/PULSE1ms/cnt/Q_0> in Unit <Lab07_egw100> is equivalent to the following FF/Latch, which will be removed : <PULSE1ms/cnt/Q_0> 
+INFO:Xst:2261 - The FF/Latch <DP_LIGHT_SHOW/PULSE1ms/cnt/Q_1> in Unit <Lab07_egw100> is equivalent to the following FF/Latch, which will be removed : <PULSE1ms/cnt/Q_1> 
+INFO:Xst:2261 - The FF/Latch <DP_LIGHT_SHOW/PULSE1ms/cnt/Q_2> in Unit <Lab07_egw100> is equivalent to the following FF/Latch, which will be removed : <PULSE1ms/cnt/Q_2> 
+INFO:Xst:2261 - The FF/Latch <DP_LIGHT_SHOW/PULSE1ms/cnt/Q_3> in Unit <Lab07_egw100> is equivalent to the following FF/Latch, which will be removed : <PULSE1ms/cnt/Q_3> 
+INFO:Xst:2261 - The FF/Latch <DP_LIGHT_SHOW/PULSE1ms/cnt/Q_4> in Unit <Lab07_egw100> is equivalent to the following FF/Latch, which will be removed : <PULSE1ms/cnt/Q_4> 
+INFO:Xst:2261 - The FF/Latch <DP_LIGHT_SHOW/PULSE1ms/cnt/Q_5> in Unit <Lab07_egw100> is equivalent to the following FF/Latch, which will be removed : <PULSE1ms/cnt/Q_5> 
+INFO:Xst:2261 - The FF/Latch <DP_LIGHT_SHOW/PULSE1ms/cnt/Q_6> in Unit <Lab07_egw100> is equivalent to the following FF/Latch, which will be removed : <PULSE1ms/cnt/Q_6> 
+INFO:Xst:2261 - The FF/Latch <DP_LIGHT_SHOW/PULSE1ms/cnt/Q_7> in Unit <Lab07_egw100> is equivalent to the following FF/Latch, which will be removed : <PULSE1ms/cnt/Q_7> 
+INFO:Xst:2261 - The FF/Latch <DP_LIGHT_SHOW/PULSE1ms/cnt/Q_8> in Unit <Lab07_egw100> is equivalent to the following FF/Latch, which will be removed : <PULSE1ms/cnt/Q_8> 
+INFO:Xst:2261 - The FF/Latch <DP_LIGHT_SHOW/PULSE1ms/cnt/Q_9> in Unit <Lab07_egw100> is equivalent to the following FF/Latch, which will be removed : <PULSE1ms/cnt/Q_9> 
+INFO:Xst:2261 - The FF/Latch <DP_LIGHT_SHOW/PULSE1ms/cnt/Q_10> in Unit <Lab07_egw100> is equivalent to the following FF/Latch, which will be removed : <PULSE1ms/cnt/Q_10> 
+INFO:Xst:2261 - The FF/Latch <DP_LIGHT_SHOW/PULSE1ms/cnt/Q_11> in Unit <Lab07_egw100> is equivalent to the following FF/Latch, which will be removed : <PULSE1ms/cnt/Q_11> 
+INFO:Xst:2261 - The FF/Latch <DP_LIGHT_SHOW/PULSE1ms/cnt/Q_12> in Unit <Lab07_egw100> is equivalent to the following FF/Latch, which will be removed : <PULSE1ms/cnt/Q_12> 
+INFO:Xst:2261 - The FF/Latch <DP_LIGHT_SHOW/PULSE1ms/cnt/Q_13> in Unit <Lab07_egw100> is equivalent to the following FF/Latch, which will be removed : <PULSE1ms/cnt/Q_13> 
+INFO:Xst:2261 - The FF/Latch <DP_LIGHT_SHOW/PULSE1ms/cnt/Q_14> in Unit <Lab07_egw100> is equivalent to the following FF/Latch, which will be removed : <PULSE1ms/cnt/Q_14> 
+INFO:Xst:2261 - The FF/Latch <DP_LIGHT_SHOW/PULSE1ms/cnt/Q_15> in Unit <Lab07_egw100> is equivalent to the following FF/Latch, which will be removed : <PULSE1ms/cnt/Q_15> 
+INFO:Xst:2261 - The FF/Latch <DP_LIGHT_SHOW/PULSE1ms/cnt/Q_16> in Unit <Lab07_egw100> is equivalent to the following FF/Latch, which will be removed : <PULSE1ms/cnt/Q_16> 
+INFO:Xst:2261 - The FF/Latch <DP_LIGHT_SHOW/PULSE1ms/cnt/count_0> in Unit <Lab07_egw100> is equivalent to the following FF/Latch, which will be removed : <PULSE1ms/cnt/count_0> 
+INFO:Xst:2261 - The FF/Latch <DP_LIGHT_SHOW/PULSE1ms/cnt/count_1> in Unit <Lab07_egw100> is equivalent to the following FF/Latch, which will be removed : <PULSE1ms/cnt/count_1> 
+INFO:Xst:2261 - The FF/Latch <DP_LIGHT_SHOW/PULSE1ms/cnt/count_2> in Unit <Lab07_egw100> is equivalent to the following FF/Latch, which will be removed : <PULSE1ms/cnt/count_2> 
+INFO:Xst:2261 - The FF/Latch <DP_LIGHT_SHOW/PULSE1ms/cnt/count_3> in Unit <Lab07_egw100> is equivalent to the following FF/Latch, which will be removed : <PULSE1ms/cnt/count_3> 
+INFO:Xst:2261 - The FF/Latch <DP_LIGHT_SHOW/PULSE1ms/cnt/count_4> in Unit <Lab07_egw100> is equivalent to the following FF/Latch, which will be removed : <PULSE1ms/cnt/count_4> 
+INFO:Xst:2261 - The FF/Latch <DP_LIGHT_SHOW/PULSE1ms/cnt/count_5> in Unit <Lab07_egw100> is equivalent to the following FF/Latch, which will be removed : <PULSE1ms/cnt/count_5> 
+INFO:Xst:2261 - The FF/Latch <DP_LIGHT_SHOW/PULSE1ms/cnt/count_6> in Unit <Lab07_egw100> is equivalent to the following FF/Latch, which will be removed : <PULSE1ms/cnt/count_6> 
+INFO:Xst:2261 - The FF/Latch <DP_LIGHT_SHOW/PULSE1ms/cnt/count_7> in Unit <Lab07_egw100> is equivalent to the following FF/Latch, which will be removed : <PULSE1ms/cnt/count_7> 
+INFO:Xst:2261 - The FF/Latch <DP_LIGHT_SHOW/PULSE1ms/cnt/count_8> in Unit <Lab07_egw100> is equivalent to the following FF/Latch, which will be removed : <PULSE1ms/cnt/count_8> 
+INFO:Xst:2261 - The FF/Latch <DP_LIGHT_SHOW/PULSE1ms/cnt/count_9> in Unit <Lab07_egw100> is equivalent to the following FF/Latch, which will be removed : <PULSE1ms/cnt/count_9> 
+INFO:Xst:2261 - The FF/Latch <DP_LIGHT_SHOW/PULSE1ms/cnt/count_10> in Unit <Lab07_egw100> is equivalent to the following FF/Latch, which will be removed : <PULSE1ms/cnt/count_10> 
+INFO:Xst:2261 - The FF/Latch <DP_LIGHT_SHOW/PULSE1ms/cnt/count_11> in Unit <Lab07_egw100> is equivalent to the following FF/Latch, which will be removed : <PULSE1ms/cnt/count_11> 
+INFO:Xst:2261 - The FF/Latch <DP_LIGHT_SHOW/PULSE1ms/cnt/count_12> in Unit <Lab07_egw100> is equivalent to the following FF/Latch, which will be removed : <PULSE1ms/cnt/count_12> 
+INFO:Xst:2261 - The FF/Latch <DP_LIGHT_SHOW/PULSE1ms/cnt/count_13> in Unit <Lab07_egw100> is equivalent to the following FF/Latch, which will be removed : <PULSE1ms/cnt/count_13> 
+INFO:Xst:2261 - The FF/Latch <DP_LIGHT_SHOW/PULSE1ms/cnt/count_14> in Unit <Lab07_egw100> is equivalent to the following FF/Latch, which will be removed : <PULSE1ms/cnt/count_14> 
+INFO:Xst:2261 - The FF/Latch <DP_LIGHT_SHOW/PULSE1ms/cnt/count_15> in Unit <Lab07_egw100> is equivalent to the following FF/Latch, which will be removed : <PULSE1ms/cnt/count_15> 
+INFO:Xst:2261 - The FF/Latch <DP_LIGHT_SHOW/PULSE1ms/cnt/count_16> in Unit <Lab07_egw100> is equivalent to the following FF/Latch, which will be removed : <PULSE1ms/cnt/count_16> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Lab07_egw100, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 118
+ Flip-Flops                                            : 118
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Lab07_egw100.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 246
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 33
+#      LUT2                        : 4
+#      LUT3                        : 13
+#      LUT4                        : 56
+#      LUT5                        : 12
+#      LUT6                        : 23
+#      MUXCY                       : 50
+#      MUXF7                       : 4
+#      VCC                         : 1
+#      XORCY                       : 46
+# FlipFlops/Latches                : 118
+#      FD                          : 32
+#      FDR                         : 3
+#      FDRE                        : 83
+# RAMS                             : 1
+#      RAMB36E1                    : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 48
+#      IBUF                        : 17
+#      OBUF                        : 31
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             118  out of  126800     0%  
+ Number of Slice LUTs:                  144  out of  63400     0%  
+    Number used as Logic:               144  out of  63400     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    188
+   Number with an unused Flip Flop:      70  out of    188    37%  
+   Number with an unused LUT:            44  out of    188    23%  
+   Number of fully used LUT-FF pairs:    74  out of    188    39%  
+   Number of unique control sets:         8
+
+IO Utilization: 
+ Number of IOs:                          53
+ Number of bonded IOBs:                  49  out of    210    23%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:                1  out of    135     0%  
+    Number using Block RAM only:          1
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 119   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 3.598ns (Maximum Frequency: 277.929MHz)
+   Minimum input arrival time before clock: 3.927ns
+   Maximum output required time after clock: 4.140ns
+   Maximum combinational path delay: 3.159ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 3.598ns (frequency: 277.929MHz)
+  Total number of paths / destination ports: 2318 / 249
+-------------------------------------------------------------------------
+Delay:               3.598ns (Levels of Logic = 3)
+  Source:            DP_LIGHT_SHOW/PULSE1ms/cnt/Q_11 (FF)
+  Destination:       DP_LIGHT_SHOW/PULSE1ms/cnt/count_9 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: DP_LIGHT_SHOW/PULSE1ms/cnt/Q_11 to DP_LIGHT_SHOW/PULSE1ms/cnt/count_9
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.478   0.919  DP_LIGHT_SHOW/PULSE1ms/cnt/Q_11 (DP_LIGHT_SHOW/PULSE1ms/cnt/Q_11)
+     LUT5:I0->O           27   0.124   0.867  PULSE1ms/pulse_int<16>3 (DP_LIGHT_SHOW/PULSE1ms/pulse_int<16>2)
+     LUT3:I0->O           46   0.124   0.932  PULSE1ms/pulse_int<16>4 (DP_LIGHT_SHOW/PULSE1ms/clear)
+     LUT4:I0->O            1   0.124   0.000  DP_LIGHT_SHOW/PULSE1ms/cnt/count_9_rstpot (DP_LIGHT_SHOW/PULSE1ms/cnt/count_9_rstpot)
+     FD:D                      0.030          DP_LIGHT_SHOW/PULSE1ms/cnt/count_9
+    ----------------------------------------
+    Total                      3.598ns (0.880ns logic, 2.718ns route)
+                                       (24.5% logic, 75.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 24 / 7
+-------------------------------------------------------------------------
+Offset:              3.927ns (Levels of Logic = 6)
+  Source:            BUTTON<5> (PAD)
+  Destination:       FSM_LIGHT_SHOW/presentState_FSM_FFd4 (FF)
+  Destination Clock: CLK rising
+
+  Data Path: BUTTON<5> to FSM_LIGHT_SHOW/presentState_FSM_FFd4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.001   0.716  BUTTON_5_IBUF (BUTTON_5_IBUF)
+     LUT6:I3->O            1   0.124   0.421  FSM_LIGHT_SHOW/presentState_FSM_FFd4-In2 (FSM_LIGHT_SHOW/presentState_FSM_FFd4-In2)
+     LUT6:I5->O            1   0.124   0.919  FSM_LIGHT_SHOW/presentState_FSM_FFd4-In3 (FSM_LIGHT_SHOW/presentState_FSM_FFd4-In3)
+     LUT6:I1->O            1   0.124   0.536  FSM_LIGHT_SHOW/presentState_FSM_FFd4-In4 (FSM_LIGHT_SHOW/presentState_FSM_FFd4-In4)
+     LUT4:I2->O            1   0.124   0.000  FSM_LIGHT_SHOW/presentState_FSM_FFd4-In5_lut1 (FSM_LIGHT_SHOW/presentState_FSM_FFd4-In5_lut1)
+     MUXCY:S->O            1   0.808   0.000  FSM_LIGHT_SHOW/presentState_FSM_FFd4-In5_cy1 (FSM_LIGHT_SHOW/presentState_FSM_FFd4-In)
+     FDR:D                     0.030          FSM_LIGHT_SHOW/presentState_FSM_FFd4
+    ----------------------------------------
+    Total                      3.927ns (1.335ns logic, 2.592ns route)
+                                       (34.0% logic, 66.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 460 / 31
+-------------------------------------------------------------------------
+Offset:              4.140ns (Levels of Logic = 5)
+  Source:            DP_LIGHT_SHOW/REG_PC/Q_4 (FF)
+  Destination:       SEGMENT<0> (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: DP_LIGHT_SHOW/REG_PC/Q_4 to SEGMENT<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             2   0.478   0.925  DP_LIGHT_SHOW/REG_PC/Q_4 (DP_LIGHT_SHOW/REG_PC/Q_4)
+     LUT5:I0->O            2   0.124   0.782  DP_LIGHT_SHOW/Mmux_ROMaddress51 (displayWord<24>)
+     LUT6:I2->O            1   0.124   0.000  W24D7S/Mmux_w2h_3 (W24D7S/Mmux_w2h_3)
+     MUXF7:I1->O           7   0.368   0.816  W24D7S/Mmux_w2h_2_f7 (W24D7S/w2h<0>)
+     LUT4:I0->O            1   0.124   0.399  W24D7S/h27/Mram_Segment21 (SEGMENT_4_OBUF)
+     OBUF:I->O                 0.000          SEGMENT_4_OBUF (SEGMENT<4>)
+    ----------------------------------------
+    Total                      4.140ns (1.218ns logic, 2.922ns route)
+                                       (29.4% logic, 70.6% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 70 / 7
+-------------------------------------------------------------------------
+Delay:               3.159ns (Levels of Logic = 6)
+  Source:            SWITCH<10> (PAD)
+  Destination:       SEGMENT<0> (PAD)
+
+  Data Path: SWITCH<10> to SEGMENT<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.001   0.421  SWITCH_10_IBUF (SWITCH_10_IBUF)
+     LUT5:I4->O            2   0.124   0.782  DP_LIGHT_SHOW/Mmux_ROMaddress51 (displayWord<24>)
+     LUT6:I2->O            1   0.124   0.000  W24D7S/Mmux_w2h_3 (W24D7S/Mmux_w2h_3)
+     MUXF7:I1->O           7   0.368   0.816  W24D7S/Mmux_w2h_2_f7 (W24D7S/w2h<0>)
+     LUT4:I0->O            1   0.124   0.399  W24D7S/h27/Mram_Segment21 (SEGMENT_4_OBUF)
+     OBUF:I->O                 0.000          SEGMENT_4_OBUF (SEGMENT<4>)
+    ----------------------------------------
+    Total                      3.159ns (0.741ns logic, 2.418ns route)
+                                       (23.5% logic, 76.5% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    3.598|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 8.89 secs
+ 
+--> 
+
+Total memory usage is 406500 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   62 (   0 filtered)
+Number of infos    :   39 (   0 filtered)
+

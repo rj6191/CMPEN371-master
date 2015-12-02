@@ -1,0 +1,22 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/kalvi_000/Desktop/Lab01/CMPEN371 LAB 1/AdderSubtracto_4bit_tb_isim_beh.exe -prj C:/Users/kalvi_000/Desktop/Lab01/CMPEN371 LAB 1/AdderSubtracto_4bit_tb_beh.prj work.AdderSubtracto_4bit_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/kalvi_000/Desktop/Lab01/CMPEN371 LAB 1/../lab01_kjb5568_rjl5336/FullAdder.vhd" into library work
+Parsing VHDL file "C:/Users/kalvi_000/Desktop/Lab01/CMPEN371 LAB 1/../ripple_carry_adder_4_bit/rippe_carry_adder.vhd" into library work
+Parsing VHDL file "C:/Users/kalvi_000/Desktop/Lab01/CMPEN371 LAB 1/AdderSubtractor_4bit.vhd" into library work
+Parsing VHDL file "C:/Users/kalvi_000/Desktop/Lab01/CMPEN371 LAB 1/AdderSubtracto_4bit_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture dataflow of entity FullAdder [fulladder_default]
+Compiling architecture structural of entity Ripple_Carry_Adder [ripple_carry_adder_default]
+Compiling architecture structural of entity AdderSubtractor_4bit [addersubtractor_4bit_default]
+Compiling architecture behavior of entity addersubtracto_4bit_tb
+Time Resolution for simulation is 1ps.
+Compiled 9 VHDL Units
+Built simulation executable C:/Users/kalvi_000/Desktop/Lab01/CMPEN371 LAB 1/AdderSubtracto_4bit_tb_isim_beh.exe
+Fuse Memory Usage: 29188 KB
+Fuse CPU Usage: 421 ms

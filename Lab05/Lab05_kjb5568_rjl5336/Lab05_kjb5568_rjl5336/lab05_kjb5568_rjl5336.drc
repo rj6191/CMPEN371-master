@@ -1,0 +1,17 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Wed Oct 07 10:50:50 2015
+
+drc -z lab05_kjb5568_rjl5336.ncd lab05_kjb5568_rjl5336.pcf
+
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   pingpong/presentstate[4]_PWR_24_o_Mux_42_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   wall/presentstate[4]_PWR_28_o_Mux_67_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+DRC detected 0 errors and 2 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

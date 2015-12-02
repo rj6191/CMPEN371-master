@@ -1,0 +1,7 @@
+Storage Target: SPI Flash Single FPGA
+Auto Select Storage Device
+FF
+lab5
+C:/Users/kalvi_000/Desktop/Lab05/Lab05_kjb5568_rjl5336/Lab05_kjb5568_rjl5336
+
+MCS

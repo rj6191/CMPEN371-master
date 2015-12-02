@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Kevin\Desktop\XGA\XGA\XGA.ncd
+OUTFILE=C:\Users\Kevin\Desktop\XGA\XGA\XGA.bit
+FAMILY=Artix7
+PART=xc7a100t-1csg324
+WORKINGDIR=C:\Users\Kevin\Desktop\XGA\XGA
+LICENSE=WebPack
+USER_INFO=211083008_0_0_273

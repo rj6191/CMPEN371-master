@@ -1,0 +1,18 @@
+Running: G:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o K:/Lab03/Lab03_kjb5568_rjl5336/Lab03_kjb5568_rjl5336/Average_isim_beh.exe -prj K:/Lab03/Lab03_kjb5568_rjl5336/Lab03_kjb5568_rjl5336/Average_beh.prj work.Average 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "K:/Lab03/Lab03_kjb5568_rjl5336/Lab03_kjb5568_rjl5336/Average.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity average
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 4 VHDL Units
+Built simulation executable K:/Lab03/Lab03_kjb5568_rjl5336/Lab03_kjb5568_rjl5336/Average_isim_beh.exe
+Fuse Memory Usage: 34504 KB
+Fuse CPU Usage: 452 ms

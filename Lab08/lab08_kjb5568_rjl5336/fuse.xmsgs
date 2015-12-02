@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="946" delta="unknown" >"C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/VGA_Control.vhd" Line 80: Actual for formal port <arg fmt="%s" index="1">clr</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="unknown" >"C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/VGA_Control.vhd" Line 84: Actual for formal port <arg fmt="%s" index="1">en</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="unknown" >"C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/VGA_Control.vhd" Line 86: Actual for formal port <arg fmt="%s" index="1">clr</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="unknown" >"C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/VGA_Control.vhd" Line 130: Actual for formal port <arg fmt="%s" index="1">d</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="unknown" >"C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/VGA_Control.vhd" Line 136: Actual for formal port <arg fmt="%s" index="1">d</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="unknown" >"C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/VGA_Control.vhd" Line 142: Actual for formal port <arg fmt="%s" index="1">d</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="794" delta="unknown" >"C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/VGA_Control.vhd" Line 149: Statement might not cover all choices ; &apos;others&apos; clause recommended
+</msg>
+
+</messages>
+

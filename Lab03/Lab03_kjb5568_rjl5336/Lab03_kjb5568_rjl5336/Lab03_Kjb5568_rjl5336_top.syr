@@ -1,0 +1,534 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: Lab03_Kjb5568_rjl5336_top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Lab03_Kjb5568_rjl5336_top.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Lab03_Kjb5568_rjl5336_top"
+Output Format                      : NGC
+Target Device                      : xc7a100t-1-csg324
+
+---- Source Options
+Top Module Name                    : Lab03_Kjb5568_rjl5336_top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "K:\Lab03\kjb5568_rjl5336_library\FullAdder.vhd" into library kjb5568_rjl5336_library
+Parsing entity <FullAdder>.
+Parsing architecture <Dataflow> of entity <fulladder>.
+Parsing VHDL file "K:\Lab03\kjb5568_rjl5336_library\rippe_carry_adder.vhd" into library kjb5568_rjl5336_library
+Parsing entity <Ripple_Carry_Adder>.
+Parsing architecture <Structural> of entity <ripple_carry_adder>.
+Parsing VHDL file "K:\Lab03\kjb5568_rjl5336_library\LST.vhd" into library kjb5568_rjl5336_library
+Parsing entity <LST>.
+Parsing architecture <structural> of entity <lst>.
+Parsing VHDL file "K:\Lab03\kjb5568_rjl5336_library\kjb5568_rjl5336_components.vhd" into library kjb5568_rjl5336_library
+Parsing package <kjb5568_rjl5336_Components>.
+Parsing package body <kjb5568_rjl5336_Components>.
+Parsing VHDL file "K:\Lab03\kjb5568_rjl5336_library\CompareGRT.vhd" into library kjb5568_rjl5336_library
+Parsing entity <CompareGRT>.
+Parsing architecture <structural> of entity <comparegrt>.
+Parsing VHDL file "K:\Lab03\kjb5568_rjl5336_library\threeto8encoder.vhd" into library kjb5568_rjl5336_library
+Parsing entity <threeto8encoder>.
+Parsing architecture <structural> of entity <threeto8encoder>.
+Parsing VHDL file "K:\Lab03\kjb5568_rjl5336_library\mux.vhd" into library kjb5568_rjl5336_library
+Parsing entity <mux4to1>.
+Parsing architecture <Structural> of entity <mux4to1>.
+Parsing VHDL file "K:\Lab03\kjb5568_rjl5336_library\Minimum.vhd" into library kjb5568_rjl5336_library
+Parsing entity <minimum>.
+Parsing architecture <Structural> of entity <minimum>.
+Parsing VHDL file "K:\Lab03\kjb5568_rjl5336_library\maximum.vhd" into library kjb5568_rjl5336_library
+Parsing entity <maximum>.
+Parsing architecture <Structural> of entity <maximum>.
+Parsing VHDL file "K:\Lab03\kjb5568_rjl5336_library\hextosevenseg.vhd" into library kjb5568_rjl5336_library
+Parsing entity <hextosevenseg>.
+Parsing architecture <structural> of entity <hextosevenseg>.
+Parsing VHDL file "K:\Lab03\kjb5568_rjl5336_library\Average.vhd" into library kjb5568_rjl5336_library
+Parsing entity <Average>.
+Parsing architecture <structural> of entity <average>.
+Parsing VHDL file "K:\Lab03\kjb5568_rjl5336_library\AdderSubtractor_nbit.vhd" into library kjb5568_rjl5336_library
+Parsing entity <AdderSubtractor_nbit>.
+Parsing architecture <Structural> of entity <addersubtractor_nbit>.
+Parsing VHDL file "K:\Lab03\Lab03_kjb5568_rjl5336\Lab03_kjb5568_rjl5336\Lab03_Kjb5568_rjl5336_top.vhd" into library work
+Parsing entity <Lab03_Kjb5568_rjl5336_top>.
+Parsing architecture <structural> of entity <lab03_kjb5568_rjl5336_top>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <Lab03_Kjb5568_rjl5336_top> (architecture <structural>) from library <work>.
+
+Elaborating entity <maximum> (architecture <Structural>) from library <kjb5568_rjl5336_library>.
+
+Elaborating entity <CompareGRT> (architecture <structural>) with generics from library <kjb5568_rjl5336_library>.
+
+Elaborating entity <minimum> (architecture <Structural>) from library <kjb5568_rjl5336_library>.
+
+Elaborating entity <LST> (architecture <structural>) with generics from library <kjb5568_rjl5336_library>.
+
+Elaborating entity <Average> (architecture <structural>) from library <kjb5568_rjl5336_library>.
+
+Elaborating entity <AdderSubtractor_nbit> (architecture <Structural>) with generics from library <kjb5568_rjl5336_library>.
+
+Elaborating entity <Ripple_Carry_Adder> (architecture <Structural>) with generics from library <kjb5568_rjl5336_library>.
+
+Elaborating entity <FullAdder> (architecture <Dataflow>) from library <kjb5568_rjl5336_library>.
+
+Elaborating entity <hextosevenseg> (architecture <structural>) from library <kjb5568_rjl5336_library>.
+
+Elaborating entity <threeto8encoder> (architecture <structural>) from library <kjb5568_rjl5336_library>.
+
+Elaborating entity <mux4to1> (architecture <Structural>) from library <kjb5568_rjl5336_library>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Lab03_Kjb5568_rjl5336_top>.
+    Related source file is "K:\Lab03\Lab03_kjb5568_rjl5336\Lab03_kjb5568_rjl5336\Lab03_Kjb5568_rjl5336_top.vhd".
+INFO:Xst:3210 - "K:\Lab03\Lab03_kjb5568_rjl5336\Lab03_kjb5568_rjl5336\Lab03_Kjb5568_rjl5336_top.vhd" line 59: Output port <OVERFLOW> of the instance <ADDER> is unconnected or connected to loadless signal.
+    Summary:
+	inferred   5 Multiplexer(s).
+Unit <Lab03_Kjb5568_rjl5336_top> synthesized.
+
+Synthesizing Unit <maximum>.
+    Related source file is "K:\Lab03\kjb5568_rjl5336_library\maximum.vhd".
+    Summary:
+	inferred   6 Multiplexer(s).
+Unit <maximum> synthesized.
+
+Synthesizing Unit <CompareGRT>.
+    Related source file is "K:\Lab03\kjb5568_rjl5336_library\CompareGRT.vhd".
+        n = 4
+    Found 4-bit comparator greater for signal <B[3]_A[3]_LessThan_1_o> created at line 44
+    Found 4-bit comparator lessequal for signal <A[3]_B[3]_LessThan_2_o> created at line 45
+    Summary:
+	inferred   2 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <CompareGRT> synthesized.
+
+Synthesizing Unit <minimum>.
+    Related source file is "K:\Lab03\kjb5568_rjl5336_library\Minimum.vhd".
+    Summary:
+	inferred   6 Multiplexer(s).
+Unit <minimum> synthesized.
+
+Synthesizing Unit <LST>.
+    Related source file is "K:\Lab03\kjb5568_rjl5336_library\LST.vhd".
+        n = 4
+    Found 4-bit comparator greater for signal <A[3]_B[3]_LessThan_1_o> created at line 35
+    Found 4-bit comparator lessequal for signal <B[3]_A[3]_LessThan_2_o> created at line 36
+    Summary:
+	inferred   2 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <LST> synthesized.
+
+Synthesizing Unit <Average>.
+    Related source file is "K:\Lab03\kjb5568_rjl5336_library\Average.vhd".
+    Found 32-bit adder for signal <n0042> created at line 40.
+    Found 32-bit adder for signal <n0045> created at line 40.
+    Found 32-bit adder for signal <total> created at line 40.
+    Found 30-bit adder for signal <total[31]_GND_10_o_add_11_OUT> created at line 44.
+    Found 31-bit adder for signal <n0052> created at line 43.
+    Summary:
+	inferred   5 Adder/Subtractor(s).
+	inferred   1 Multiplexer(s).
+Unit <Average> synthesized.
+
+Synthesizing Unit <AdderSubtractor_nbit>.
+    Related source file is "K:\Lab03\kjb5568_rjl5336_library\AdderSubtractor_nbit.vhd".
+        n = 4
+INFO:Xst:3210 - "K:\Lab03\kjb5568_rjl5336_library\AdderSubtractor_nbit.vhd" line 52: Output port <C_out> of the instance <RCA> is unconnected or connected to loadless signal.
+    Summary:
+Unit <AdderSubtractor_nbit> synthesized.
+
+Synthesizing Unit <Ripple_Carry_Adder>.
+    Related source file is "K:\Lab03\kjb5568_rjl5336_library\rippe_carry_adder.vhd".
+        n = 4
+    Summary:
+	no macro.
+Unit <Ripple_Carry_Adder> synthesized.
+
+Synthesizing Unit <FullAdder>.
+    Related source file is "K:\Lab03\kjb5568_rjl5336_library\FullAdder.vhd".
+    Summary:
+Unit <FullAdder> synthesized.
+
+Synthesizing Unit <hextosevenseg>.
+    Related source file is "K:\Lab03\kjb5568_rjl5336_library\hextosevenseg.vhd".
+    Found 16x7-bit Read Only RAM for signal <Segment>
+    Summary:
+	inferred   1 RAM(s).
+Unit <hextosevenseg> synthesized.
+
+Synthesizing Unit <threeto8encoder>.
+    Related source file is "K:\Lab03\kjb5568_rjl5336_library\threeto8encoder.vhd".
+    Summary:
+	inferred   6 Multiplexer(s).
+Unit <threeto8encoder> synthesized.
+
+Synthesizing Unit <mux4to1>.
+    Related source file is "K:\Lab03\kjb5568_rjl5336_library\mux.vhd".
+    Found 4-bit 4-to-1 multiplexer for signal <y> created at line 30.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <mux4to1> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 16x7-bit single-port Read Only RAM                    : 1
+# Adders/Subtractors                                   : 5
+ 30-bit adder                                          : 1
+ 31-bit adder                                          : 1
+ 32-bit adder                                          : 3
+# Comparators                                          : 12
+ 4-bit comparator greater                              : 6
+ 4-bit comparator lessequal                            : 6
+# Multiplexers                                         : 31
+ 1-bit 2-to-1 multiplexer                              : 6
+ 2-bit 2-to-1 multiplexer                              : 3
+ 31-bit 2-to-1 multiplexer                             : 1
+ 4-bit 2-to-1 multiplexer                              : 14
+ 4-bit 4-to-1 multiplexer                              : 1
+ 8-bit 2-to-1 multiplexer                              : 6
+# Xors                                                 : 13
+ 1-bit xor2                                            : 13
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <Average>.
+	The following adders/subtractors are grouped into adder tree <Madd_total1> :
+ 	<Madd_n0042> in block <Average>, 	<Madd_n0045> in block <Average>, 	<Madd_total> in block <Average>.
+Unit <Average> synthesized (advanced).
+
+Synthesizing (advanced) Unit <hextosevenseg>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_Segment> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 7-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <Hex>           |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <Segment>       |          |
+    -----------------------------------------------------------------------
+Unit <hextosevenseg> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 16x7-bit single-port distributed Read Only RAM        : 1
+# Adders/Subtractors                                   : 2
+ 30-bit adder                                          : 1
+ 31-bit adder                                          : 1
+# Adder Trees                                          : 1
+ 32-bit / 4-inputs adder tree                          : 1
+# Comparators                                          : 12
+ 4-bit comparator greater                              : 6
+ 4-bit comparator lessequal                            : 6
+# Multiplexers                                         : 25
+ 2-bit 2-to-1 multiplexer                              : 3
+ 31-bit 2-to-1 multiplexer                             : 1
+ 4-bit 2-to-1 multiplexer                              : 14
+ 4-bit 4-to-1 multiplexer                              : 1
+ 8-bit 2-to-1 multiplexer                              : 6
+# Xors                                                 : 13
+ 1-bit xor2                                            : 13
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Lab03_Kjb5568_rjl5336_top> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Lab03_Kjb5568_rjl5336_top, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Lab03_Kjb5568_rjl5336_top.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 194
+#      GND                         : 1
+#      INV                         : 1
+#      LUT1                        : 5
+#      LUT3                        : 38
+#      LUT4                        : 55
+#      LUT5                        : 17
+#      LUT6                        : 23
+#      MUXCY                       : 37
+#      MUXF7                       : 1
+#      VCC                         : 1
+#      XORCY                       : 15
+# IO Buffers                       : 52
+#      IBUF                        : 21
+#      OBUF                        : 31
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                  139  out of  63400     0%  
+    Number used as Logic:               139  out of  63400     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    139
+   Number with an unused Flip Flop:     139  out of    139   100%  
+   Number with an unused LUT:             0  out of    139     0%  
+   Number of fully used LUT-FF pairs:     0  out of    139     0%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                          52
+ Number of bonded IOBs:                  52  out of    210    24%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 10.954ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 124561 / 31
+-------------------------------------------------------------------------
+Delay:               10.954ns (Levels of Logic = 43)
+  Source:            SWITCH<6> (PAD)
+  Destination:       SEGMENT<5> (PAD)
+
+  Data Path: SWITCH<6> to SEGMENT<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             7   0.001   0.979  SWITCH_6_IBUF (LED_6_OBUF)
+     LUT6:I0->O            2   0.124   0.542  ADDERTREE_INTERNAL_Madd1_cy<2>11 (ADDERTREE_INTERNAL_Madd1_cy<2>)
+     LUT3:I1->O           56   0.124   0.579  ADDERTREE_INTERNAL_Madd1_xor<4>11 (ADDERTREE_INTERNAL_Madd_41)
+     LUT3:I2->O            1   0.124   0.421  ADDERTREE_INTERNAL_Madd24 (ADDERTREE_INTERNAL_Madd24)
+     LUT4:I3->O            1   0.124   0.000  ADDERTREE_INTERNAL_Madd2_lut<0>5 (ADDERTREE_INTERNAL_Madd2_lut<0>5)
+     MUXCY:S->O            1   0.472   0.000  ADDERTREE_INTERNAL_Madd2_cy<0>_4 (ADDERTREE_INTERNAL_Madd2_cy<0>5)
+     MUXCY:CI->O           1   0.029   0.000  ADDERTREE_INTERNAL_Madd2_cy<0>_5 (ADDERTREE_INTERNAL_Madd2_cy<0>6)
+     MUXCY:CI->O           1   0.029   0.000  ADDERTREE_INTERNAL_Madd2_cy<0>_6 (ADDERTREE_INTERNAL_Madd2_cy<0>7)
+     MUXCY:CI->O           1   0.029   0.000  ADDERTREE_INTERNAL_Madd2_cy<0>_7 (ADDERTREE_INTERNAL_Madd2_cy<0>8)
+     MUXCY:CI->O           1   0.029   0.000  ADDERTREE_INTERNAL_Madd2_cy<0>_8 (ADDERTREE_INTERNAL_Madd2_cy<0>9)
+     MUXCY:CI->O           1   0.029   0.000  ADDERTREE_INTERNAL_Madd2_cy<0>_9 (ADDERTREE_INTERNAL_Madd2_cy<0>10)
+     MUXCY:CI->O           1   0.029   0.000  ADDERTREE_INTERNAL_Madd2_cy<0>_10 (ADDERTREE_INTERNAL_Madd2_cy<0>11)
+     MUXCY:CI->O           1   0.029   0.000  ADDERTREE_INTERNAL_Madd2_cy<0>_11 (ADDERTREE_INTERNAL_Madd2_cy<0>12)
+     MUXCY:CI->O           1   0.029   0.000  ADDERTREE_INTERNAL_Madd2_cy<0>_12 (ADDERTREE_INTERNAL_Madd2_cy<0>13)
+     MUXCY:CI->O           1   0.029   0.000  ADDERTREE_INTERNAL_Madd2_cy<0>_13 (ADDERTREE_INTERNAL_Madd2_cy<0>14)
+     MUXCY:CI->O           1   0.029   0.000  ADDERTREE_INTERNAL_Madd2_cy<0>_14 (ADDERTREE_INTERNAL_Madd2_cy<0>15)
+     MUXCY:CI->O           1   0.029   0.000  ADDERTREE_INTERNAL_Madd2_cy<0>_15 (ADDERTREE_INTERNAL_Madd2_cy<0>16)
+     MUXCY:CI->O           1   0.029   0.000  ADDERTREE_INTERNAL_Madd2_cy<0>_16 (ADDERTREE_INTERNAL_Madd2_cy<0>17)
+     MUXCY:CI->O           1   0.029   0.000  ADDERTREE_INTERNAL_Madd2_cy<0>_17 (ADDERTREE_INTERNAL_Madd2_cy<0>18)
+     MUXCY:CI->O           1   0.029   0.000  ADDERTREE_INTERNAL_Madd2_cy<0>_18 (ADDERTREE_INTERNAL_Madd2_cy<0>19)
+     MUXCY:CI->O           1   0.029   0.000  ADDERTREE_INTERNAL_Madd2_cy<0>_19 (ADDERTREE_INTERNAL_Madd2_cy<0>20)
+     MUXCY:CI->O           1   0.029   0.000  ADDERTREE_INTERNAL_Madd2_cy<0>_20 (ADDERTREE_INTERNAL_Madd2_cy<0>21)
+     MUXCY:CI->O           1   0.029   0.000  ADDERTREE_INTERNAL_Madd2_cy<0>_21 (ADDERTREE_INTERNAL_Madd2_cy<0>22)
+     MUXCY:CI->O           1   0.029   0.000  ADDERTREE_INTERNAL_Madd2_cy<0>_22 (ADDERTREE_INTERNAL_Madd2_cy<0>23)
+     MUXCY:CI->O           1   0.029   0.000  ADDERTREE_INTERNAL_Madd2_cy<0>_23 (ADDERTREE_INTERNAL_Madd2_cy<0>24)
+     MUXCY:CI->O           1   0.029   0.000  ADDERTREE_INTERNAL_Madd2_cy<0>_24 (ADDERTREE_INTERNAL_Madd2_cy<0>25)
+     MUXCY:CI->O           1   0.029   0.000  ADDERTREE_INTERNAL_Madd2_cy<0>_25 (ADDERTREE_INTERNAL_Madd2_cy<0>26)
+     MUXCY:CI->O           1   0.029   0.000  ADDERTREE_INTERNAL_Madd2_cy<0>_26 (ADDERTREE_INTERNAL_Madd2_cy<0>27)
+     MUXCY:CI->O           1   0.029   0.000  ADDERTREE_INTERNAL_Madd2_cy<0>_27 (ADDERTREE_INTERNAL_Madd2_cy<0>28)
+     MUXCY:CI->O           1   0.029   0.000  ADDERTREE_INTERNAL_Madd2_cy<0>_28 (ADDERTREE_INTERNAL_Madd2_cy<0>29)
+     MUXCY:CI->O           0   0.029   0.000  ADDERTREE_INTERNAL_Madd2_cy<0>_29 (ADDERTREE_INTERNAL_Madd2_cy<0>30)
+     XORCY:CI->O           1   0.510   0.716  ADDERTREE_INTERNAL_Madd2_xor<0>_30 (ADDERTREE_INTERNAL_Madd_312)
+     LUT4:I1->O            1   0.124   0.000  AVGR/Madd_total[31]_GND_10_o_add_11_OUT_lut<0> (AVGR/Madd_total[31]_GND_10_o_add_11_OUT_lut<0>)
+     MUXCY:S->O            1   0.472   0.000  AVGR/Madd_total[31]_GND_10_o_add_11_OUT_cy<0> (AVGR/Madd_total[31]_GND_10_o_add_11_OUT_cy<0>)
+     MUXCY:CI->O           1   0.029   0.000  AVGR/Madd_total[31]_GND_10_o_add_11_OUT_cy<1> (AVGR/Madd_total[31]_GND_10_o_add_11_OUT_cy<1>)
+     XORCY:CI->O           2   0.510   0.427  AVGR/Madd_total[31]_GND_10_o_add_11_OUT_xor<2> (AVGR/total[31]_GND_10_o_add_11_OUT<2>)
+     LUT1:I0->O            1   0.124   0.000  AVGR/Madd_n0052_cy<2>_rt (AVGR/Madd_n0052_cy<2>_rt)
+     MUXCY:S->O            0   0.472   0.000  AVGR/Madd_n0052_cy<2> (AVGR/Madd_n0052_cy<2>)
+     XORCY:CI->O           1   0.510   0.536  AVGR/Madd_n0052_xor<3> (AVGR/n0052<3>)
+     LUT6:I4->O            1   0.124   0.716  Mmux_Hex42 (Mmux_Hex41)
+     LUT4:I1->O            7   0.124   0.816  Mmux_Hex45 (Hex<3>)
+     LUT4:I0->O            1   0.124   0.399  HEX2SEVEN/Mram_Segment111 (SEGMENT_5_OBUF)
+     OBUF:I->O                 0.000          SEGMENT_5_OBUF (SEGMENT<5>)
+    ----------------------------------------
+    Total                     10.954ns (4.823ns logic, 6.131ns route)
+                                       (44.0% logic, 56.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.97 secs
+ 
+--> 
+
+Total memory usage is 410692 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

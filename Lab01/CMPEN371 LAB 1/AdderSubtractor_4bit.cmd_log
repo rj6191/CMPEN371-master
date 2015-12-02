@@ -1,0 +1,19 @@
+xst -intstyle ise -ifn "E:/Lab01/TopLevel_Lab01/AdderSubtractor_4bit.xst" -ofn "E:/Lab01/TopLevel_Lab01/AdderSubtractor_4bit.syr" 
+xst -intstyle ise -ifn "E:/Lab01/TopLevel_Lab01/AdderSubtractor_4bit.xst" -ofn "E:/Lab01/TopLevel_Lab01/AdderSubtractor_4bit.syr" 
+xst -intstyle ise -ifn "E:/Lab01/TopLevel_Lab01/AdderSubtractor_4bit.xst" -ofn "E:/Lab01/TopLevel_Lab01/AdderSubtractor_4bit.syr" 
+xst -intstyle ise -ifn "E:/Lab01/TopLevel_Lab01/AdderSubtractor_4bit.xst" -ofn "E:/Lab01/TopLevel_Lab01/AdderSubtractor_4bit.syr" 
+xst -intstyle ise -ifn "E:/Lab01/TopLevel_Lab01/AdderSubtractor_4bit.xst" -ofn "E:/Lab01/TopLevel_Lab01/AdderSubtractor_4bit.syr" 
+xst -intstyle ise -ifn "E:/Lab01/TopLevel_Lab01/AdderSubtractor_4bit.xst" -ofn "E:/Lab01/TopLevel_Lab01/AdderSubtractor_4bit.syr" 
+xst -intstyle ise -ifn "E:/Lab01/TopLevel_Lab01/AdderSubtractor_4bit.xst" -ofn "E:/Lab01/TopLevel_Lab01/AdderSubtractor_4bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-1 AdderSubtractor_4bit.ngc AdderSubtractor_4bit.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o AdderSubtractor_4bit_map.ncd AdderSubtractor_4bit.ngd AdderSubtractor_4bit.pcf 
+par -w -intstyle ise -ol high -mt off AdderSubtractor_4bit_map.ncd AdderSubtractor_4bit.ncd AdderSubtractor_4bit.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml AdderSubtractor_4bit.twx AdderSubtractor_4bit.ncd -o AdderSubtractor_4bit.twr AdderSubtractor_4bit.pcf 
+bitgen -intstyle ise -f AdderSubtractor_4bit.ut AdderSubtractor_4bit.ncd 
+xst -intstyle ise -ifn "C:/Users/kalvi_000/Desktop/CMPEN371 LAB 1/AdderSubtractor_4bit.xst" -ofn "C:/Users/kalvi_000/Desktop/CMPEN371 LAB 1/AdderSubtractor_4bit.syr" 
+xst -intstyle ise -ifn "C:/Users/kalvi_000/Desktop/Lab01/CMPEN371 LAB 1/AdderSubtractor_4bit.xst" -ofn "C:/Users/kalvi_000/Desktop/Lab01/CMPEN371 LAB 1/AdderSubtractor_4bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-1 "AdderSubtractor_4bit.ngc" AdderSubtractor_4bit.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o AdderSubtractor_4bit_map.ncd AdderSubtractor_4bit.ngd AdderSubtractor_4bit.pcf 
+par -w -intstyle ise -ol high -mt off AdderSubtractor_4bit_map.ncd AdderSubtractor_4bit.ncd AdderSubtractor_4bit.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml AdderSubtractor_4bit.twx AdderSubtractor_4bit.ncd -o AdderSubtractor_4bit.twr AdderSubtractor_4bit.pcf 
+bitgen -intstyle ise -f AdderSubtractor_4bit.ut AdderSubtractor_4bit.ncd 

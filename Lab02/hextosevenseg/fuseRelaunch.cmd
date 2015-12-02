@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "K:/Lab02/hextosevenseg/HexToSevenSeg_tb_isim_beh.exe" -prj "K:/Lab02/hextosevenseg/HexToSevenSeg_tb_beh.prj" "work.HexToSevenSeg_tb" 

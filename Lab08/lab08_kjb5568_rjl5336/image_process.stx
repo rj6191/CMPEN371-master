@@ -1,0 +1,63 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Richard/Desktop/CMPEN371-master/Lab08/lab08_kjb5568_rjl5336/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.64 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Richard/Desktop/CMPEN371-master/Lab08/lab08_kjb5568_rjl5336/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.65 secs
+ 
+--> Reading design: image_process.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\Richard\Desktop\CMPEN371-master\blk_mem_gen_v7_4.vhd" into library work
+Parsing entity <image2>.
+Parsing architecture <image2_a> of entity <image2>.
+Parsing VHDL file "C:\Users\Richard\Desktop\CMPEN371-master\blk_mem_gen_v7_3.vhd" into library work
+Parsing entity <image1>.
+Parsing architecture <image1_a> of entity <image1>.
+Parsing VHDL file "C:\Users\Richard\Desktop\CMPEN371-master\Lab08\lab08_kjb5568_rjl5336\image_processor.vhd" into library work
+Parsing entity <image_process>.
+Parsing architecture <Behavioral> of entity <image_process>.
+
+
+Total REAL time to Xst completion: 26.00 secs
+Total CPU time to Xst completion: 25.52 secs
+ 
+--> 
+
+Total memory usage is 287712 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

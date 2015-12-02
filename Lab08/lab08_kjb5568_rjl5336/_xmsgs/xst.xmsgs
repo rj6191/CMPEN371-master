@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="946" delta="old" >"C:\Users\Richard\Desktop\CMPEN371-master\Lab08\lab08_kjb5568_rjl5336\Image_Generator.vhd" Line 176: Actual for formal port <arg fmt="%s" index="1">up</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="old" >"C:\Users\Richard\Desktop\CMPEN371-master\Lab08\lab08_kjb5568_rjl5336\Image_Generator.vhd" Line 177: Actual for formal port <arg fmt="%s" index="1">down</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="old" >"C:\Users\Richard\Desktop\CMPEN371-master\Lab08\lab08_kjb5568_rjl5336\Image_Generator.vhd" Line 186: Actual for formal port <arg fmt="%s" index="1">up</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="old" >"C:\Users\Richard\Desktop\CMPEN371-master\Lab08\lab08_kjb5568_rjl5336\Image_Generator.vhd" Line 187: Actual for formal port <arg fmt="%s" index="1">down</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"C:\Users\Richard\Desktop\CMPEN371-master\Lab08\kjb5568_rjl5336_library\counterupdown_nbit.vhd" Line 46: <arg fmt="%s" index="1">count</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Richard\Desktop\CMPEN371-master\Lab08\lab08_kjb5568_rjl5336\Image_Generator.vhd</arg>&quot; line <arg fmt="%d" index="2">92</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">DB3</arg>&gt; of block &lt;<arg fmt="%s" index="4">Debouncer</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">Image_Generator</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Richard\Desktop\CMPEN371-master\Lab08\lab08_kjb5568_rjl5336\Image_Generator.vhd</arg>&quot; line <arg fmt="%s" index="2">92</arg>: Output port &lt;<arg fmt="%s" index="3">Q</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DB3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Richard\Desktop\CMPEN371-master\Lab08\lab08_kjb5568_rjl5336\Image_Generator.vhd</arg>&quot; line <arg fmt="%s" index="2">159</arg>: Output port &lt;<arg fmt="%s" index="3">C_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">RightAdder</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Richard\Desktop\CMPEN371-master\Lab08\lab08_kjb5568_rjl5336\Image_Generator.vhd</arg>&quot; line <arg fmt="%s" index="2">167</arg>: Output port &lt;<arg fmt="%s" index="3">C_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">LeftAdder</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Richard\Desktop\CMPEN371-master\Lab08\lab08_kjb5568_rjl5336\Image_Generator.vhd</arg>&quot; line <arg fmt="%s" index="2">192</arg>: Output port &lt;<arg fmt="%s" index="3">C_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">UpAdder</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Richard\Desktop\CMPEN371-master\Lab08\lab08_kjb5568_rjl5336\Image_Generator.vhd</arg>&quot; line <arg fmt="%s" index="2">200</arg>: Output port &lt;<arg fmt="%s" index="3">C_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DownAdder</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3226" delta="old" >The RAM &lt;<arg fmt="%s" index="1">Mram_ADDRESS[8]_GND_148_o_wide_mux_0_OUT</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">Inst_Image_Generator/verticalCounter/count_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Lab08_kjb5568_rjl5336</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Inst_Image_Generator/verticalCounter/count_8&gt; </arg>
+</msg>
+
+</messages>
+

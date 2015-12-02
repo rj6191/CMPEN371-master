@@ -1,0 +1,63 @@
+V3 49
+FL C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/CompareEQU.vhd 2015/10/21.15:26:30 P.20131013
+EN kjb5568_rjl5336_library/CompareEQU 1445459119 \
+      FL C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/CompareEQU.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR kjb5568_rjl5336_library/CompareEQU/structural 1445459120 \
+      FL C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/CompareEQU.vhd \
+      EN kjb5568_rjl5336_library/CompareEQU 1445459119
+FL C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/CompareGRT.vhd 2015/10/24.16:51:38 P.20131013
+EN kjb5568_rjl5336_library/CompareGRT 1445735705 \
+      FL C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/CompareGRT.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR kjb5568_rjl5336_library/CompareGRT/structural 1445735706 \
+      FL C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/CompareGRT.vhd \
+      EN kjb5568_rjl5336_library/CompareGRT 1445735705
+FL C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/Counter_nbit.vhd 2015/09/29.01:21:09 P.20131013
+EN kjb5568_rjl5336_library/Counter_nbit 1445459117 \
+      FL C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/Counter_nbit.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR kjb5568_rjl5336_library/Counter_nbit/Behavioral 1445459118 \
+      FL C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/Counter_nbit.vhd \
+      EN kjb5568_rjl5336_library/Counter_nbit 1445459117
+FL C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/DFF_enable.vhd 2015/09/28.14:31:31 P.20131013
+EN kjb5568_rjl5336_library/DFF_CE 1445459121 \
+      FL C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/DFF_enable.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR kjb5568_rjl5336_library/DFF_CE/Behavioral 1445459122 \
+      FL C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/DFF_enable.vhd \
+      EN kjb5568_rjl5336_library/DFF_CE 1445459121
+FL C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/kjb5568_rjl5336_components.vhd 2015/10/19.20:34:56 P.20131013
+PH kjb5568_rjl5336_library/kjb5568_rjl5336_Components 1445735709 \
+      FL C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/kjb5568_rjl5336_components.vhd \
+      PB ieee/std_logic_1164 1381692176 CD FullAdder CD AdderSubtractor_nbit \
+      CD CompareEQU CD CompareGRT CD maximum CD LST CD minimum CD Average CD mux4to1 \
+      CD threeto8encoder CD hextosevenseg CD Counter_nbit CD CounterUpDown_nbit \
+      CD Reg_nbit CD DFF CD DFF_CE CD counter50mhz CD counter16hz CD OneShot \
+      CD Debouncer CD Shift_Register CD WordTo8dig7seg CD pulse_gen
+PB kjb5568_rjl5336_library/kjb5568_rjl5336_Components 1445735710 \
+      FL C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/kjb5568_rjl5336_components.vhd \
+      PH kjb5568_rjl5336_library/kjb5568_rjl5336_Components 1445735709
+FL C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/LST.vhd 2015/10/24.16:51:30 P.20131013
+EN kjb5568_rjl5336_library/LST 1445735707 \
+      FL C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/LST.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR kjb5568_rjl5336_library/LST/structural 1445735708 \
+      FL C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/LST.vhd \
+      EN kjb5568_rjl5336_library/LST 1445735707
+FL C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/pulse_gen.vhd 2015/09/28.14:31:31 P.20131013
+EN kjb5568_rjl5336_library/pulse_gen 1445459125 \
+      FL C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/pulse_gen.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      LB kjb5568_rjl5336_library \
+      PB kjb5568_rjl5336_library/kjb5568_rjl5336_Components 1445735710
+AR kjb5568_rjl5336_library/pulse_gen/Behavioral 1445459126 \
+      FL C:/Users/kalvi_000/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/pulse_gen.vhd \
+      EN kjb5568_rjl5336_library/pulse_gen 1445459125 CP counter_nbit
+FL C:/Users/Kevin/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/Up_down_with_input_nbit.vhd 2015/10/25.21:04:18 P.20131013
+EN kjb5568_rjl5336_library/Up_down_with_input_nbit 1445821606 \
+      FL C:/Users/Kevin/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/Up_down_with_input_nbit.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR kjb5568_rjl5336_library/Up_down_with_input_nbit/Behavioral 1445821607 \
+      FL C:/Users/Kevin/Desktop/Lab08/lab08_kjb5568_rjl5336/../kjb5568_rjl5336_library/Up_down_with_input_nbit.vhd \
+      EN kjb5568_rjl5336_library/Up_down_with_input_nbit 1445821606

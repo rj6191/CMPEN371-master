@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="lab08_kjb5568_rjl5336.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Image_Generator.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Image_Generator.stx"/>
+    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="Image_Generator.vhi"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Image_Generator.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Lab08_kjb5568_rjl5336.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Lab08_kjb5568_rjl5336.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Lab08_kjb5568_rjl5336.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Lab08_kjb5568_rjl5336.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Lab08_kjb5568_rjl5336.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Lab08_kjb5568_rjl5336.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Lab08_kjb5568_rjl5336.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="Lab08_kjb5568_rjl5336.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="Lab08_kjb5568_rjl5336.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="Lab08_kjb5568_rjl5336.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Lab08_kjb5568_rjl5336.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="Lab08_kjb5568_rjl5336.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Lab08_kjb5568_rjl5336.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Lab08_kjb5568_rjl5336.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="Lab08_kjb5568_rjl5336.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="Lab08_kjb5568_rjl5336.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="Lab08_kjb5568_rjl5336.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="Lab08_kjb5568_rjl5336.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="Lab08_kjb5568_rjl5336.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Lab08_kjb5568_rjl5336.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Lab08_kjb5568_rjl5336_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="Lab08_kjb5568_rjl5336_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Lab08_kjb5568_rjl5336_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Lab08_kjb5568_rjl5336_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Lab08_kjb5568_rjl5336_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="Lab08_kjb5568_rjl5336_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Lab08_kjb5568_rjl5336_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Lab08_kjb5568_rjl5336_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Lab08_kjb5568_rjl5336_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="Lab08_kjb5568_rjl5336_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Lab08_kjb5568_rjl5336_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Lab08_kjb5568_rjl5336_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Lab08_kjb5568_rjl5336_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="Lab08_kjb5568_rjl5336_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Lab08_kjb5568_rjl5336_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Up_down_with_input_nbit.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Up_down_with_input_nbit.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Up_down_with_input_nbit.xst"/>
+    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="VGA_Control.vhi"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="VGA_Control_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="VGA_Control_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="VGA_Control_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="image_process.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="image_process.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="image_process.xst"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="lab08_kjb5568_rjl5336.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="lab08_kjb5568_rjl5336.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="lab08_kjb5568_rjl5336.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="pulse_gen.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="pulse_gen.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="pulse_gen.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="pulse_gen_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1445462575" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1445462575">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1445462833" xil_pn:in_ck="-8388868794784590917" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1445462833">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1445462861" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="7180803062267560961" xil_pn:start_ts="1445462861">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1445462861" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-2170205737287492769" xil_pn:start_ts="1445462861">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1445462575" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="8423186647927329408" xil_pn:start_ts="1445462575">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1445462833" xil_pn:in_ck="-8388868794784590917" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1445462833">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1445462864" xil_pn:in_ck="-8388868794784590917" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-1540199998154425211" xil_pn:start_ts="1445462861">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1445462865" xil_pn:in_ck="6395073028361658238" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="5894428178052543442" xil_pn:start_ts="1445462864">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1445459856" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1445459856">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1445459856" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-1962869058244912038" xil_pn:start_ts="1445459856">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1445459856" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="8423186647927329408" xil_pn:start_ts="1445459856">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1445459856" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1445459856">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1445459856" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="3961695582414460220" xil_pn:start_ts="1445459856">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1445459856" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1445459856">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1445459856" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-5739960062719471926" xil_pn:start_ts="1445459856">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1449063820" xil_pn:in_ck="-5352041284919830116" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="4092074505197222855" xil_pn:start_ts="1449063745">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Lab08_kjb5568_rjl5336.lso"/>
+      <outfile xil_pn:name="Lab08_kjb5568_rjl5336.ngc"/>
+      <outfile xil_pn:name="Lab08_kjb5568_rjl5336.ngr"/>
+      <outfile xil_pn:name="Lab08_kjb5568_rjl5336.prj"/>
+      <outfile xil_pn:name="Lab08_kjb5568_rjl5336.stx"/>
+      <outfile xil_pn:name="Lab08_kjb5568_rjl5336.syr"/>
+      <outfile xil_pn:name="Lab08_kjb5568_rjl5336.xst"/>
+      <outfile xil_pn:name="Lab08_kjb5568_rjl5336_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1449034734" xil_pn:in_ck="43575121159833474" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-832012163740214799" xil_pn:start_ts="1449034734">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1449063849" xil_pn:in_ck="6119940187095377157" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="7803135731807808891" xil_pn:start_ts="1449063820">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Lab08_kjb5568_rjl5336.bld"/>
+      <outfile xil_pn:name="Lab08_kjb5568_rjl5336.ngd"/>
+      <outfile xil_pn:name="Lab08_kjb5568_rjl5336_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1449063971" xil_pn:in_ck="9011288561026811686" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="-7188367874928765557" xil_pn:start_ts="1449063849">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Lab08_kjb5568_rjl5336.pcf"/>
+      <outfile xil_pn:name="Lab08_kjb5568_rjl5336_map.map"/>
+      <outfile xil_pn:name="Lab08_kjb5568_rjl5336_map.mrp"/>
+      <outfile xil_pn:name="Lab08_kjb5568_rjl5336_map.ncd"/>
+      <outfile xil_pn:name="Lab08_kjb5568_rjl5336_map.ngm"/>
+      <outfile xil_pn:name="Lab08_kjb5568_rjl5336_map.xrpt"/>
+      <outfile xil_pn:name="Lab08_kjb5568_rjl5336_summary.xml"/>
+      <outfile xil_pn:name="Lab08_kjb5568_rjl5336_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1449064098" xil_pn:in_ck="2500362735567535455" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-2283627392121029586" xil_pn:start_ts="1449063971">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Lab08_kjb5568_rjl5336.ncd"/>
+      <outfile xil_pn:name="Lab08_kjb5568_rjl5336.pad"/>
+      <outfile xil_pn:name="Lab08_kjb5568_rjl5336.par"/>
+      <outfile xil_pn:name="Lab08_kjb5568_rjl5336.ptwx"/>
+      <outfile xil_pn:name="Lab08_kjb5568_rjl5336.unroutes"/>
+      <outfile xil_pn:name="Lab08_kjb5568_rjl5336.xpi"/>
+      <outfile xil_pn:name="Lab08_kjb5568_rjl5336_pad.csv"/>
+      <outfile xil_pn:name="Lab08_kjb5568_rjl5336_pad.txt"/>
+      <outfile xil_pn:name="Lab08_kjb5568_rjl5336_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1449064222" xil_pn:in_ck="-5160273768148938080" xil_pn:name="TRANEXT_bitFile_virtex7" xil_pn:prop_ck="306664139534459597" xil_pn:start_ts="1449064098">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Lab08_kjb5568_rjl5336.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="lab08_kjb5568_rjl5336.bgn"/>
+      <outfile xil_pn:name="lab08_kjb5568_rjl5336.bit"/>
+      <outfile xil_pn:name="lab08_kjb5568_rjl5336.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1449066043" xil_pn:in_ck="-8747830721046806390" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="-6383737364629502382" xil_pn:start_ts="1449066033">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1449064098" xil_pn:in_ck="-3711815323731513822" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416183" xil_pn:start_ts="1449064054">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Lab08_kjb5568_rjl5336.twr"/>
+      <outfile xil_pn:name="Lab08_kjb5568_rjl5336.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

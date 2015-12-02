@@ -1,0 +1,705 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 1
+-n 3 -fastpaths -xml lab10_kjb5568_rjl5336.twx lab10_kjb5568_rjl5336.ncd -o
+lab10_kjb5568_rjl5336.twr lab10_kjb5568_rjl5336.pcf -ucf Nexys4_Master.ucf
+
+Design file:              lab10_kjb5568_rjl5336.ncd
+Physical constraint file: lab10_kjb5568_rjl5336.pcf
+Device,package,speed:     xc7a100t,csg324,C,-1 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+================================================================================
+Timing constraint: TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 
+50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 2416421 paths analyzed, 906 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   9.974ns.
+--------------------------------------------------------------------------------
+
+Paths for end point Inst_Multiplier/hund_register/Q_22 (SLICE_X42Y14.D2), 776 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     0.026ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_Multiplier/hund_register/Q_0 (FF)
+  Destination:          Inst_Multiplier/hund_register/Q_22 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      9.825ns (Levels of Logic = 10)
+  Clock Path Skew:      -0.114ns (1.369 - 1.483)
+  Source Clock:         CLK_BUFGP rising at 0.000ns
+  Destination Clock:    CLK_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_Multiplier/hund_register/Q_0 to Inst_Multiplier/hund_register/Q_22
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X70Y10.BMUX    Tshcko                0.655   N73
+                                                       Inst_Multiplier/hund_register/Q_0
+    SLICE_X62Y8.C3       net (fanout=11)       0.917   Inst_Multiplier/hund_register/Q<0>
+    SLICE_X62Y8.C        Tilo                  0.124   Inst_Multiplier/hund_register/Q<1>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder1/main_adder/genADDERS[2].FA0/Mxor_Sum_xo<0>1
+    SLICE_X63Y6.D4       net (fanout=3)        0.596   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder1/sum_int<2>
+    SLICE_X63Y6.D        Tilo                  0.124   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_1
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder1/Mmux_cbo_int11
+    SLICE_X62Y5.A1       net (fanout=3)        0.841   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_1
+    SLICE_X62Y5.A        Tilo                  0.124   Inst_Multiplier/hund_register/Q<4>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder2/main_adder/genADDERS[2].FA0/Mxor_Sum_xo<0>1
+    SLICE_X59Y5.D5       net (fanout=3)        0.794   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder2/sum_int<2>
+    SLICE_X59Y5.D        Tilo                  0.124   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_2
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder2/Mmux_cbo_int11
+    SLICE_X59Y4.D5       net (fanout=3)        0.425   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_2
+    SLICE_X59Y4.DMUX     Tilo                  0.325   Inst_Multiplier/hund_register/Q<8>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder3/main_adder/genADDERS[2].FA0/C_out1
+    SLICE_X53Y6.B4       net (fanout=3)        0.803   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder3/main_adder/carry<3>
+    SLICE_X53Y6.B        Tilo                  0.124   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_3
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder3/Mmux_cbo_int11
+    SLICE_X47Y6.C2       net (fanout=3)        0.991   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_3
+    SLICE_X47Y6.CMUX     Tilo                  0.357   Inst_Multiplier/hund_register/Q<16>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder4/main_adder/genADDERS[2].FA0/C_out1
+    SLICE_X45Y12.B5      net (fanout=4)        0.657   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder4/main_adder/carry<3>
+    SLICE_X45Y12.B       Tilo                  0.124   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/Inst_BCD_Adder1/main_adder/carry<1>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/Inst_BCD_Adder1/main_adder/genADDERS[0].FA0/C_out1
+    SLICE_X43Y15.B5      net (fanout=3)        0.712   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/Inst_BCD_Adder1/main_adder/carry<1>
+    SLICE_X43Y15.B       Tilo                  0.124   Inst_Multiplier/hund_register/Q<19>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/Inst_BCD_Adder1/Mmux_cbo_int11
+    SLICE_X42Y14.D2      net (fanout=3)        0.839   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/cb_1
+    SLICE_X42Y14.CLK     Tas                   0.045   Inst_Multiplier/hund_register/Q<22>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/Inst_BCD_Adder2/Mmux_sum31
+                                                       Inst_Multiplier/hund_register/Q_22
+    -------------------------------------------------  ---------------------------
+    Total                                      9.825ns (2.250ns logic, 7.575ns route)
+                                                       (22.9% logic, 77.1% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     0.035ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_Multiplier/hund_register/Q_1 (FF)
+  Destination:          Inst_Multiplier/hund_register/Q_22 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      9.816ns (Levels of Logic = 10)
+  Clock Path Skew:      -0.114ns (1.369 - 1.483)
+  Source Clock:         CLK_BUFGP rising at 0.000ns
+  Destination Clock:    CLK_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_Multiplier/hund_register/Q_1 to Inst_Multiplier/hund_register/Q_22
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X62Y8.DQ       Tcko                  0.518   Inst_Multiplier/hund_register/Q<1>
+                                                       Inst_Multiplier/hund_register/Q_1
+    SLICE_X62Y8.C2       net (fanout=10)       1.045   Inst_Multiplier/hund_register/Q<1>
+    SLICE_X62Y8.C        Tilo                  0.124   Inst_Multiplier/hund_register/Q<1>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder1/main_adder/genADDERS[2].FA0/Mxor_Sum_xo<0>1
+    SLICE_X63Y6.D4       net (fanout=3)        0.596   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder1/sum_int<2>
+    SLICE_X63Y6.D        Tilo                  0.124   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_1
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder1/Mmux_cbo_int11
+    SLICE_X62Y5.A1       net (fanout=3)        0.841   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_1
+    SLICE_X62Y5.A        Tilo                  0.124   Inst_Multiplier/hund_register/Q<4>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder2/main_adder/genADDERS[2].FA0/Mxor_Sum_xo<0>1
+    SLICE_X59Y5.D5       net (fanout=3)        0.794   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder2/sum_int<2>
+    SLICE_X59Y5.D        Tilo                  0.124   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_2
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder2/Mmux_cbo_int11
+    SLICE_X59Y4.D5       net (fanout=3)        0.425   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_2
+    SLICE_X59Y4.DMUX     Tilo                  0.325   Inst_Multiplier/hund_register/Q<8>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder3/main_adder/genADDERS[2].FA0/C_out1
+    SLICE_X53Y6.B4       net (fanout=3)        0.803   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder3/main_adder/carry<3>
+    SLICE_X53Y6.B        Tilo                  0.124   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_3
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder3/Mmux_cbo_int11
+    SLICE_X47Y6.C2       net (fanout=3)        0.991   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_3
+    SLICE_X47Y6.CMUX     Tilo                  0.357   Inst_Multiplier/hund_register/Q<16>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder4/main_adder/genADDERS[2].FA0/C_out1
+    SLICE_X45Y12.B5      net (fanout=4)        0.657   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder4/main_adder/carry<3>
+    SLICE_X45Y12.B       Tilo                  0.124   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/Inst_BCD_Adder1/main_adder/carry<1>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/Inst_BCD_Adder1/main_adder/genADDERS[0].FA0/C_out1
+    SLICE_X43Y15.B5      net (fanout=3)        0.712   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/Inst_BCD_Adder1/main_adder/carry<1>
+    SLICE_X43Y15.B       Tilo                  0.124   Inst_Multiplier/hund_register/Q<19>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/Inst_BCD_Adder1/Mmux_cbo_int11
+    SLICE_X42Y14.D2      net (fanout=3)        0.839   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/cb_1
+    SLICE_X42Y14.CLK     Tas                   0.045   Inst_Multiplier/hund_register/Q<22>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/Inst_BCD_Adder2/Mmux_sum31
+                                                       Inst_Multiplier/hund_register/Q_22
+    -------------------------------------------------  ---------------------------
+    Total                                      9.816ns (2.113ns logic, 7.703ns route)
+                                                       (21.5% logic, 78.5% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     0.039ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_Multiplier/hund_register/Q_0 (FF)
+  Destination:          Inst_Multiplier/hund_register/Q_22 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      9.812ns (Levels of Logic = 10)
+  Clock Path Skew:      -0.114ns (1.369 - 1.483)
+  Source Clock:         CLK_BUFGP rising at 0.000ns
+  Destination Clock:    CLK_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_Multiplier/hund_register/Q_0 to Inst_Multiplier/hund_register/Q_22
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X70Y10.BMUX    Tshcko                0.655   N73
+                                                       Inst_Multiplier/hund_register/Q_0
+    SLICE_X62Y8.C3       net (fanout=11)       0.917   Inst_Multiplier/hund_register/Q<0>
+    SLICE_X62Y8.C        Tilo                  0.124   Inst_Multiplier/hund_register/Q<1>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder1/main_adder/genADDERS[2].FA0/Mxor_Sum_xo<0>1
+    SLICE_X63Y6.D4       net (fanout=3)        0.596   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder1/sum_int<2>
+    SLICE_X63Y6.D        Tilo                  0.124   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_1
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder1/Mmux_cbo_int11
+    SLICE_X62Y5.A1       net (fanout=3)        0.841   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_1
+    SLICE_X62Y5.A        Tilo                  0.124   Inst_Multiplier/hund_register/Q<4>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder2/main_adder/genADDERS[2].FA0/Mxor_Sum_xo<0>1
+    SLICE_X59Y5.D5       net (fanout=3)        0.794   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder2/sum_int<2>
+    SLICE_X59Y5.D        Tilo                  0.124   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_2
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder2/Mmux_cbo_int11
+    SLICE_X59Y5.C5       net (fanout=3)        0.286   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_2
+    SLICE_X59Y5.C        Tilo                  0.124   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_2
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder3/main_adder/genADDERS[1].FA0/Mxor_Sum_xo<0>1
+    SLICE_X53Y6.B2       net (fanout=3)        1.130   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder3/correction_adder/carry<2>
+    SLICE_X53Y6.B        Tilo                  0.124   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_3
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder3/Mmux_cbo_int11
+    SLICE_X47Y6.C2       net (fanout=3)        0.991   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_3
+    SLICE_X47Y6.CMUX     Tilo                  0.357   Inst_Multiplier/hund_register/Q<16>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder4/main_adder/genADDERS[2].FA0/C_out1
+    SLICE_X45Y12.B5      net (fanout=4)        0.657   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder4/main_adder/carry<3>
+    SLICE_X45Y12.B       Tilo                  0.124   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/Inst_BCD_Adder1/main_adder/carry<1>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/Inst_BCD_Adder1/main_adder/genADDERS[0].FA0/C_out1
+    SLICE_X43Y15.B5      net (fanout=3)        0.712   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/Inst_BCD_Adder1/main_adder/carry<1>
+    SLICE_X43Y15.B       Tilo                  0.124   Inst_Multiplier/hund_register/Q<19>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/Inst_BCD_Adder1/Mmux_cbo_int11
+    SLICE_X42Y14.D2      net (fanout=3)        0.839   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/cb_1
+    SLICE_X42Y14.CLK     Tas                   0.045   Inst_Multiplier/hund_register/Q<22>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/Inst_BCD_Adder2/Mmux_sum31
+                                                       Inst_Multiplier/hund_register/Q_22
+    -------------------------------------------------  ---------------------------
+    Total                                      9.812ns (2.049ns logic, 7.763ns route)
+                                                       (20.9% logic, 79.1% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Inst_Multiplier/ones_register/Q_30 (SLICE_X47Y29.D1), 91 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     0.030ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               store_A/Q_0 (FF)
+  Destination:          Inst_Multiplier/ones_register/Q_30 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      9.814ns (Levels of Logic = 8)
+  Clock Path Skew:      -0.121ns (1.361 - 1.482)
+  Source Clock:         CLK_BUFGP rising at 0.000ns
+  Destination Clock:    CLK_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: store_A/Q_0 to Inst_Multiplier/ones_register/Q_30
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X71Y11.AMUX    Tshcko                0.594   store_A/Q<0>
+                                                       store_A/Q_0
+    SLICE_X75Y12.A2      net (fanout=17)       1.246   store_A/Q<0>
+    SLICE_X75Y12.AMUX    Tilo                  0.354   Inst_Multiplier/ones_register/Q<1>
+                                                       Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder1/Inst_BCD_Adder1/main_adder/genADDERS[1].FA0/Mxor_Sum_xo<0>1
+    SLICE_X74Y12.B4      net (fanout=2)        0.656   Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder1/Inst_BCD_Adder1/correction_adder/carry<2>
+    SLICE_X74Y12.B       Tilo                  0.124   Inst_Multiplier/ones_register/Q<4>
+                                                       Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder1/Inst_BCD_Adder1/Mmux_cbo_int11
+    SLICE_X74Y15.A1      net (fanout=5)        1.220   Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder1/cb_1
+    SLICE_X74Y15.A       Tilo                  0.124   Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder1/cb_3
+                                                       Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder1/Inst_BCD_Adder2/Mmux_cbo_int11
+    SLICE_X74Y15.B5      net (fanout=7)        0.326   Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder1/cb_2
+    SLICE_X74Y15.B       Tilo                  0.124   Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder1/cb_3
+                                                       Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder1/Inst_BCD_Adder3/Mmux_cbo_int11
+    SLICE_X60Y25.A1      net (fanout=6)        1.816   Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder1/cb_3
+    SLICE_X60Y25.A       Tilo                  0.124   Inst_Multiplier/ones_register/Q<17>
+                                                       Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder2/Inst_BCD_Adder1/main_adder/genADDERS[0].FA0/C_out1
+    SLICE_X60Y25.B5      net (fanout=4)        0.311   Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder2/Inst_BCD_Adder1/main_adder/carry<1>
+    SLICE_X60Y25.B       Tilo                  0.124   Inst_Multiplier/ones_register/Q<17>
+                                                       Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder2/Inst_BCD_Adder1/Mmux_cbo_int11
+    SLICE_X46Y28.A2      net (fanout=6)        1.630   Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder2/cb_1
+    SLICE_X46Y28.A       Tilo                  0.124   Inst_Multiplier/ones_register/Q<31>
+                                                       Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder2/Inst_BCD_Adder3/Mmux_cbo_int11
+    SLICE_X47Y29.D1      net (fanout=2)        0.825   Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder2/cb_3
+    SLICE_X47Y29.CLK     Tas                   0.092   Inst_Multiplier/ones_register/Q<30>
+                                                       Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder2/Inst_BCD_Adder4/Mmux_sum31
+                                                       Inst_Multiplier/ones_register/Q_30
+    -------------------------------------------------  ---------------------------
+    Total                                      9.814ns (1.784ns logic, 8.030ns route)
+                                                       (18.2% logic, 81.8% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     0.178ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               store_A/Q_1 (FF)
+  Destination:          Inst_Multiplier/ones_register/Q_30 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      9.666ns (Levels of Logic = 8)
+  Clock Path Skew:      -0.121ns (1.361 - 1.482)
+  Source Clock:         CLK_BUFGP rising at 0.000ns
+  Destination Clock:    CLK_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: store_A/Q_1 to Inst_Multiplier/ones_register/Q_30
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X67Y11.AMUX    Tshcko                0.594   store_A/Q<1>
+                                                       store_A/Q_1
+    SLICE_X75Y12.A4      net (fanout=16)       1.100   store_A/Q<1>
+    SLICE_X75Y12.AMUX    Tilo                  0.352   Inst_Multiplier/ones_register/Q<1>
+                                                       Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder1/Inst_BCD_Adder1/main_adder/genADDERS[1].FA0/Mxor_Sum_xo<0>1
+    SLICE_X74Y12.B4      net (fanout=2)        0.656   Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder1/Inst_BCD_Adder1/correction_adder/carry<2>
+    SLICE_X74Y12.B       Tilo                  0.124   Inst_Multiplier/ones_register/Q<4>
+                                                       Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder1/Inst_BCD_Adder1/Mmux_cbo_int11
+    SLICE_X74Y15.A1      net (fanout=5)        1.220   Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder1/cb_1
+    SLICE_X74Y15.A       Tilo                  0.124   Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder1/cb_3
+                                                       Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder1/Inst_BCD_Adder2/Mmux_cbo_int11
+    SLICE_X74Y15.B5      net (fanout=7)        0.326   Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder1/cb_2
+    SLICE_X74Y15.B       Tilo                  0.124   Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder1/cb_3
+                                                       Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder1/Inst_BCD_Adder3/Mmux_cbo_int11
+    SLICE_X60Y25.A1      net (fanout=6)        1.816   Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder1/cb_3
+    SLICE_X60Y25.A       Tilo                  0.124   Inst_Multiplier/ones_register/Q<17>
+                                                       Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder2/Inst_BCD_Adder1/main_adder/genADDERS[0].FA0/C_out1
+    SLICE_X60Y25.B5      net (fanout=4)        0.311   Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder2/Inst_BCD_Adder1/main_adder/carry<1>
+    SLICE_X60Y25.B       Tilo                  0.124   Inst_Multiplier/ones_register/Q<17>
+                                                       Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder2/Inst_BCD_Adder1/Mmux_cbo_int11
+    SLICE_X46Y28.A2      net (fanout=6)        1.630   Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder2/cb_1
+    SLICE_X46Y28.A       Tilo                  0.124   Inst_Multiplier/ones_register/Q<31>
+                                                       Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder2/Inst_BCD_Adder3/Mmux_cbo_int11
+    SLICE_X47Y29.D1      net (fanout=2)        0.825   Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder2/cb_3
+    SLICE_X47Y29.CLK     Tas                   0.092   Inst_Multiplier/ones_register/Q<30>
+                                                       Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder2/Inst_BCD_Adder4/Mmux_sum31
+                                                       Inst_Multiplier/ones_register/Q_30
+    -------------------------------------------------  ---------------------------
+    Total                                      9.666ns (1.782ns logic, 7.884ns route)
+                                                       (18.4% logic, 81.6% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     0.307ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               store_A/Q_9 (FF)
+  Destination:          Inst_Multiplier/ones_register/Q_30 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      9.484ns (Levels of Logic = 7)
+  Clock Path Skew:      -0.174ns (1.361 - 1.535)
+  Source Clock:         CLK_BUFGP rising at 0.000ns
+  Destination Clock:    CLK_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: store_A/Q_9 to Inst_Multiplier/ones_register/Q_30
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X75Y48.BQ      Tcko                  0.456   store_A/Q<9>
+                                                       store_A/Q_9
+    SLICE_X73Y23.B5      net (fanout=18)       1.907   store_A/Q<9>
+    SLICE_X73Y23.BMUX    Tilo                  0.327   N65
+                                                       Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder1/Inst_BCD_Adder3/main_adder/genADDERS[0].FA0/C_out1_SW2
+    SLICE_X73Y21.A1      net (fanout=2)        0.970   N66
+    SLICE_X73Y21.A       Tilo                  0.124   N63
+                                                       Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder1/Inst_BCD_Adder3/Mmux_cbo_int11_SW1
+    SLICE_X74Y15.B6      net (fanout=2)        0.530   N489
+    SLICE_X74Y15.B       Tilo                  0.124   Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder1/cb_3
+                                                       Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder1/Inst_BCD_Adder3/Mmux_cbo_int11
+    SLICE_X60Y25.A1      net (fanout=6)        1.816   Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder1/cb_3
+    SLICE_X60Y25.A       Tilo                  0.124   Inst_Multiplier/ones_register/Q<17>
+                                                       Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder2/Inst_BCD_Adder1/main_adder/genADDERS[0].FA0/C_out1
+    SLICE_X60Y25.B5      net (fanout=4)        0.311   Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder2/Inst_BCD_Adder1/main_adder/carry<1>
+    SLICE_X60Y25.B       Tilo                  0.124   Inst_Multiplier/ones_register/Q<17>
+                                                       Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder2/Inst_BCD_Adder1/Mmux_cbo_int11
+    SLICE_X46Y28.A2      net (fanout=6)        1.630   Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder2/cb_1
+    SLICE_X46Y28.A       Tilo                  0.124   Inst_Multiplier/ones_register/Q<31>
+                                                       Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder2/Inst_BCD_Adder3/Mmux_cbo_int11
+    SLICE_X47Y29.D1      net (fanout=2)        0.825   Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder2/cb_3
+    SLICE_X47Y29.CLK     Tas                   0.092   Inst_Multiplier/ones_register/Q<30>
+                                                       Inst_Multiplier/Inst_BCD_Adder1/Inst_BCD_Adder2/Inst_BCD_Adder4/Mmux_sum31
+                                                       Inst_Multiplier/ones_register/Q_30
+    -------------------------------------------------  ---------------------------
+    Total                                      9.484ns (1.495ns logic, 7.989ns route)
+                                                       (15.8% logic, 84.2% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Inst_Multiplier/hund_register/Q_21 (SLICE_X42Y14.C2), 776 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     0.040ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_Multiplier/hund_register/Q_0 (FF)
+  Destination:          Inst_Multiplier/hund_register/Q_21 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      9.811ns (Levels of Logic = 10)
+  Clock Path Skew:      -0.114ns (1.369 - 1.483)
+  Source Clock:         CLK_BUFGP rising at 0.000ns
+  Destination Clock:    CLK_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_Multiplier/hund_register/Q_0 to Inst_Multiplier/hund_register/Q_21
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X70Y10.BMUX    Tshcko                0.655   N73
+                                                       Inst_Multiplier/hund_register/Q_0
+    SLICE_X62Y8.C3       net (fanout=11)       0.917   Inst_Multiplier/hund_register/Q<0>
+    SLICE_X62Y8.C        Tilo                  0.124   Inst_Multiplier/hund_register/Q<1>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder1/main_adder/genADDERS[2].FA0/Mxor_Sum_xo<0>1
+    SLICE_X63Y6.D4       net (fanout=3)        0.596   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder1/sum_int<2>
+    SLICE_X63Y6.D        Tilo                  0.124   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_1
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder1/Mmux_cbo_int11
+    SLICE_X62Y5.A1       net (fanout=3)        0.841   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_1
+    SLICE_X62Y5.A        Tilo                  0.124   Inst_Multiplier/hund_register/Q<4>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder2/main_adder/genADDERS[2].FA0/Mxor_Sum_xo<0>1
+    SLICE_X59Y5.D5       net (fanout=3)        0.794   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder2/sum_int<2>
+    SLICE_X59Y5.D        Tilo                  0.124   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_2
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder2/Mmux_cbo_int11
+    SLICE_X59Y4.D5       net (fanout=3)        0.425   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_2
+    SLICE_X59Y4.DMUX     Tilo                  0.325   Inst_Multiplier/hund_register/Q<8>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder3/main_adder/genADDERS[2].FA0/C_out1
+    SLICE_X53Y6.B4       net (fanout=3)        0.803   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder3/main_adder/carry<3>
+    SLICE_X53Y6.B        Tilo                  0.124   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_3
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder3/Mmux_cbo_int11
+    SLICE_X47Y6.C2       net (fanout=3)        0.991   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_3
+    SLICE_X47Y6.CMUX     Tilo                  0.357   Inst_Multiplier/hund_register/Q<16>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder4/main_adder/genADDERS[2].FA0/C_out1
+    SLICE_X45Y12.B5      net (fanout=4)        0.657   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder4/main_adder/carry<3>
+    SLICE_X45Y12.B       Tilo                  0.124   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/Inst_BCD_Adder1/main_adder/carry<1>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/Inst_BCD_Adder1/main_adder/genADDERS[0].FA0/C_out1
+    SLICE_X43Y15.B5      net (fanout=3)        0.712   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/Inst_BCD_Adder1/main_adder/carry<1>
+    SLICE_X43Y15.B       Tilo                  0.124   Inst_Multiplier/hund_register/Q<19>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/Inst_BCD_Adder1/Mmux_cbo_int11
+    SLICE_X42Y14.C2      net (fanout=3)        0.825   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/cb_1
+    SLICE_X42Y14.CLK     Tas                   0.045   Inst_Multiplier/hund_register/Q<22>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/Inst_BCD_Adder2/Mmux_sum21
+                                                       Inst_Multiplier/hund_register/Q_21
+    -------------------------------------------------  ---------------------------
+    Total                                      9.811ns (2.250ns logic, 7.561ns route)
+                                                       (22.9% logic, 77.1% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     0.049ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_Multiplier/hund_register/Q_1 (FF)
+  Destination:          Inst_Multiplier/hund_register/Q_21 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      9.802ns (Levels of Logic = 10)
+  Clock Path Skew:      -0.114ns (1.369 - 1.483)
+  Source Clock:         CLK_BUFGP rising at 0.000ns
+  Destination Clock:    CLK_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_Multiplier/hund_register/Q_1 to Inst_Multiplier/hund_register/Q_21
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X62Y8.DQ       Tcko                  0.518   Inst_Multiplier/hund_register/Q<1>
+                                                       Inst_Multiplier/hund_register/Q_1
+    SLICE_X62Y8.C2       net (fanout=10)       1.045   Inst_Multiplier/hund_register/Q<1>
+    SLICE_X62Y8.C        Tilo                  0.124   Inst_Multiplier/hund_register/Q<1>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder1/main_adder/genADDERS[2].FA0/Mxor_Sum_xo<0>1
+    SLICE_X63Y6.D4       net (fanout=3)        0.596   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder1/sum_int<2>
+    SLICE_X63Y6.D        Tilo                  0.124   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_1
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder1/Mmux_cbo_int11
+    SLICE_X62Y5.A1       net (fanout=3)        0.841   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_1
+    SLICE_X62Y5.A        Tilo                  0.124   Inst_Multiplier/hund_register/Q<4>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder2/main_adder/genADDERS[2].FA0/Mxor_Sum_xo<0>1
+    SLICE_X59Y5.D5       net (fanout=3)        0.794   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder2/sum_int<2>
+    SLICE_X59Y5.D        Tilo                  0.124   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_2
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder2/Mmux_cbo_int11
+    SLICE_X59Y4.D5       net (fanout=3)        0.425   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_2
+    SLICE_X59Y4.DMUX     Tilo                  0.325   Inst_Multiplier/hund_register/Q<8>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder3/main_adder/genADDERS[2].FA0/C_out1
+    SLICE_X53Y6.B4       net (fanout=3)        0.803   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder3/main_adder/carry<3>
+    SLICE_X53Y6.B        Tilo                  0.124   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_3
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder3/Mmux_cbo_int11
+    SLICE_X47Y6.C2       net (fanout=3)        0.991   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_3
+    SLICE_X47Y6.CMUX     Tilo                  0.357   Inst_Multiplier/hund_register/Q<16>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder4/main_adder/genADDERS[2].FA0/C_out1
+    SLICE_X45Y12.B5      net (fanout=4)        0.657   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder4/main_adder/carry<3>
+    SLICE_X45Y12.B       Tilo                  0.124   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/Inst_BCD_Adder1/main_adder/carry<1>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/Inst_BCD_Adder1/main_adder/genADDERS[0].FA0/C_out1
+    SLICE_X43Y15.B5      net (fanout=3)        0.712   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/Inst_BCD_Adder1/main_adder/carry<1>
+    SLICE_X43Y15.B       Tilo                  0.124   Inst_Multiplier/hund_register/Q<19>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/Inst_BCD_Adder1/Mmux_cbo_int11
+    SLICE_X42Y14.C2      net (fanout=3)        0.825   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/cb_1
+    SLICE_X42Y14.CLK     Tas                   0.045   Inst_Multiplier/hund_register/Q<22>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/Inst_BCD_Adder2/Mmux_sum21
+                                                       Inst_Multiplier/hund_register/Q_21
+    -------------------------------------------------  ---------------------------
+    Total                                      9.802ns (2.113ns logic, 7.689ns route)
+                                                       (21.6% logic, 78.4% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     0.053ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_Multiplier/hund_register/Q_0 (FF)
+  Destination:          Inst_Multiplier/hund_register/Q_21 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      9.798ns (Levels of Logic = 10)
+  Clock Path Skew:      -0.114ns (1.369 - 1.483)
+  Source Clock:         CLK_BUFGP rising at 0.000ns
+  Destination Clock:    CLK_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_Multiplier/hund_register/Q_0 to Inst_Multiplier/hund_register/Q_21
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X70Y10.BMUX    Tshcko                0.655   N73
+                                                       Inst_Multiplier/hund_register/Q_0
+    SLICE_X62Y8.C3       net (fanout=11)       0.917   Inst_Multiplier/hund_register/Q<0>
+    SLICE_X62Y8.C        Tilo                  0.124   Inst_Multiplier/hund_register/Q<1>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder1/main_adder/genADDERS[2].FA0/Mxor_Sum_xo<0>1
+    SLICE_X63Y6.D4       net (fanout=3)        0.596   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder1/sum_int<2>
+    SLICE_X63Y6.D        Tilo                  0.124   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_1
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder1/Mmux_cbo_int11
+    SLICE_X62Y5.A1       net (fanout=3)        0.841   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_1
+    SLICE_X62Y5.A        Tilo                  0.124   Inst_Multiplier/hund_register/Q<4>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder2/main_adder/genADDERS[2].FA0/Mxor_Sum_xo<0>1
+    SLICE_X59Y5.D5       net (fanout=3)        0.794   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder2/sum_int<2>
+    SLICE_X59Y5.D        Tilo                  0.124   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_2
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder2/Mmux_cbo_int11
+    SLICE_X59Y5.C5       net (fanout=3)        0.286   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_2
+    SLICE_X59Y5.C        Tilo                  0.124   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_2
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder3/main_adder/genADDERS[1].FA0/Mxor_Sum_xo<0>1
+    SLICE_X53Y6.B2       net (fanout=3)        1.130   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder3/correction_adder/carry<2>
+    SLICE_X53Y6.B        Tilo                  0.124   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_3
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder3/Mmux_cbo_int11
+    SLICE_X47Y6.C2       net (fanout=3)        0.991   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/cb_3
+    SLICE_X47Y6.CMUX     Tilo                  0.357   Inst_Multiplier/hund_register/Q<16>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder4/main_adder/genADDERS[2].FA0/C_out1
+    SLICE_X45Y12.B5      net (fanout=4)        0.657   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder1/Inst_BCD_Adder4/main_adder/carry<3>
+    SLICE_X45Y12.B       Tilo                  0.124   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/Inst_BCD_Adder1/main_adder/carry<1>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/Inst_BCD_Adder1/main_adder/genADDERS[0].FA0/C_out1
+    SLICE_X43Y15.B5      net (fanout=3)        0.712   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/Inst_BCD_Adder1/main_adder/carry<1>
+    SLICE_X43Y15.B       Tilo                  0.124   Inst_Multiplier/hund_register/Q<19>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/Inst_BCD_Adder1/Mmux_cbo_int11
+    SLICE_X42Y14.C2      net (fanout=3)        0.825   Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/cb_1
+    SLICE_X42Y14.CLK     Tas                   0.045   Inst_Multiplier/hund_register/Q<22>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/Inst_BCD_Adder2/Mmux_sum21
+                                                       Inst_Multiplier/hund_register/Q_21
+    -------------------------------------------------  ---------------------------
+    Total                                      9.798ns (2.049ns logic, 7.749ns route)
+                                                       (20.9% logic, 79.1% route)
+
+--------------------------------------------------------------------------------
+
+Hold Paths: TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+--------------------------------------------------------------------------------
+
+Paths for end point Inst_Multiplier/hund_register/Q_21 (SLICE_X42Y14.C6), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.195ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               Inst_Multiplier/hund_register/Q_23 (FF)
+  Destination:          Inst_Multiplier/hund_register/Q_21 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.210ns (Levels of Logic = 1)
+  Clock Path Skew:      0.015ns (0.082 - 0.067)
+  Source Clock:         CLK_BUFGP rising at 10.000ns
+  Destination Clock:    CLK_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: Inst_Multiplier/hund_register/Q_23 to Inst_Multiplier/hund_register/Q_21
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X43Y15.AQ      Tcko                  0.141   Inst_Multiplier/hund_register/Q<19>
+                                                       Inst_Multiplier/hund_register/Q_23
+    SLICE_X42Y14.C6      net (fanout=8)        0.145   Inst_Multiplier/hund_register/Q<23>
+    SLICE_X42Y14.CLK     Tah         (-Th)     0.076   Inst_Multiplier/hund_register/Q<22>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/Inst_BCD_Adder2/Mmux_sum21
+                                                       Inst_Multiplier/hund_register/Q_21
+    -------------------------------------------------  ---------------------------
+    Total                                      0.210ns (0.065ns logic, 0.145ns route)
+                                                       (31.0% logic, 69.0% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Inst_Multiplier/thous_register/Q_16 (SLICE_X45Y10.B6), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.220ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               Inst_Multiplier/thous_register/Q_15 (FF)
+  Destination:          Inst_Multiplier/thous_register/Q_16 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.220ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         CLK_BUFGP rising at 10.000ns
+  Destination Clock:    CLK_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: Inst_Multiplier/thous_register/Q_15 to Inst_Multiplier/thous_register/Q_16
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X45Y10.AMUX    Tshcko                0.182   Inst_Multiplier/thous_register/Q<16>
+                                                       Inst_Multiplier/thous_register/Q_15
+    SLICE_X45Y10.B6      net (fanout=11)       0.085   Inst_Multiplier/thous_register/Q<15>
+    SLICE_X45Y10.CLK     Tah         (-Th)     0.047   Inst_Multiplier/thous_register/Q<16>
+                                                       Inst_Multiplier/Inst_BCD_Adder6/Inst_BCD_Adder2/Inst_BCD_Adder1/main_adder/genADDERS[0].FA0/Mxor_Sum_xo<0>1
+                                                       Inst_Multiplier/thous_register/Q_16
+    -------------------------------------------------  ---------------------------
+    Total                                      0.220ns (0.135ns logic, 0.085ns route)
+                                                       (61.4% logic, 38.6% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Inst_Multiplier/hund_register/Q_23 (SLICE_X43Y15.A6), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.233ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               Inst_Multiplier/hund_register/Q_21 (FF)
+  Destination:          Inst_Multiplier/hund_register/Q_23 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.247ns (Levels of Logic = 1)
+  Clock Path Skew:      0.014ns (0.081 - 0.067)
+  Source Clock:         CLK_BUFGP rising at 10.000ns
+  Destination Clock:    CLK_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: Inst_Multiplier/hund_register/Q_21 to Inst_Multiplier/hund_register/Q_23
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X42Y14.CQ      Tcko                  0.164   Inst_Multiplier/hund_register/Q<22>
+                                                       Inst_Multiplier/hund_register/Q_21
+    SLICE_X43Y15.A6      net (fanout=9)        0.129   Inst_Multiplier/hund_register/Q<21>
+    SLICE_X43Y15.CLK     Tah         (-Th)     0.046   Inst_Multiplier/hund_register/Q<19>
+                                                       Inst_Multiplier/Inst_BCD_Adder5/Inst_BCD_Adder2/Inst_BCD_Adder2/Mmux_sum41
+                                                       Inst_Multiplier/hund_register/Q_23
+    -------------------------------------------------  ---------------------------
+    Total                                      0.247ns (0.118ns logic, 0.129ns route)
+                                                       (47.8% logic, 52.2% route)
+
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 7.845ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 2.155ns (464.037MHz) (Tbcper_I(Fmax))
+  Physical resource: CLK_BUFGP/BUFG/I0
+  Logical resource: CLK_BUFGP/BUFG/I0
+  Location pin: BUFGCTRL_X0Y31.I0
+  Clock network: CLK_BUFGP/IBUFG
+--------------------------------------------------------------------------------
+Slack: 9.000ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 10.000ns
+  Low pulse: 5.000ns
+  Low pulse limit: 0.500ns (Tcl)
+  Physical resource: pulse_strobe/count<3>/CLK
+  Logical resource: pulse_strobe/count_0/CK
+  Location pin: SLICE_X84Y74.CLK
+  Clock network: CLK_BUFGP
+--------------------------------------------------------------------------------
+Slack: 9.000ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 10.000ns
+  High pulse: 5.000ns
+  High pulse limit: 0.500ns (Tch)
+  Physical resource: pulse_strobe/count<3>/CLK
+  Logical resource: pulse_strobe/count_0/CK
+  Location pin: SLICE_X84Y74.CLK
+  Clock network: CLK_BUFGP
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    9.974|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 2416421 paths, 0 nets, and 3034 connections
+
+Design statistics:
+   Minimum period:   9.974ns{1}   (Maximum frequency: 100.261MHz)
+
+
+------------------------------------Footnotes-----------------------------------
+1)  The minimum period statistic assumes all single cycle delays.
+
+Analysis completed Mon Nov 09 21:29:05 2015 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 674 MB
+
+
+

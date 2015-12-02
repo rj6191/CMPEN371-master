@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="946" delta="old" >"C:\Users\Kevin\Desktop\XGA\XGA\Image_Generator.vhd" Line 164: Actual for formal port <arg fmt="%s" index="1">up</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="old" >"C:\Users\Kevin\Desktop\XGA\XGA\Image_Generator.vhd" Line 165: Actual for formal port <arg fmt="%s" index="1">down</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="old" >"C:\Users\Kevin\Desktop\XGA\XGA\Image_Generator.vhd" Line 174: Actual for formal port <arg fmt="%s" index="1">up</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="old" >"C:\Users\Kevin\Desktop\XGA\XGA\Image_Generator.vhd" Line 175: Actual for formal port <arg fmt="%s" index="1">down</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"C:\Users\Kevin\Desktop\XGA\kjb5568_rjl5336_library\counterupdown_nbit.vhd" Line 46: <arg fmt="%s" index="1">count</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Kevin\Desktop\XGA\XGA\Image_Generator.vhd</arg>&quot; line <arg fmt="%d" index="2">80</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">DB3</arg>&gt; of block &lt;<arg fmt="%s" index="4">Debouncer</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">Image_Generator</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Kevin\Desktop\XGA\XGA\XGA.vhd</arg>&quot; line <arg fmt="%s" index="2">101</arg>: Output port &lt;<arg fmt="%s" index="3">CLK_OUT2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">clocks</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Kevin\Desktop\XGA\XGA\XGA.vhd</arg>&quot; line <arg fmt="%s" index="2">101</arg>: Output port &lt;<arg fmt="%s" index="3">CLK_OUT3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">clocks</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Kevin\Desktop\XGA\XGA\XGA.vhd</arg>&quot; line <arg fmt="%s" index="2">101</arg>: Output port &lt;<arg fmt="%s" index="3">CLK_OUT5</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">clocks</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Kevin\Desktop\XGA\XGA\XGA.vhd</arg>&quot; line <arg fmt="%s" index="2">101</arg>: Output port &lt;<arg fmt="%s" index="3">CLK_OUT6</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">clocks</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Kevin\Desktop\XGA\XGA\Image_Generator.vhd</arg>&quot; line <arg fmt="%s" index="2">80</arg>: Output port &lt;<arg fmt="%s" index="3">Q</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DB3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Kevin\Desktop\XGA\XGA\Image_Generator.vhd</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">C_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">RightAdder</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Kevin\Desktop\XGA\XGA\Image_Generator.vhd</arg>&quot; line <arg fmt="%s" index="2">155</arg>: Output port &lt;<arg fmt="%s" index="3">C_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">LeftAdder</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Kevin\Desktop\XGA\XGA\Image_Generator.vhd</arg>&quot; line <arg fmt="%s" index="2">180</arg>: Output port &lt;<arg fmt="%s" index="3">C_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">UpAdder</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Kevin\Desktop\XGA\XGA\Image_Generator.vhd</arg>&quot; line <arg fmt="%s" index="2">188</arg>: Output port &lt;<arg fmt="%s" index="3">C_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DownAdder</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">Inst_Image_Generator/horizontalCounter/count_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">XGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Inst_Image_Generator/horizontalCounter/count_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">Inst_Image_Generator/verticalCounter/count_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">XGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Inst_Image_Generator/verticalCounter/count_9&gt; </arg>
+</msg>
+
+</messages>
+

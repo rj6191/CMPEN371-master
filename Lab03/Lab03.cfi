@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator P.20131013
+# Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.20131013
+DATE            09/15/2015 - 23:54
+SOURCE          K:\Lab03\Lab03.mcs
+DEVICE          32768K
+DATA_WIDTH      1
+FILL_DATA       0xFF
+SIGNATURE       0xC3DE5982
+START_ADDRESS   0x00000000 END_ADDRESS 0x003A607B DIRECTION_UP   "K:/Lab03/Lab03_kjb5568_rjl5336/Lab03_kjb5568_rjl5336/lab03_kjb5568_rjl5336_top.bit" 7a100tcsg324

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Kevin/Documents/GitHub/CMPEN371/Lab04/Lab04_kjb5568_rjl5336/lab04_kjb5568_rjl5336.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Kevin/Documents/GitHub/CMPEN371/Lab04/Lab04_kjb5568_rjl5336/pulse_gen.vhd&quot; into library kjb5568_rjl5336_library</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Kevin/Documents/GitHub/CMPEN371/Lab04/kjb5568_rjl5336_library/AdderSubtractor_nbit.vhd&quot; into library kjb5568_rjl5336_library</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Kevin/Documents/GitHub/CMPEN371/Lab04/kjb5568_rjl5336_library/Average.vhd&quot; into library kjb5568_rjl5336_library</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Kevin/Documents/GitHub/CMPEN371/Lab04/kjb5568_rjl5336_library/CompareGRT.vhd&quot; into library kjb5568_rjl5336_library</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Kevin/Documents/GitHub/CMPEN371/Lab04/kjb5568_rjl5336_library/Counter_nbit.vhd&quot; into library kjb5568_rjl5336_library</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Kevin/Documents/GitHub/CMPEN371/Lab04/kjb5568_rjl5336_library/DFF.vhd&quot; into library kjb5568_rjl5336_library</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Kevin/Documents/GitHub/CMPEN371/Lab04/kjb5568_rjl5336_library/DFF_enable.vhd&quot; into library kjb5568_rjl5336_library</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Kevin/Documents/GitHub/CMPEN371/Lab04/kjb5568_rjl5336_library/Debouncer.vhd&quot; into library kjb5568_rjl5336_library</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Kevin/Documents/GitHub/CMPEN371/Lab04/kjb5568_rjl5336_library/FullAdder.vhd&quot; into library kjb5568_rjl5336_library</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Kevin/Documents/GitHub/CMPEN371/Lab04/kjb5568_rjl5336_library/LST.vhd&quot; into library kjb5568_rjl5336_library</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Kevin/Documents/GitHub/CMPEN371/Lab04/kjb5568_rjl5336_library/Minimum.vhd&quot; into library kjb5568_rjl5336_library</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Kevin/Documents/GitHub/CMPEN371/Lab04/kjb5568_rjl5336_library/OneShot.vhd&quot; into library kjb5568_rjl5336_library</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Kevin/Documents/GitHub/CMPEN371/Lab04/kjb5568_rjl5336_library/Reg_nbit.vhd&quot; into library kjb5568_rjl5336_library</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Kevin/Documents/GitHub/CMPEN371/Lab04/kjb5568_rjl5336_library/Shift_Register.vhd&quot; into library kjb5568_rjl5336_library</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Kevin/Documents/GitHub/CMPEN371/Lab04/kjb5568_rjl5336_library/counterupdown_nbit.vhd&quot; into library kjb5568_rjl5336_library</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Kevin/Documents/GitHub/CMPEN371/Lab04/kjb5568_rjl5336_library/hextosevenseg.vhd&quot; into library kjb5568_rjl5336_library</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Kevin/Documents/GitHub/CMPEN371/Lab04/kjb5568_rjl5336_library/kjb5568_rjl5336_components.vhd&quot; into library kjb5568_rjl5336_library</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Kevin/Documents/GitHub/CMPEN371/Lab04/kjb5568_rjl5336_library/maximum.vhd&quot; into library kjb5568_rjl5336_library</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Kevin/Documents/GitHub/CMPEN371/Lab04/kjb5568_rjl5336_library/mux.vhd&quot; into library kjb5568_rjl5336_library</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Kevin/Documents/GitHub/CMPEN371/Lab04/kjb5568_rjl5336_library/numeric_display.vhd&quot; into library kjb5568_rjl5336_library</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Kevin/Documents/GitHub/CMPEN371/Lab04/kjb5568_rjl5336_library/rippe_carry_adder.vhd&quot; into library kjb5568_rjl5336_library</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Kevin/Documents/GitHub/CMPEN371/Lab04/kjb5568_rjl5336_library/threeto8encoder.vhd&quot; into library kjb5568_rjl5336_library</arg>
+</msg>
+
+</messages>
+

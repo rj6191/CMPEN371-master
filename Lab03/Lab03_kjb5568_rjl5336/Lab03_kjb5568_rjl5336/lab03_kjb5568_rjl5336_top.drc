@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Wed Sep 16 00:48:02 2015
+
+drc -z Lab03_Kjb5568_rjl5336_top.ncd Lab03_Kjb5568_rjl5336_top.pcf
+
+DRC detected 0 errors and 0 warnings.

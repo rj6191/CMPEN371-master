@@ -1,0 +1,29 @@
+Command line:
+   HexToSevenSeg_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49804
+
+Thu Sep 03 12:20:52 2015
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 841.757 Meg
+
+ Total Signals          : 4
+ Total Nets             : 11
+ Total Signal Drivers   : 2
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 2
+ Total Traceable Variables  : 9
+ Total Scalar Nets and Variables : 547
+Total Line Count : 8
+
+ Total Simulation Time: 0.171875 sec
+
+ Current Memory Usage: 527.167 Meg
+
+Thu Sep 03 13:20:07 2015
+

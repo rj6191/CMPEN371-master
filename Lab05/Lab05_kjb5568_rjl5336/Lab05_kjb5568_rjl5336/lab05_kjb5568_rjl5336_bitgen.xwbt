@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\kalvi_000\Desktop\Lab05\Lab05_kjb5568_rjl5336\Lab05_kjb5568_rjl5336\lab05_kjb5568_rjl5336.ncd
+OUTFILE=C:\Users\kalvi_000\Desktop\Lab05\Lab05_kjb5568_rjl5336\Lab05_kjb5568_rjl5336\lab05_kjb5568_rjl5336.bit
+FAMILY=Artix7
+PART=xc7a100t-1csg324
+WORKINGDIR=C:\Users\kalvi_000\Desktop\Lab05\Lab05_kjb5568_rjl5336\Lab05_kjb5568_rjl5336
+LICENSE=WebPack
+USER_INFO=210969518_0_0_512

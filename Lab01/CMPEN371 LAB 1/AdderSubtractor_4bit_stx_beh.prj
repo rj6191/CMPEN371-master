@@ -1,0 +1,3 @@
+vhdl isim_temp "../lab01_kjb5568_rjl5336/FullAdder.vhd"
+vhdl isim_temp "../ripple_carry_adder_4_bit/rippe_carry_adder.vhd"
+vhdl isim_temp "AdderSubtractor_4bit.vhd"

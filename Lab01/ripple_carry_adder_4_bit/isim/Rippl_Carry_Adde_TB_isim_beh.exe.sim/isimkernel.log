@@ -1,0 +1,29 @@
+Command line:
+   Rippl_Carry_Adde_TB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50815
+
+Thu Aug 27 11:52:15 2015
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 837.034 Meg
+
+ Total Signals          : 45
+ Total Nets             : 29
+ Total Signal Drivers   : 23
+ Total Blocks           : 7
+ Total Primitive Blocks : 5
+ Total Processes        : 21
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 389
+Total Line Count : 25
+
+ Total Simulation Time: 0.03125 sec
+
+ Current Memory Usage: 837.034 Meg
+
+Thu Aug 27 12:09:06 2015
+

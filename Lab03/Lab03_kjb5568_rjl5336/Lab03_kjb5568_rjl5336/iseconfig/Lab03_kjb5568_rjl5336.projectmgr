@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="Lab03_kjb5568_rjl5336" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/AdderSubtractor_nbit - Structural K:|Lab03|kjb5568_rjl5336_library|AdderSubtractor_4bit.vhd/RCA - Ripple_Carry_Adder - Structural</ClosedNode>
+         <ClosedNode>/Lab03_Kjb5568_rjl5336_top - Behavioral E:|Lab03|Lab03_kjb5568_rjl5336|Lab03_kjb5568_rjl5336|Lab03_Kjb5568_rjl5336_top.vhd/ADDER - AdderSubtractor_nbit - Structural</ClosedNode>
+         <ClosedNode>/Lab03_Kjb5568_rjl5336_top - Behavioral E:|Lab03|Lab03_kjb5568_rjl5336|Lab03_kjb5568_rjl5336|Lab03_Kjb5568_rjl5336_top.vhd/GRTR - maximum - Behavioral</ClosedNode>
+         <ClosedNode>/Lab03_Kjb5568_rjl5336_top - Behavioral E:|Lab03|Lab03_kjb5568_rjl5336|Lab03_kjb5568_rjl5336|Lab03_Kjb5568_rjl5336_top.vhd/GRTR - maximum - Structural</ClosedNode>
+         <ClosedNode>/Lab03_Kjb5568_rjl5336_top - Behavioral E:|Lab03|Lab03_kjb5568_rjl5336|Lab03_kjb5568_rjl5336|Lab03_Kjb5568_rjl5336_top.vhd/LSTS - minimum - Behavioral</ClosedNode>
+         <ClosedNode>/Lab03_Kjb5568_rjl5336_top - Behavioral E:|Lab03|Lab03_kjb5568_rjl5336|Lab03_kjb5568_rjl5336|Lab03_Kjb5568_rjl5336_top.vhd/LSTS - minimum - Structural</ClosedNode>
+         <ClosedNode>/Lab03_Kjb5568_rjl5336_top - Behavioral K:|Lab03|Lab03_kjb5568_rjl5336|Lab03_kjb5568_rjl5336|Lab03_Kjb5568_rjl5336_top.vhd/ADDER - AdderSubtractor_nbit - Structural</ClosedNode>
+         <ClosedNode>/Lab03_Kjb5568_rjl5336_top - Behavioral K:|Lab03|Lab03_kjb5568_rjl5336|Lab03_kjb5568_rjl5336|Lab03_Kjb5568_rjl5336_top.vhd/GRTR - maximum - Behavioral</ClosedNode>
+         <ClosedNode>/Lab03_Kjb5568_rjl5336_top - Behavioral K:|Lab03|Lab03_kjb5568_rjl5336|Lab03_kjb5568_rjl5336|Lab03_Kjb5568_rjl5336_top.vhd/LSTS - minimum - Behavioral</ClosedNode>
+         <ClosedNode>/Lab03_Kjb5568_rjl5336_top - structural K:|Lab03|Lab03_kjb5568_rjl5336|Lab03_kjb5568_rjl5336|Lab03_Kjb5568_rjl5336_top.vhd/ADDER - AdderSubtractor_nbit - Structural</ClosedNode>
+         <ClosedNode>/Unassigned User Library Modules/AdderSubtractor_nbit - Structural</ClosedNode>
+         <ClosedNode>/Unassigned User Library Modules/maximum - Behavioral</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Lab03_Kjb5568_rjl5336_top - structural (K:/Lab03/Lab03_kjb5568_rjl5336/Lab03_kjb5568_rjl5336/Lab03_Kjb5568_rjl5336_top.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001ca000000020000000000000000000000000200000064ffffffff000000810000000300000002000001ca0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>Lab03_Kjb5568_rjl5336_top - structural (K:/Lab03/Lab03_kjb5568_rjl5336/Lab03_kjb5568_rjl5336/Lab03_Kjb5568_rjl5336_top.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000b23000000040101000100000000000000000000000064ffffffff000000810000000000000004000000bf0000000100000000000000440000000100000000000000660000000100000000000009ba0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>AdderSubtractor_nbit.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>kjb5568_rjl5336_components.vhd</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000000f8000000010001000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>kjb5568_rjl5336_components.vhd</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_PACKAGE_BODY" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Lab03_Kjb5568_rjl5336_top - Behavioral K:|Lab03|Lab03_kjb5568_rjl5336|Lab03_kjb5568_rjl5336|Lab03_Kjb5568_rjl5336_top.vhd/ADDER - AdderSubtractor_nbit - Structural</ClosedNode>
+         <ClosedNode>/Lab03_Kjb5568_rjl5336_top - Behavioral K:|Lab03|Lab03_kjb5568_rjl5336|Lab03_kjb5568_rjl5336|Lab03_Kjb5568_rjl5336_top.vhd/GRTR - maximum - Behavioral</ClosedNode>
+         <ClosedNode>/Lab03_Kjb5568_rjl5336_top - Behavioral K:|Lab03|Lab03_kjb5568_rjl5336|Lab03_kjb5568_rjl5336|Lab03_Kjb5568_rjl5336_top.vhd/LSTS - minimum - Behavioral</ClosedNode>
+         <ClosedNode>/Unassigned User Library Modules</ClosedNode>
+         <ClosedNode>/Unassigned User Library Modules/AdderSubtractor_nbit - Structural</ClosedNode>
+         <ClosedNode>/Unassigned User Library Modules/HexToSevenSeg_tb - Behavioral</ClosedNode>
+         <ClosedNode>/Unassigned User Library Modules/Mux4to1_tb - behavior</ClosedNode>
+         <ClosedNode>/Unassigned User Library Modules/kjb5568_rjl5336_Components</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>LST0 - LST - Behavioral (K:/Lab03/kjb5568_rjl5336_library/LST.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001ca000000020000000000000000000000000200000064ffffffff000000810000000300000002000001ca0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>LST0 - LST - Behavioral (K:/Lab03/kjb5568_rjl5336_library/LST.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+</Project>

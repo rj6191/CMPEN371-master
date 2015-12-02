@@ -1,0 +1,6 @@
+work	"../Lab02_kjb5568_rjl5336/AdderSubtractor_4bit.vhd"
+work	"../Lab02_kjb5568_rjl5336/FullAdder.vhd"
+work	"../Lab02_kjb5568_rjl5336/rippe_carry_adder.vhd"
+work	"../hextosevenseg/hextosevenseg.vhd"
+work	"lab02_kjb5568_rjl5336.vhd"
+work	"mux.vhd"

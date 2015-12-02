@@ -1,0 +1,29 @@
+Command line:
+   Pingpong_Fsm_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  65155
+
+Tue Oct 06 11:00:14 2015
+
+
+ Elaboration Time: 0.28125 sec
+
+ Current Memory Usage: 1332.43 Meg
+
+ Total Signals          : 7
+ Total Nets             : 22
+ Total Signal Drivers   : 4
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 2
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 382
+Total Line Count : 85
+
+ Total Simulation Time: 0.375 sec
+
+ Current Memory Usage: 860.516 Meg
+
+Tue Oct 06 11:01:37 2015
+

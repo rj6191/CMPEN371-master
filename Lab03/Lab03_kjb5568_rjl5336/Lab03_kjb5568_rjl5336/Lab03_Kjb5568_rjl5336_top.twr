@@ -1,0 +1,280 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+G:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 1
+-n 3 -fastpaths -xml Lab03_Kjb5568_rjl5336_top.twx
+Lab03_Kjb5568_rjl5336_top.ncd -o Lab03_Kjb5568_rjl5336_top.twr
+Lab03_Kjb5568_rjl5336_top.pcf -ucf Nexys4_Master.ucf
+
+Design file:              Lab03_Kjb5568_rjl5336_top.ncd
+Physical constraint file: Lab03_Kjb5568_rjl5336_top.pcf
+Device,package,speed:     xc7a100t,csg324,C,-1 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+BTNC           |ANODE<0>       |   13.979|
+BTNC           |ANODE<1>       |   13.559|
+BTNC           |ANODE<2>       |   13.578|
+BTNC           |ANODE<3>       |   13.214|
+BTNC           |ANODE<4>       |   13.897|
+BTNC           |ANODE<5>       |   13.499|
+BTNC           |ANODE<6>       |   13.921|
+BTNC           |ANODE<7>       |   13.659|
+BTNC           |SEGMENT<0>     |   17.264|
+BTNC           |SEGMENT<1>     |   16.657|
+BTNC           |SEGMENT<2>     |   16.802|
+BTNC           |SEGMENT<3>     |   16.955|
+BTNC           |SEGMENT<4>     |   17.294|
+BTNC           |SEGMENT<5>     |   16.734|
+BTNC           |SEGMENT<6>     |   16.837|
+BTND           |ANODE<0>       |   13.235|
+BTND           |ANODE<1>       |   12.815|
+BTND           |ANODE<2>       |   12.834|
+BTND           |ANODE<3>       |   12.470|
+BTND           |ANODE<4>       |   13.153|
+BTND           |ANODE<5>       |   12.755|
+BTND           |ANODE<6>       |   13.177|
+BTND           |ANODE<7>       |   12.915|
+BTND           |SEGMENT<0>     |   16.496|
+BTND           |SEGMENT<1>     |   15.889|
+BTND           |SEGMENT<2>     |   16.034|
+BTND           |SEGMENT<3>     |   16.187|
+BTND           |SEGMENT<4>     |   16.526|
+BTND           |SEGMENT<5>     |   15.966|
+BTND           |SEGMENT<6>     |   16.069|
+BTNL           |ANODE<0>       |   12.457|
+BTNL           |ANODE<1>       |   12.037|
+BTNL           |ANODE<2>       |   12.056|
+BTNL           |ANODE<3>       |   11.692|
+BTNL           |ANODE<4>       |   12.375|
+BTNL           |ANODE<5>       |   11.977|
+BTNL           |ANODE<6>       |   12.399|
+BTNL           |ANODE<7>       |   12.137|
+BTNL           |SEGMENT<0>     |   16.599|
+BTNL           |SEGMENT<1>     |   15.992|
+BTNL           |SEGMENT<2>     |   16.137|
+BTNL           |SEGMENT<3>     |   16.290|
+BTNL           |SEGMENT<4>     |   16.629|
+BTNL           |SEGMENT<5>     |   16.069|
+BTNL           |SEGMENT<6>     |   16.172|
+BTNR           |ANODE<0>       |   12.900|
+BTNR           |ANODE<1>       |   12.480|
+BTNR           |ANODE<2>       |   12.499|
+BTNR           |ANODE<3>       |   12.135|
+BTNR           |ANODE<4>       |   12.818|
+BTNR           |ANODE<5>       |   12.420|
+BTNR           |ANODE<6>       |   12.842|
+BTNR           |ANODE<7>       |   12.580|
+BTNR           |SEGMENT<0>     |   16.268|
+BTNR           |SEGMENT<1>     |   15.661|
+BTNR           |SEGMENT<2>     |   15.806|
+BTNR           |SEGMENT<3>     |   15.959|
+BTNR           |SEGMENT<4>     |   16.298|
+BTNR           |SEGMENT<5>     |   15.738|
+BTNR           |SEGMENT<6>     |   15.841|
+BTNU           |ANODE<0>       |   13.960|
+BTNU           |ANODE<1>       |   13.540|
+BTNU           |ANODE<2>       |   13.559|
+BTNU           |ANODE<3>       |   13.195|
+BTNU           |ANODE<4>       |   13.878|
+BTNU           |ANODE<5>       |   13.480|
+BTNU           |ANODE<6>       |   13.902|
+BTNU           |ANODE<7>       |   13.640|
+BTNU           |SEGMENT<0>     |   17.681|
+BTNU           |SEGMENT<1>     |   17.074|
+BTNU           |SEGMENT<2>     |   17.219|
+BTNU           |SEGMENT<3>     |   17.372|
+BTNU           |SEGMENT<4>     |   17.711|
+BTNU           |SEGMENT<5>     |   17.151|
+BTNU           |SEGMENT<6>     |   17.254|
+SWITCH<0>      |LED<0>         |    7.214|
+SWITCH<0>      |SEGMENT<0>     |   21.720|
+SWITCH<0>      |SEGMENT<1>     |   21.149|
+SWITCH<0>      |SEGMENT<2>     |   21.427|
+SWITCH<0>      |SEGMENT<3>     |   21.411|
+SWITCH<0>      |SEGMENT<4>     |   21.836|
+SWITCH<0>      |SEGMENT<5>     |   21.351|
+SWITCH<0>      |SEGMENT<6>     |   21.372|
+SWITCH<1>      |LED<1>         |    7.191|
+SWITCH<1>      |SEGMENT<0>     |   21.291|
+SWITCH<1>      |SEGMENT<1>     |   20.720|
+SWITCH<1>      |SEGMENT<2>     |   20.998|
+SWITCH<1>      |SEGMENT<3>     |   20.982|
+SWITCH<1>      |SEGMENT<4>     |   21.407|
+SWITCH<1>      |SEGMENT<5>     |   20.922|
+SWITCH<1>      |SEGMENT<6>     |   20.943|
+SWITCH<2>      |LED<2>         |    6.995|
+SWITCH<2>      |SEGMENT<0>     |   21.710|
+SWITCH<2>      |SEGMENT<1>     |   21.139|
+SWITCH<2>      |SEGMENT<2>     |   21.417|
+SWITCH<2>      |SEGMENT<3>     |   21.401|
+SWITCH<2>      |SEGMENT<4>     |   21.826|
+SWITCH<2>      |SEGMENT<5>     |   21.341|
+SWITCH<2>      |SEGMENT<6>     |   21.362|
+SWITCH<3>      |LED<3>         |    7.204|
+SWITCH<3>      |SEGMENT<0>     |   20.888|
+SWITCH<3>      |SEGMENT<1>     |   20.317|
+SWITCH<3>      |SEGMENT<2>     |   20.595|
+SWITCH<3>      |SEGMENT<3>     |   20.579|
+SWITCH<3>      |SEGMENT<4>     |   21.004|
+SWITCH<3>      |SEGMENT<5>     |   20.519|
+SWITCH<3>      |SEGMENT<6>     |   20.540|
+SWITCH<4>      |LED<4>         |    7.912|
+SWITCH<4>      |SEGMENT<0>     |   21.109|
+SWITCH<4>      |SEGMENT<1>     |   20.538|
+SWITCH<4>      |SEGMENT<2>     |   20.816|
+SWITCH<4>      |SEGMENT<3>     |   20.800|
+SWITCH<4>      |SEGMENT<4>     |   21.225|
+SWITCH<4>      |SEGMENT<5>     |   20.740|
+SWITCH<4>      |SEGMENT<6>     |   20.761|
+SWITCH<5>      |LED<5>         |    7.929|
+SWITCH<5>      |SEGMENT<0>     |   21.154|
+SWITCH<5>      |SEGMENT<1>     |   20.583|
+SWITCH<5>      |SEGMENT<2>     |   20.861|
+SWITCH<5>      |SEGMENT<3>     |   20.845|
+SWITCH<5>      |SEGMENT<4>     |   21.270|
+SWITCH<5>      |SEGMENT<5>     |   20.785|
+SWITCH<5>      |SEGMENT<6>     |   20.806|
+SWITCH<6>      |LED<6>         |    7.013|
+SWITCH<6>      |SEGMENT<0>     |   21.424|
+SWITCH<6>      |SEGMENT<1>     |   20.853|
+SWITCH<6>      |SEGMENT<2>     |   21.131|
+SWITCH<6>      |SEGMENT<3>     |   21.115|
+SWITCH<6>      |SEGMENT<4>     |   21.540|
+SWITCH<6>      |SEGMENT<5>     |   21.055|
+SWITCH<6>      |SEGMENT<6>     |   21.076|
+SWITCH<7>      |LED<7>         |    8.223|
+SWITCH<7>      |SEGMENT<0>     |   21.168|
+SWITCH<7>      |SEGMENT<1>     |   20.597|
+SWITCH<7>      |SEGMENT<2>     |   20.875|
+SWITCH<7>      |SEGMENT<3>     |   20.859|
+SWITCH<7>      |SEGMENT<4>     |   21.284|
+SWITCH<7>      |SEGMENT<5>     |   20.799|
+SWITCH<7>      |SEGMENT<6>     |   20.820|
+SWITCH<8>      |LED<8>         |    7.233|
+SWITCH<8>      |SEGMENT<0>     |   19.444|
+SWITCH<8>      |SEGMENT<1>     |   18.873|
+SWITCH<8>      |SEGMENT<2>     |   19.151|
+SWITCH<8>      |SEGMENT<3>     |   19.135|
+SWITCH<8>      |SEGMENT<4>     |   19.560|
+SWITCH<8>      |SEGMENT<5>     |   19.075|
+SWITCH<8>      |SEGMENT<6>     |   19.096|
+SWITCH<9>      |LED<9>         |    7.026|
+SWITCH<9>      |SEGMENT<0>     |   18.993|
+SWITCH<9>      |SEGMENT<1>     |   18.422|
+SWITCH<9>      |SEGMENT<2>     |   18.700|
+SWITCH<9>      |SEGMENT<3>     |   18.684|
+SWITCH<9>      |SEGMENT<4>     |   19.109|
+SWITCH<9>      |SEGMENT<5>     |   18.624|
+SWITCH<9>      |SEGMENT<6>     |   18.645|
+SWITCH<10>     |LED<10>        |    7.165|
+SWITCH<10>     |SEGMENT<0>     |   19.706|
+SWITCH<10>     |SEGMENT<1>     |   19.135|
+SWITCH<10>     |SEGMENT<2>     |   19.413|
+SWITCH<10>     |SEGMENT<3>     |   19.397|
+SWITCH<10>     |SEGMENT<4>     |   19.822|
+SWITCH<10>     |SEGMENT<5>     |   19.337|
+SWITCH<10>     |SEGMENT<6>     |   19.358|
+SWITCH<11>     |LED<11>        |    7.398|
+SWITCH<11>     |SEGMENT<0>     |   20.218|
+SWITCH<11>     |SEGMENT<1>     |   19.647|
+SWITCH<11>     |SEGMENT<2>     |   19.925|
+SWITCH<11>     |SEGMENT<3>     |   19.909|
+SWITCH<11>     |SEGMENT<4>     |   20.334|
+SWITCH<11>     |SEGMENT<5>     |   19.849|
+SWITCH<11>     |SEGMENT<6>     |   19.870|
+SWITCH<12>     |ANODE<0>       |    9.523|
+SWITCH<12>     |ANODE<1>       |    9.097|
+SWITCH<12>     |ANODE<2>       |    9.118|
+SWITCH<12>     |ANODE<3>       |    9.158|
+SWITCH<12>     |ANODE<4>       |    9.435|
+SWITCH<12>     |ANODE<5>       |    8.893|
+SWITCH<12>     |ANODE<6>       |    9.315|
+SWITCH<12>     |ANODE<7>       |    9.601|
+SWITCH<12>     |LED<12>        |    7.210|
+SWITCH<12>     |SEGMENT<0>     |   19.428|
+SWITCH<12>     |SEGMENT<1>     |   18.857|
+SWITCH<12>     |SEGMENT<2>     |   19.135|
+SWITCH<12>     |SEGMENT<3>     |   19.119|
+SWITCH<12>     |SEGMENT<4>     |   19.544|
+SWITCH<12>     |SEGMENT<5>     |   19.059|
+SWITCH<12>     |SEGMENT<6>     |   19.080|
+SWITCH<13>     |ANODE<0>       |    8.830|
+SWITCH<13>     |ANODE<1>       |    8.414|
+SWITCH<13>     |ANODE<2>       |    8.427|
+SWITCH<13>     |ANODE<3>       |    7.999|
+SWITCH<13>     |ANODE<4>       |    8.750|
+SWITCH<13>     |ANODE<5>       |    8.537|
+SWITCH<13>     |ANODE<6>       |    8.959|
+SWITCH<13>     |ANODE<7>       |    8.476|
+SWITCH<13>     |LED<13>        |    7.247|
+SWITCH<13>     |SEGMENT<0>     |   19.095|
+SWITCH<13>     |SEGMENT<1>     |   18.565|
+SWITCH<13>     |SEGMENT<2>     |   18.843|
+SWITCH<13>     |SEGMENT<3>     |   18.786|
+SWITCH<13>     |SEGMENT<4>     |   19.252|
+SWITCH<13>     |SEGMENT<5>     |   18.767|
+SWITCH<13>     |SEGMENT<6>     |   18.788|
+SWITCH<14>     |ANODE<0>       |    9.524|
+SWITCH<14>     |ANODE<1>       |    9.105|
+SWITCH<14>     |ANODE<2>       |    9.119|
+SWITCH<14>     |ANODE<3>       |    9.189|
+SWITCH<14>     |ANODE<4>       |    9.441|
+SWITCH<14>     |ANODE<5>       |    9.072|
+SWITCH<14>     |ANODE<6>       |    9.462|
+SWITCH<14>     |ANODE<7>       |    9.632|
+SWITCH<14>     |LED<14>        |    6.946|
+SWITCH<14>     |SEGMENT<0>     |   19.319|
+SWITCH<14>     |SEGMENT<1>     |   18.748|
+SWITCH<14>     |SEGMENT<2>     |   19.026|
+SWITCH<14>     |SEGMENT<3>     |   19.010|
+SWITCH<14>     |SEGMENT<4>     |   19.435|
+SWITCH<14>     |SEGMENT<5>     |   18.950|
+SWITCH<14>     |SEGMENT<6>     |   18.971|
+SWITCH<15>     |LED<15>        |    6.952|
+SWITCH<15>     |SEGMENT<0>     |   19.324|
+SWITCH<15>     |SEGMENT<1>     |   18.753|
+SWITCH<15>     |SEGMENT<2>     |   19.031|
+SWITCH<15>     |SEGMENT<3>     |   19.015|
+SWITCH<15>     |SEGMENT<4>     |   19.440|
+SWITCH<15>     |SEGMENT<5>     |   18.955|
+SWITCH<15>     |SEGMENT<6>     |   18.976|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Sep 16 00:47:50 2015 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 673 MB
+
+
+

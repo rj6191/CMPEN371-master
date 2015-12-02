@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Kevin/Desktop/Lab05/Lab05_kjb5568_rjl5336/Lab05_kjb5568_rjl5336/FSM_isim_beh.exe" -prj "C:/Users/Kevin/Desktop/Lab05/Lab05_kjb5568_rjl5336/Lab05_kjb5568_rjl5336/FSM_beh.prj" "kjb5568_rjl5336_library.FSM" 

@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o C:\Users\Kevin\Desktop\Lab07//Lab07 -s 32768 -u 0000 C:/Users/Kevin/Desktop/Lab07/lab07_egw100.bit -spi 
+
+PROM C:\Users\Kevin\Desktop\Lab07\Lab07.prm map: Tue Oct 20 15:42:52 2015
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          32768K
+PROM start    0000:0000
+PROM end      01ff:ffff
+PROM checksum c3dfc9a6
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    003a:607b     Oct 20 15:28:59 2015 C:/Users/Kevin/Desktop/Lab07/lab07_egw100.bit

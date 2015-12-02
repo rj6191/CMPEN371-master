@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o H:\Github\CMPEN371\Lab04\Lab04_kjb5568_rjl5336\//Lab04 -s 32768 -u 0000 H:/Github/CMPEN371/Lab04/Lab04_kjb5568_rjl5336/lab04_kjb5568_rjl5336.bit -spi 
+
+PROM H:\Github\CMPEN371\Lab04\Lab04_kjb5568_rjl5336\Lab04.prm map: Wed Sep 30 02:17:41 2015
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          32768K
+PROM start    0000:0000
+PROM end      01ff:ffff
+PROM checksum c3e36ab1
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    003a:607b     Sep 30 02:10:36 2015 H:/Github/CMPEN371/Lab04/Lab04_kjb5568_rjl5336/lab04_kjb5568_rjl5336.bit
